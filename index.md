@@ -73,6 +73,8 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
 
+[![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
+
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
@@ -82,10 +84,27 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
 
 [![https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
-
 [![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
 
 - A Minimum 2m x 2m play space is required
+
+### "Ok 3rd Person Adventure/Platformer?"
+
+---
+
+[![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
+
+[![Down the Rabbit Hole](https://cdn.akamai.steamstatic.com/steam/apps/1215270/header.jpg?t=1613724235)](https://store.steampowered.com/app/1215270/Down_the_Rabbit_Hole/)
+
+[![Trover Saves the Universe](https://cdn.akamai.steamstatic.com/steam/apps/1051200/header.jpg?t=1604096279)](https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/)
+
+[![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
+
+[![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
+
+[![A Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/559330/header.jpg?t=1618084136)](https://store.steampowered.com/app/559330/A_Fishermans_Tale/)
+
+- (Ok maybe this one is a cheat)
 
 ### "Any Dungeon Crawlers?/Rouge Likes (Lites)"
 
@@ -121,23 +140,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Myst](https://cdn.akamai.steamstatic.com/steam/apps/1255560/header.jpg?t=1636151128)](https://store.steampowered.com/app/1255560/Myst/)
 
-### "Ok 3rd Person Adventure/Platformer?"
-
----
-
-[![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
-
-[![Down the Rabbit Hole](https://cdn.akamai.steamstatic.com/steam/apps/1215270/header.jpg?t=1613724235)](https://store.steampowered.com/app/1215270/Down_the_Rabbit_Hole/)
-
-[![Trover Saves the Universe](https://cdn.akamai.steamstatic.com/steam/apps/1051200/header.jpg?t=1604096279)](https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/)
-
-[![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
-
-[![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
-
-[![A Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/559330/header.jpg?t=1618084136)](https://store.steampowered.com/app/559330/A_Fishermans_Tale/)
-
-- (Ok maybe this one is a cheat)
+[![Mr.Hack Jack: Robot Detective](https://cdn.akamai.steamstatic.com/steam/apps/1019230/header.jpg?t=1560506263)](https://store.steampowered.com/app/1019230/MrHack_Jack_Robot_Detective/)
 
 ### "Ok what About Escape Rooms?"
 
@@ -157,9 +160,37 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Extreme Escape](https://cdn.akamai.steamstatic.com/steam/apps/1316740/header.jpg?t=1594390843)](https://store.steampowered.com/app/1316740/Extreme_Escape/)
 
+[![Floor Plan 2](https://cdn.akamai.steamstatic.com/steam/apps/1534850/header.jpg?t=1617404199)](https://store.steampowered.com/app/1534850/Floor_Plan_2/)
+
+
 ## "I am looking for some good Horror Games?"
 
 ---
+
+[![Westworld Awakening](https://cdn.akamai.steamstatic.com/steam/apps/1133320/header.jpg?t=1573845365)](https://store.steampowered.com/app/1133320/Westworld_Awakening/)
+
+[![Blair Witch VR](https://cdn.akamai.steamstatic.com/steam/apps/1576350/header.jpg?t=1635427051)](https://store.steampowered.com/app/1576350/Blair_Witch_VR/)
+
+[![Organ Quarter](https://cdn.akamai.steamstatic.com/steam/apps/605830/header.jpg?t=1570508008)](https://store.steampowered.com/app/605830/Organ_Quarter/)
+
+[![Phasmophobia](https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg?t=1635347530)](https://store.steampowered.com/app/739630/Phasmophobia/)
+
+[![FOREWARNED](https://cdn.akamai.steamstatic.com/steam/apps/1562420/header.jpg?t=1636234739)](https://store.steampowered.com/app/1562420/FOREWARNED/)
+
+[![Cosmodread](https://cdn.akamai.steamstatic.com/steam/apps/1256060/header.jpg?t=1620726395)](https://store.steampowered.com/app/1256060/Cosmodread/)
+
+[![Propagation VR](https://cdn.akamai.steamstatic.com/steam/apps/1363430/header.jpg?t=1615560858)](https://store.steampowered.com/app/1363430/Propagation_VR/)
+
+[![Hello Puppets! VR](https://cdn.akamai.steamstatic.com/steam/apps/1426280/header.jpg?t=1619888525)](https://store.steampowered.com/app/1426280/Hello_Puppets_VR/)
+
+[![The Dark Method](https://cdn.akamai.steamstatic.com/steam/apps/1462700/header.jpg?t=1635361410)](https://store.steampowered.com/app/1462700/The_Dark_Method/)
+
+[![Dreadhalls](https://cdn.akamai.steamstatic.com/steam/apps/589200/header.jpg?t=1560876505)](https://store.steampowered.com/app/589200/Dreadhalls/)
+
+[![Last Labyrinth](https://cdn.akamai.steamstatic.com/steam/apps/979400/header.jpg?t=1584081474)](https://store.steampowered.com/app/979400/Last_Labyrinth/)
+
+[![Narcosis](https://cdn.akamai.steamstatic.com/steam/apps/366870/header.jpg?t=1531522061)](https://store.steampowered.com/app/366870/Narcosis/)
+
 
 ## "I am looking for some good Shooter?"
 
