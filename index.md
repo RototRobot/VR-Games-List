@@ -55,30 +55,27 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 
 [![The Elder Scrolls V: Skyrim VR](https://cdn.akamai.steamstatic.com/steam/apps/611670/header.jpg?t=1564002443)](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/)
+[![Climbey](https://cdn.akamai.steamstatic.com/steam/apps/520010/header.jpg?t=1568742036)](https://store.steampowered.com/app/520010/Climbey/)
 
 - The Modding scene for this game really is what makes it Check out Reddit.com/r/SkyrimVR and the skyrim wabbajack mod lists
 
-[![Climbey](https://cdn.akamai.steamstatic.com/steam/apps/520010/header.jpg?t=1568742036)](https://store.steampowered.com/app/520010/Climbey/)
 
 ## "I am looking for some good Adventure Games?"
 
 ---
 
 [![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
-
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
 
 [![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
-
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
-
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
 [![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
-
 [![https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
+
 [![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
 
 - A Minimum 2m x 2m play space is required
