@@ -60,7 +60,7 @@ The Game had a small segment where in the player must shoot themself in the head
 - The Modding scene for this game really is what makes it Check out Reddit.com/r/SkyrimVR and the skyrim wabbajack mod lists
 
 
-## "I am looking for some good Adventure Games?"
+## "I'm looking for some good Adventure Games?"
 
 ---
 
@@ -77,10 +77,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
 
 - A Minimum 2m x 2m play space is required
-- 
+
 [![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
-
-
 
 ### "Ok 3rd Person Adventure/Platformer?"
 
@@ -97,7 +95,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 - (Ok maybe this one is a cheat)
 
-### "Any Dungeon Crawlers?/Rouge Likes (Lites)"
+### "Any Dungeon Crawlers/Rouge Likes (Lites)?"
 
 ---
 
@@ -109,7 +107,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
 
-## "I am looking for some good Puzzle Games?"
+## "I'm looking for good Puzzle Games?"
 
 ---
 
@@ -144,7 +142,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Floor Plan 2](https://cdn.akamai.steamstatic.com/steam/apps/1534850/header.jpg?t=1617404199)](https://store.steampowered.com/app/1534850/Floor_Plan_2/)
 
 
-## "I am looking for some good Horror Games?"
+## "I'm looking for good Horror Games?"
 
 ---
 
@@ -167,7 +165,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Narcosis](https://cdn.akamai.steamstatic.com/steam/apps/366870/header.jpg?t=1531522061)](https://store.steampowered.com/app/366870/Narcosis/)
 
 
-## "I am looking for some good Shooter?"
+## "I'm looking for some good Shooters?"
 
 ---
 
@@ -179,13 +177,11 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-## "I am looking a Good Sandbox game?"
+## "I'm looking a good Sandbox game?"
 
 ---
 
-## "I am looking a Good Racing game?"
-
----
+## "I'm looking a good Racing game?"
 
 ### "Realistic racing?"
 
@@ -195,24 +191,24 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-## "I am looking a Good Sports Game?"
+## "I'm looking a good Sports Game?"
 
 ---
 
-## "I am looking a Good Stratagy Game?"
+## "I'm looking a Good Stratagy Game?"
 
 ---
 
-### "how about an RTS?"
+### "How about an RTS?"
 
 ---
 
-## "I am looking a Good RPG Game?"
+## "I'm looking a good RPG Game?"
 
 ---
 
 
-## "I am looking a Good Stealth Game?"
+## "I'm looking a good Stealth Game?"
 
 ---
 
@@ -220,9 +216,22 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Panther VR](https://store.steampowered.com/app/864730/Panther_VR/)](https://store.steampowered.com/app/864730/Panther_VR/)
 
 [![Espire 1: VR Operative](https://cdn.akamai.steamstatic.com/steam/apps/669290/header.jpg?t=1588687958)](https://store.steampowered.com/app/669290/Espire_1_VR_Operative/)
+[![Republique VR](https://cdn.akamai.steamstatic.com/steam/apps/915200/header.jpg?t=1598728580)](https://store.steampowered.com/app/915200/Republique_VR/)
 
-## "I am looking Some Chill Games?"
+## "I just want some Chill game to relax with"
 
 ---
 
+[![Euro Truck Simulator 2](https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg?t=1635849426)](https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/)
+[![American Truck Simulator](https://cdn.akamai.steamstatic.com/steam/apps/270880/header.jpg?t=1635849313)](https://store.steampowered.com/app/270880/American_Truck_Simulator/)
+
+[![Rolling Line](https://cdn.akamai.steamstatic.com/steam/apps/754150/header.jpg?t=1630627163)](https://store.steampowered.com/app/754150/Rolling_Line/)
+[![Fujii](https://cdn.akamai.steamstatic.com/steam/apps/589040/header.jpg?t=1635440567)](https://store.steampowered.com/app/589040/Fujii/)
+
+[![Golf It!](https://cdn.akamai.steamstatic.com/steam/apps/571740/header.jpg?t=1628676035)](https://store.steampowered.com/app/571740/Golf_It/)
+[![Gadgeteer](https://store.steampowered.com/app/746560/Gadgeteer/)](https://cdn.akamai.steamstatic.com/steam/apps/746560/header.jpg?t=1615415999)
+
+- Golf can be relaxing right?
+
+[![Scanner Sombre](https://cdn.akamai.steamstatic.com/steam/apps/475190/header.jpg?t=1586359715)](https://store.steampowered.com/app/475190/Scanner_Sombre/)
 
