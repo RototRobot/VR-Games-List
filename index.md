@@ -124,6 +124,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Myst](https://cdn.akamai.steamstatic.com/steam/apps/1255560/header.jpg?t=1636151128)](https://store.steampowered.com/app/1255560/Myst/)
 
 [![Mr.Hack Jack: Robot Detective](https://cdn.akamai.steamstatic.com/steam/apps/1019230/header.jpg?t=1560506263)](https://store.steampowered.com/app/1019230/MrHack_Jack_Robot_Detective/)
+[![Marble Land](https://cdn.akamai.steamstatic.com/steam/apps/503280/header.jpg?t=1572348596)](https://store.steampowered.com/app/503280/Marble_Land/)
 
 ### "Ok what About Escape Rooms?"
 
@@ -213,7 +214,7 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
-[![Panther VR](https://store.steampowered.com/app/864730/Panther_VR/)](https://store.steampowered.com/app/864730/Panther_VR/)
+[![Panther VR](https://cdn.akamai.steamstatic.com/steam/apps/864730/header.jpg?t=1635350953)](https://store.steampowered.com/app/864730/Panther_VR/)
 
 [![Espire 1: VR Operative](https://cdn.akamai.steamstatic.com/steam/apps/669290/header.jpg?t=1588687958)](https://store.steampowered.com/app/669290/Espire_1_VR_Operative/)
 [![Republique VR](https://cdn.akamai.steamstatic.com/steam/apps/915200/header.jpg?t=1598728580)](https://store.steampowered.com/app/915200/Republique_VR/)
