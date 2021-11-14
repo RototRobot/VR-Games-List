@@ -67,6 +67,8 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
 
+[![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
+
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
@@ -74,6 +76,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
 [![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
+
+[![https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
+
+- A Minimum 2m x 2m play space is required
 
 ---
 
@@ -162,6 +168,8 @@ The Game had a small segment where in the player must shoot themself in the head
 ## "I am looking a Good Stealth Game?"
 
 ---
+
+[![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
 
 ## "I am looking Some Good Chill Games?"
 
