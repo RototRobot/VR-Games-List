@@ -1,6 +1,6 @@
 ## Welcome to u/Robot_ninja_pirate's Page of Good VR games
 
-* This is A WIP
+# This is A WIP
 
 Originally based on my [Google excel spread sheet of the same concept](https://docs.google.com/spreadsheets/d/1cnu3R813-RiJv9EPJD54qC7vBCrbh9xALIqz7hl5K-o/edit?usp=sharing)
 
