@@ -65,11 +65,36 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ## "I am looking for some good Adventure Games?"
 
+[![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
+
+[![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
+
+[![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
+
+[![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
+
+---
+
+### "Ok 3rd Person Platformer?"
+
+---
+
+### "1st Person Platformer?"
+
+---
+
+### "Any Dungeon Crawlers?"
+
 ---
 
 ## "I am looking for some good Puzzle Games?"
+---
 
 ### "Ok what About Escape Rooms?"
+
+---
+
+## "I am looking for some good Horror Games?"
 
 ---
 
@@ -81,6 +106,51 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
+### "What about Co-op Shooter?"
+
+---
+
+## "I am looking a Good Sandbox game?"
+
+---
+
+
+## "I am looking a Good Racing game?"
+
+---
+
+### "Realistic racing?"
+
+---
+
+### "Arcade Racing?"
+
+---
+
+## "I am looking a Good Sports Game?"
+
+---
+
+## "I am looking a Good Stratagy Game?"
+
+---
+
+### "how about an RTS?"
+
+---
+
+## "I am looking a Good RPG Game?"
+
+---
+
+
+## "I am looking a Good Stealth Game?"
+
+---
+
+## "I am looking Some Good Chill Games?"
+
+---
 
 [![Game](IMAGE)](URL)
 
