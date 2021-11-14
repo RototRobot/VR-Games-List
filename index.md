@@ -67,6 +67,8 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ## "I am looking for some good Adventure Games?"
 
+---
+
 [![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
 
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
@@ -81,18 +83,43 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
 
+[![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
+
 - A Minimum 2m x 2m play space is required
 
----
-
-
-### "Any Dungeon Crawlers?"
+### "Any Dungeon Crawlers?/Rouge Likes (Lites)"
 
 ---
+
+[![COMPOUND](https://cdn.akamai.steamstatic.com/steam/apps/615120/header.jpg?t=1625454495)](https://store.steampowered.com/app/615120/COMPOUND/)
+
+[![The Mage's Tale](https://cdn.akamai.steamstatic.com/steam/apps/766320/header.jpg?t=1576522764)](https://store.steampowered.com/app/766320/The_Mages_Tale/)
+
+[![Until You Fall](https://cdn.akamai.steamstatic.com/steam/apps/858260/header.jpg?t=1635520544)](https://store.steampowered.com/app/858260/Until_You_Fall/)
+
+[![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
+
+[![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
 
 ## "I am looking for some good Puzzle Games?"
 
 ---
+
+[![GNOG](https://cdn.akamai.steamstatic.com/steam/apps/290510/header.jpg?t=1625773453)](https://store.steampowered.com/app/290510/GNOG/)
+
+[![Curious Cases](https://cdn.akamai.steamstatic.com/steam/apps/1045080/header.jpg?t=1632489659)](https://store.steampowered.com/app/1045080/Curious_Cases/)
+
+[![XING: The Land Beyond](https://cdn.akamai.steamstatic.com/steam/apps/299400/header.jpg?t=1579896635)](https://store.steampowered.com/app/299400/XING_The_Land_Beyond/)
+
+[![The Talos Principle VR](https://cdn.akamai.steamstatic.com/steam/apps/552440/header.jpg?t=1569317751)](https://store.steampowered.com/app/552440/The_Talos_Principle_VR/)
+
+[![Please, Don't Touch Anything 3D](https://cdn.akamai.steamstatic.com/steam/apps/529590/header.jpg?t=1579122243)](https://store.steampowered.com/app/529590/Please_Dont_Touch_Anything_3D/)
+
+[![Torn](https://cdn.akamai.steamstatic.com/steam/apps/557520/header.jpg?t=1574290133)](https://store.steampowered.com/app/557520/Torn/)
+
+[![Obduction](https://cdn.akamai.steamstatic.com/steam/apps/306760/header.jpg?t=1609893760)](https://store.steampowered.com/app/306760/Obduction/)
+
+[![Myst](https://cdn.akamai.steamstatic.com/steam/apps/1255560/header.jpg?t=1636151128)](https://store.steampowered.com/app/1255560/Myst/)
 
 ### "Ok 3rd Person Adventure/Platformer?"
 
@@ -112,12 +139,23 @@ The Game had a small segment where in the player must shoot themself in the head
 
 - (Ok maybe this one is a cheat)
 
-
-
-
 ### "Ok what About Escape Rooms?"
 
 ---
+
+[![I Expect You To Die](https://cdn.akamai.steamstatic.com/steam/apps/587430/header.jpg?t=1636654793)](https://store.steampowered.com/app/587430/I_Expect_You_To_Die/)
+
+[![I Expect You To Die 2](https://cdn.akamai.steamstatic.com/steam/apps/1499120/header.jpg?t=1629824226)](https://store.steampowered.com/app/1499120/I_Expect_You_To_Die_2/)
+
+[![A Rogue Escape](https://cdn.akamai.steamstatic.com/steam/apps/1476100/header.jpg?t=1632419375)](https://store.steampowered.com/app/1476100/A_Rogue_Escape/)
+
+[![Neverout](https://cdn.akamai.steamstatic.com/steam/apps/579720/header.jpg?t=1632730603)](https://store.steampowered.com/app/579720/Neverout/)
+
+[![Abode](https://cdn.akamai.steamstatic.com/steam/apps/548340/header.jpg?t=1622787433)](https://store.steampowered.com/app/548340/Abode/)
+
+[![Abode 2](https://cdn.akamai.steamstatic.com/steam/apps/1147970/header.jpg?t=1587713049)](https://store.steampowered.com/app/1147970/Abode_2/)
+
+[![Extreme Escape](https://cdn.akamai.steamstatic.com/steam/apps/1316740/header.jpg?t=1594390843)](https://store.steampowered.com/app/1316740/Extreme_Escape/)
 
 ## "I am looking for some good Horror Games?"
 
@@ -138,7 +176,6 @@ The Game had a small segment where in the player must shoot themself in the head
 ## "I am looking a Good Sandbox game?"
 
 ---
-
 
 ## "I am looking a Good Racing game?"
 
@@ -175,7 +212,11 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
 
-## "I am looking Some Good Chill Games?"
+[![Panther VR](https://store.steampowered.com/app/864730/Panther_VR/)](https://store.steampowered.com/app/864730/Panther_VR/)
+
+[![Espire 1: VR Operative](https://cdn.akamai.steamstatic.com/steam/apps/669290/header.jpg?t=1588687958)](https://store.steampowered.com/app/669290/Espire_1_VR_Operative/)
+
+## "I am looking Some Chill Games?"
 
 ---
 
