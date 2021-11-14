@@ -90,9 +90,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Trover Saves the Universe](https://cdn.akamai.steamstatic.com/steam/apps/1051200/header.jpg?t=1604096279)](https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/)
 [![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
 
-[![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
 [![A Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/559330/header.jpg?t=1618084136)](https://store.steampowered.com/app/559330/A_Fishermans_Tale/)
-
+[![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
 - (Ok maybe this one is a cheat)
 
 ### "Any Dungeon Crawlers/Rouge Likes (Lites)?"
