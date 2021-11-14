@@ -14,7 +14,7 @@ A: Triple A games are expensive to make and the VR market is small you might nee
 
 (The images are links to the games steam page)
 
-### Essential games]
+## Essential games
 
 ---
 
@@ -63,9 +63,24 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Climbey](https://cdn.akamai.steamstatic.com/steam/apps/520010/header.jpg?t=1568742036)](https://store.steampowered.com/app/520010/Climbey/)
 
-### "I am looking for some good Adventure Games?"
+## "I am looking for some good Adventure Games?"
 
 ---
+
+## "I am looking for some good Puzzle Games?"
+
+### "Ok what About Escape Rooms?"
+
+---
+
+## "I am looking for some good Shooter?"
+
+---
+
+### "Ok Story Shooter?"
+
+---
+
 
 [![Game](IMAGE)](URL)
 
