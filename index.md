@@ -14,7 +14,7 @@ A: Triple A games are expensive to make and the VR market is small you might nee
 
 (The images are links to the games steam page)
 
-### [Essential games](#)
+### Essential games]
 
 ---
 
