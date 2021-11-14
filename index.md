@@ -105,6 +105,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Until You Fall](https://cdn.akamai.steamstatic.com/steam/apps/858260/header.jpg?t=1635520544)](https://store.steampowered.com/app/858260/Until_You_Fall/)
 [![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
 
+[![Soul Scathe](https://cdn.akamai.steamstatic.com/steam/apps/1094960/header.jpg?t=1595257988)](https://store.steampowered.com/app/1094960/Soul_Scathe/)
 [![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
 
 ## "I'm looking for good Puzzle Games?"
@@ -207,6 +208,18 @@ The Game had a small segment where in the player must shoot themself in the head
 ## "I'm looking a good RPG Game?"
 
 ---
+
+[![The Elder Scrolls V: Skyrim VR](https://cdn.akamai.steamstatic.com/steam/apps/611670/header.jpg?t=1564002443)](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/)
+[![Fallout 4 VR](https://cdn.akamai.steamstatic.com/steam/apps/611660/header.jpg?t=1607445202)](https://store.steampowered.com/app/611660/Fallout_4_VR)
+
+[![Table of Tales: The Crooked Crown](https://cdn.akamai.steamstatic.com/steam/apps/1030310/header.jpg?t=1631684261)](https://store.steampowered.com/app/1030310/Table_of_Tales_The_Crooked_Crown/)
+[![Vanishing Realms](https://cdn.akamai.steamstatic.com/steam/apps/322770/header.jpg?t=1571039700)](https://store.steampowered.com/app/322770/Vanishing_Realms/)
+
+[![5089: The Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/414510/header.jpg?t=1568814385)](https://store.steampowered.com/app/414510/5089_The_Action_RPG/)
+[![8089: The Next Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/1593280/header.jpg?t=1636128977)](https://store.steampowered.com/app/1593280/8089_The_Next_Action_RPG/)
+
+[![Vengeful Rites](https://cdn.akamai.steamstatic.com/steam/apps/755410/header.jpg?t=1635507034)](https://store.steampowered.com/app/755410/Vengeful_Rites/)
+[![Left-Hand Path](https://cdn.akamai.steamstatic.com/steam/apps/488760/header.jpg?t=1572521931)](https://store.steampowered.com/app/488760/LeftHand_Path/)
 
 
 ## "I'm looking a good Stealth Game?"
