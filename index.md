@@ -386,6 +386,29 @@ The Game had a small segment where in the player must shoot themself in the head
 [![V-Racer Hoverbike](https://cdn.akamai.steamstatic.com/steam/apps/668430/header.jpg?t=1635267562)](https://store.steampowered.com/app/668430/VRacer_Hoverbike/)
 [![Z-Race](https://cdn.akamai.steamstatic.com/steam/apps/1343750/header.jpg?t=1632303635)](https://store.steampowered.com/app/1343750/ZRace/)
 
+
+## "Are there any Flight games?" 
+
+---
+
+[![Microsoft Flight Simulator](https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg?t=1623947484)](https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/)
+[![DCS World Steam Edition](https://cdn.akamai.steamstatic.com/steam/apps/223750/header.jpg?t=1635008906)](https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/)
+
+[![Project Wingman](https://cdn.akamai.steamstatic.com/steam/apps/895870/header.jpg?t=1625008344)](https://store.steampowered.com/app/895870/Project_Wingman/)
+[![VTOL VR](https://cdn.akamai.steamstatic.com/steam/apps/667970/header.jpg?t=1616777837)](https://store.steampowered.com/app/667970/VTOL_VR/)
+
+[![STAR WARS: Squadrons](https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg?t=1614938362)](https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/)
+[![House of the Dying Sun](https://cdn.akamai.steamstatic.com/steam/apps/283160/header.jpg?t=1577079246)](https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/)
+
+[![Elite Dangerous](https://cdn.akamai.steamstatic.com/steam/apps/359320/header.jpg?t=1621520385)](https://store.steampowered.com/app/359320/Elite_Dangerous/)
+[![Jetborne Racing](https://cdn.cloudflare.steamstatic.com/steam/apps/1397650/header.jpg?t=1625066280)](https://store.steampowered.com/app/1397650/Jetborne_Racing/)
+
+[![Ultrawings](https://cdn.akamai.steamstatic.com/steam/apps/639130/header.jpg?t=1625745550)](https://store.steampowered.com/app/639130/Ultrawings/)
+[![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
+
+
+
+
 ## "Are there any Rhythm games?" 
 
 ---
@@ -428,26 +451,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
 
-## "Are there any Flight games?" 
-
----
-
-[![Microsoft Flight Simulator](https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg?t=1623947484)](https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/)
-[![DCS World Steam Edition](https://cdn.akamai.steamstatic.com/steam/apps/223750/header.jpg?t=1635008906)](https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/)
-
-[![Project Wingman](https://cdn.akamai.steamstatic.com/steam/apps/895870/header.jpg?t=1625008344)](https://store.steampowered.com/app/895870/Project_Wingman/)
-[![VTOL VR](https://cdn.akamai.steamstatic.com/steam/apps/667970/header.jpg?t=1616777837)](https://store.steampowered.com/app/667970/VTOL_VR/)
-
-[![STAR WARS: Squadrons](https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg?t=1614938362)](https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/)
-[![House of the Dying Sun](https://cdn.cloudflare.steamstatic.com/steam/apps/1397650/header.jpg?t=1625066280)](https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/)
-
-[![Elite Dangerous](https://cdn.akamai.steamstatic.com/steam/apps/359320/header.jpg?t=1621520385)](https://store.steampowered.com/app/359320/Elite_Dangerous/)
-[![Jetborne Racing](https://cdn.akamai.steamstatic.com/steam/apps/283160/header.jpg?t=1577079246)](https://store.steampowered.com/app/1397650/Jetborne_Racing/)
-
-[![Ultrawings](https://cdn.akamai.steamstatic.com/steam/apps/639130/header.jpg?t=1625745550)](https://store.steampowered.com/app/639130/Ultrawings/)
-[![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
-
-
 ## "Where are all the good RPG's?"
 
 ---
@@ -471,6 +474,9 @@ The Game had a small segment where in the player must shoot themself in the head
 ## "I'm looking a good Stealth Game?"
 
 ---
+
+[![Budget Cuts](https://cdn.akamai.steamstatic.com/steam/apps/400940/header.jpg?t=1588007057)](https://store.steampowered.com/app/400940/Budget_Cuts/)
+[![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
 
 [![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
 [![Panther VR](https://cdn.akamai.steamstatic.com/steam/apps/864730/header.jpg?t=1635350953)](https://store.steampowered.com/app/864730/Panther_VR/)
@@ -539,16 +545,27 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
 
 
-## "I'm looking Good Stratagy Game?"
+## "Any Good Stratagy Games?"
 
 ---
 
 ### TBA
 
-### "How about an RTS?"
+### "How about RTS?"
 
 ---
 
 ### TBA
 
+## "Any Good Games to play with friends?"
+
 ---
+
+### TBA
+
+
+### "Party games?"
+
+---
+
+### TBA
