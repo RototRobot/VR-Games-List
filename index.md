@@ -247,7 +247,10 @@ The Game had a small segment where in the player must shoot themself in the head
 
 - Golf can be relaxing right?
 
+[![Garden of the Sea](https://cdn.akamai.steamstatic.com/steam/apps/1086850/header.jpg?t=1605013889)](https://store.steampowered.com/app/1086850/Garden_of_the_Sea/)
 [![Scanner Sombre](https://cdn.akamai.steamstatic.com/steam/apps/475190/header.jpg?t=1586359715)](https://store.steampowered.com/app/475190/Scanner_Sombre/)
+
+- Warning the [PC Version was downgraded to the same visuals as the quest version](https://www.reddit.com/r/ValveIndex/comments/qt5vyb/another_once_great_index_game_gets_profoundly/)
 
 ## "Have any games gotten modded into VR?" 
 
