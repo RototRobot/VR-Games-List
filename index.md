@@ -111,6 +111,11 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Curious Cases](https://cdn.akamai.steamstatic.com/steam/apps/1045080/header.jpg?t=1632489659)](https://store.steampowered.com/app/1045080/Curious_Cases/)
 [![XING: The Land Beyond](https://cdn.akamai.steamstatic.com/steam/apps/299400/header.jpg?t=1579896635)](https://store.steampowered.com/app/299400/XING_The_Land_Beyond/)
 
+[![Journey For Elysium](https://cdn.akamai.steamstatic.com/steam/apps/1036260/header.jpg?t=1603893456)](https://store.steampowered.com/app/1036260/Journey_For_Elysium/)
+[![Hellblade: Senua's Sacrifice VR](https://cdn.akamai.steamstatic.com/steam/apps/747350/header.jpg?t=1556271112)](https://store.steampowered.com/app/747350/Hellblade_Senuas_Sacrifice_VR_Edition/)
+
+[![Theseus](https://cdn.akamai.steamstatic.com/steam/apps/677330/header.jpg?t=1619188782)](https://store.steampowered.com/app/677330/Theseus/)
+
 ### "How about 3rd Person games?"
 
 ---
