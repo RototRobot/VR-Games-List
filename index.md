@@ -60,6 +60,12 @@ The Game had a small segment where in the player must shoot themself in the head
 </details>
 
 
+## "What are some good Action games?"
+
+---
+
+
+
 ## "What are some good adventure games?"
 
 ---
@@ -67,8 +73,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
 
-[![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
+[![The Secret of Retropolis](https://cdn.akamai.steamstatic.com/steam/apps/1288420/header.jpg?t=1628589131)](https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/)
 
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
@@ -76,11 +82,21 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Cave Digger 2: Dig Harder](https://cdn.akamai.steamstatic.com/steam/apps/1523510/header.jpg?t=1635424211)](https://store.steampowered.com/app/1523510/Cave_Digger_2_Dig_Harder/)
 [![Bean Stalker](https://cdn.akamai.steamstatic.com/steam/apps/1704080/header.jpg?t=1635953071)](https://store.steampowered.com/app/1704080/Bean_Stalker/)
 
-
 [![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
 [![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
 
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
+
+[![Sairento VR](https://cdn.akamai.steamstatic.com/steam/apps/555880/header.jpg?t=1592675082)](https://store.steampowered.com/app/555880/Sairento_VR/)
+[![Raw Data](https://cdn.akamai.steamstatic.com/steam/apps/436320/header.jpg?t=1565043373)](https://store.steampowered.com/app/436320/Raw_Data/)
+
+[![Aeon](https://cdn.akamai.steamstatic.com/steam/apps/543390/header.jpg?t=1635415089)](https://store.steampowered.com/app/543390/Aeon/)
+[![Star Rage VR](https://cdn.akamai.steamstatic.com/steam/apps/615270/header.jpg?t=1506742255)](https://store.steampowered.com/app/615270/Star_Rage_VR/)
+
+[![Rhythm of the Universe: Ionia](https://cdn.akamai.steamstatic.com/steam/apps/1121140/header.jpg?t=1635186636)](https://store.steampowered.com/app/1121140/Rhythm_of_the_Universe_Ionia/)
+[![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
+
+
 
 - A Minimum 2m x 2m play space is required
 
@@ -116,7 +132,9 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
 
 [![Sweet Surrender VR](https://cdn.akamai.steamstatic.com/steam/apps/638130/header.jpg?t=1633168248)](https://store.steampowered.com/app/638130/Sweet_Surrender_VR/)
+[![Stones of Harlath](https://cdn.akamai.steamstatic.com/steam/apps/304870/header.jpg?t=1629661341)](https://store.steampowered.com/app/304870/Stones_of_Harlath/)
 
+[![In Death](https://cdn.akamai.steamstatic.com/steam/apps/605450/header.jpg?t=1550531193)](https://store.steampowered.com/app/605450/In_Death/)
 
 ## "Are there any good Puzzle Games?"
 
@@ -226,13 +244,21 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Arizona Sunshine](https://cdn.akamai.steamstatic.com/steam/apps/342180/header.jpg?t=1635453160)](https://store.steampowered.com/app/342180/Arizona_Sunshine/)
 [![After the Fall](https://cdn.akamai.steamstatic.com/steam/apps/751630/header.jpg?t=1635451254)](https://store.steampowered.com/app/751630/After_the_Fall/)
 
-## "Are there any good Sandbox games?"
+## "Are there any good Sandbox/Exploration games?"
 
 ---
 
 [![Minecraft](https://i.imgur.com/9VfVS.png)](http://www.vivecraft.org/)
+[![cyubeVR](https://cdn.akamai.steamstatic.com/steam/apps/619500/header.jpg?t=1635915966)](https://store.steampowered.com/app/619500/cyubeVR/)
 
+[![Subnautica](https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg?t=1634241829)](https://store.steampowered.com/app/264710/Subnautica/)
+[![The Forest](https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1590522045)](https://store.steampowered.com/app/242760/The_Forest/)
 
+[![The Solus Project](https://cdn.akamai.steamstatic.com/steam/apps/313630/header.jpg?t=1480876448)](https://store.steampowered.com/app/313630/The_Solus_Project/)
+[![No Man's Sky](https://cdn.akamai.steamstatic.com/steam/apps/275850/header_alt_assets_3.jpg?t=1634736686)](https://store.steampowered.com/app/275850/No_Mans_Sky/)
+
+[![Hot Dogs, Horseshoes & Hand Grenades](https://cdn.akamai.steamstatic.com/steam/apps/450540/header.jpg?t=1576960750)](https://store.steampowered.com/app/450540/Hot_Dogs_Horseshoes__Hand_Grenades/)
+[![SpaceEngine](https://cdn.akamai.steamstatic.com/steam/apps/314650/header.jpg?t=1630548669)](https://store.steampowered.com/app/314650/SpaceEngine/)
 
 ## "I'm looking for good Sports Games?"
 
@@ -269,8 +295,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ## "Are there any Racing games?" 
 
-
-
 ### "Realistic racing?"
 
 ---
@@ -301,8 +325,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Sprint Vector](https://cdn.akamai.steamstatic.com/steam/apps/590690/header.jpg?t=1565043590)](https://store.steampowered.com/app/590690/Sprint_Vector/)
 
-
-
 ### "F-Zero Style Racing?"
 
 ---
@@ -315,8 +337,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![V-Racer Hoverbike](https://cdn.akamai.steamstatic.com/steam/apps/668430/header.jpg?t=1635267562)](https://store.steampowered.com/app/668430/VRacer_Hoverbike/)
 [![Z-Race](https://cdn.akamai.steamstatic.com/steam/apps/1343750/header.jpg?t=1632303635)](https://store.steampowered.com/app/1343750/ZRace/)
-
-
 
 ## "Are there any Rhythm games?" 
 
@@ -344,6 +364,7 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![STRIDE](https://cdn.akamai.steamstatic.com/steam/apps/1292040/header.jpg?t=1636657606)](https://store.steampowered.com/app/1292040/STRIDE/)
+[![TO THE TOP](https://cdn.akamai.steamstatic.com/steam/apps/509250/header.jpg?t=1569022917)](https://store.steampowered.com/app/509250/TO_THE_TOP/)
 
 [![Gorilla Tag](https://cdn.akamai.steamstatic.com/steam/apps/1533390/header.jpg?t=1632461123)](https://store.steampowered.com/app/1533390/Gorilla_Tag/)
 [![TOSS!](https://cdn.akamai.steamstatic.com/steam/apps/1270460/header.jpg?t=1632755699)](https://store.steampowered.com/app/1270460/TOSS/)
@@ -357,9 +378,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
-
-
-
 
 
 ## "Are there any Flight games?" 
