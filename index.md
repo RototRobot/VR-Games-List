@@ -209,6 +209,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
 [![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
 
+[![https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/](https://cdn.akamai.steamstatic.com/steam/apps/567670/header.jpg?t=1569249537)](https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/)
+[![A-Tech Cybernetic VR](https://cdn.akamai.steamstatic.com/steam/apps/578210/header.jpg?t=1608622929)](https://store.steampowered.com/app/578210/ATech_Cybernetic_VR/)
+
+
 ### "What about Co-op Shooter?"
 
 ---
