@@ -487,6 +487,45 @@ The Game had a small segment where in the player must shoot themself in the head
 [![The Spy Who Shrunk Me](https://cdn.akamai.steamstatic.com/steam/apps/754850/header.jpg?t=1590670548)](https://store.steampowered.com/app/754850/The_Spy_Who_Shrunk_Me/)
 [![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
 
+## "Any Good Games to play with friends?"
+
+---
+
+[![Cave Digger 2: Dig Harder](https://cdn.cloudflare.steamstatic.com/steam/apps/1523510/header.jpg?t=1635424211)](https://store.steampowered.com/app/1523510/Cave_Digger_2_Dig_Harder/)
+[![Carly and the Reaperman - Escape from the Underworld](https://cdn.cloudflare.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
+
+[![PAYDAY 2](https://cdn.cloudflare.steamstatic.com/steam/apps/218620/header.jpg?t=1635426490)](https://store.steampowered.com/app/218620/PAYDAY_2/)
+[![Gunheart](https://cdn.cloudflare.steamstatic.com/steam/apps/551700/header.jpg?t=1569524890)](https://store.steampowered.com/app/551700/Gunheart/)
+
+[![Star Trek: Bridge Crew](https://cdn.cloudflare.steamstatic.com/steam/apps/527100/header.jpg?t=1524671484)](https://store.steampowered.com/app/527100/Star_Trek_Bridge_Crew/)
+[![VR The Diner Duo](https://cdn.cloudflare.steamstatic.com/steam/apps/530120/header.jpg?t=1513347715)](https://store.steampowered.com/app/530120/VR_The_Diner_Duo/)
+
+[![Cloudlands : VR Minigolf](https://cdn.cloudflare.steamstatic.com/steam/apps/425720/header.jpg?t=1518498420)](https://store.steampowered.com/app/425720/Cloudlands__VR_Minigolf/)
+[![Golf It!](https://cdn.cloudflare.steamstatic.com/steam/apps/571740/header.jpg?t=1628676035)](https://store.steampowered.com/app/571740/Golf_It/)
+
+[![Automata Break](https://cdn.cloudflare.steamstatic.com/steam/apps/1322010/header.jpg?t=1620870080)](https://store.steampowered.com/app/1322010/Automata_Break/)
+[![Tabletop Simulator](https://cdn.cloudflare.steamstatic.com/steam/apps/286160/header.jpg?t=1620412025)](https://store.steampowered.com/app/286160/Tabletop_Simulator/)
+
+
+
+### "Party games?"
+
+---
+
+[![Panoptic](https://cdn.cloudflare.steamstatic.com/steam/apps/541930/header.jpg?t=1613494458)](https://store.steampowered.com/app/541930/Panoptic/)
+[![Takelings House Party](https://cdn.cloudflare.steamstatic.com/steam/apps/868150/header_alt_assets_0.jpg?t=1635446263)](https://store.steampowered.com/app/868150/Takelings_House_Party/)
+
+[![Keep Talking and Nobody Explodes](https://cdn.cloudflare.steamstatic.com/steam/apps/341800/header.jpg?t=1633567912)](https://store.steampowered.com/app/341800/Keep_Talking_and_Nobody_Explodes/)
+[![Operation Armstrong](https://cdn.cloudflare.steamstatic.com/steam/apps/1145490/header.jpg?t=1621357228)](https://store.steampowered.com/app/1145490/Operation_Armstrong/)
+
+[![Failspace](https://cdn.cloudflare.steamstatic.com/steam/apps/971650/header.jpg?t=1582322627)](https://store.steampowered.com/app/971650/Failspace/)
+[![Spaceteam VR](https://cdn.cloudflare.steamstatic.com/steam/apps/866770/header.jpg?t=1621585326)](https://store.steampowered.com/app/866770/Spaceteam_VR/)
+
+[![Late For Work](https://cdn.cloudflare.steamstatic.com/steam/apps/623540/header.jpg?t=1619785418)](https://store.steampowered.com/app/623540/Late_For_Work/)
+
+
+
+
 ## "I just want some Chill game to relax with"
 
 ---
@@ -545,6 +584,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
 
 
+
 ## "Any Good Stratagy Games?"
 
 ---
@@ -557,15 +597,4 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ### TBA
 
-## "Any Good Games to play with friends?"
 
----
-
-### TBA
-
-
-### "Party games?"
-
----
-
-### TBA
