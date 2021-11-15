@@ -105,7 +105,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 - A Minimum 2m x 2m play space is required
 
-### "How about 3rd Person Adventure/Platformer?"
+### "How about 3rd Person games?"
 
 ---
 
@@ -115,14 +115,14 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Trover Saves the Universe](https://cdn.akamai.steamstatic.com/steam/apps/1051200/header.jpg?t=1604096279)](https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/)
 [![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
 
+[![Hellblade: Senua's Sacrifice VR](https://cdn.akamai.steamstatic.com/steam/apps/747350/header.jpg?t=1556271112)](https://store.steampowered.com/app/747350/Hellblade_Senuas_Sacrifice_VR_Edition/)
+[![Theseus](https://cdn.akamai.steamstatic.com/steam/apps/677330/header.jpg?t=1619188782)](https://store.steampowered.com/app/677330/Theseus/)
+
 [![Ven VR Adventure](https://cdn.akamai.steamstatic.com/steam/apps/1139310/header.jpg?t=1611861528)](https://store.steampowered.com/app/1139310/Ven_VR_Adventure/)
 [![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
 
 [![Wind Wind](https://cdn.akamai.steamstatic.com/steam/apps/1510390/header.jpg?t=1628657991)](https://store.steampowered.com/app/1510390/Wind_Wind/)
-
 [![A Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/559330/header.jpg?t=1618084136)](https://store.steampowered.com/app/559330/A_Fishermans_Tale/)
-- (Ok maybe this one is a cheat)
-
 
 
 ### "Any Dungeon Crawlers/Rouge Likes (Lites)?"
@@ -266,6 +266,16 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Arizona Sunshine](https://cdn.akamai.steamstatic.com/steam/apps/342180/header.jpg?t=1635453160)](https://store.steampowered.com/app/342180/Arizona_Sunshine/)
 [![After the Fall](https://cdn.akamai.steamstatic.com/steam/apps/751630/header.jpg?t=1635451254)](https://store.steampowered.com/app/751630/After_the_Fall/)
 
+## "Are there any good Survival games?"
+
+[![Into the Radius VR](https://cdn.akamai.steamstatic.com/steam/apps/1012790/header.jpg?t=1636053176)](https://store.steampowered.com/app/1012790/Into_the_Radius_VR/)
+[![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
+
+[![Subnautica](https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg?t=1634241829)](https://store.steampowered.com/app/264710/Subnautica/)
+[![The Forest](https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1590522045)](https://store.steampowered.com/app/242760/The_Forest/)
+
+[![The Solus Project](https://cdn.akamai.steamstatic.com/steam/apps/313630/header.jpg?t=1480876448)](https://store.steampowered.com/app/313630/The_Solus_Project/)
+
 ## "Are there any good Sandbox/Exploration games?"
 
 ---
@@ -273,10 +283,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Minecraft](https://i.imgur.com/9VfVS.png)](http://www.vivecraft.org/)
 [![cyubeVR](https://cdn.akamai.steamstatic.com/steam/apps/619500/header.jpg?t=1635915966)](https://store.steampowered.com/app/619500/cyubeVR/)
 
-[![Subnautica](https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg?t=1634241829)](https://store.steampowered.com/app/264710/Subnautica/)
-[![The Forest](https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1590522045)](https://store.steampowered.com/app/242760/The_Forest/)
-
-[![The Solus Project](https://cdn.akamai.steamstatic.com/steam/apps/313630/header.jpg?t=1480876448)](https://store.steampowered.com/app/313630/The_Solus_Project/)
 [![No Man's Sky](https://cdn.akamai.steamstatic.com/steam/apps/275850/header_alt_assets_3.jpg?t=1634736686)](https://store.steampowered.com/app/275850/No_Mans_Sky/)
 
 [![Hot Dogs, Horseshoes & Hand Grenades](https://cdn.akamai.steamstatic.com/steam/apps/450540/header.jpg?t=1576960750)](https://store.steampowered.com/app/450540/Hot_Dogs_Horseshoes__Hand_Grenades/)
@@ -285,7 +291,6 @@ The Game had a small segment where in the player must shoot themself in the head
 ## "I'm looking for good Sports Games?"
 
 ---
-
 
 [![Ultimate Fishing Simulator VR](https://cdn.akamai.steamstatic.com/steam/apps/1024010/header.jpg?t=1604043244)](https://store.steampowered.com/app/1024010/Ultimate_Fishing_Simulator_VR/)
 [![VR Regatta](https://cdn.akamai.steamstatic.com/steam/apps/468240/header.jpg?t=1573126539)](https://store.steampowered.com/app/468240/VR_Regatta__The_Sailing_Game/)
