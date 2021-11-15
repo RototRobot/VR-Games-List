@@ -59,13 +59,6 @@ The Game had a small segment where in the player must shoot themself in the head
   
 </details>
 
-
-## "What are some good Action games?"
-
----
-
-
-
 ## "What are some good adventure games?"
 
 ---
@@ -73,16 +66,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Maskmaker](https://cdn.akamai.steamstatic.com/steam/apps/1337530/header.jpg?t=1636047036)](https://store.steampowered.com/app/1337530/Maskmaker/)
 [![Paper Beast](https://cdn.akamai.steamstatic.com/steam/apps/1232570/header.jpg?t=1621585585)](https://store.steampowered.com/app/1232570/Paper_Beast/)
 
-[![The Gallery - Episode 1: Call of the Starseed](https://cdn.akamai.steamstatic.com/steam/apps/270130/header.jpg?t=1603215181)](https://store.steampowered.com/app/270130/The_Gallery__Episode_1_Call_of_the_Starseed/)
-[![The Gallery - Episode 2: Heart of the Emberstone](https://cdn.akamai.steamstatic.com/steam/apps/526140/header.jpg?t=1603215138)](https://store.steampowered.com/app/526140/The_Gallery__Episode_2_Heart_of_the_Emberstone/)
-
 [![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
 
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
-[![The Secret of Retropolis](https://cdn.akamai.steamstatic.com/steam/apps/1288420/header.jpg?t=1628589131)](https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/)
-
-[![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
 [![Cave Digger 2: Dig Harder](https://cdn.akamai.steamstatic.com/steam/apps/1523510/header.jpg?t=1635424211)](https://store.steampowered.com/app/1523510/Cave_Digger_2_Dig_Harder/)
@@ -95,15 +82,34 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Raw Data](https://cdn.akamai.steamstatic.com/steam/apps/436320/header.jpg?t=1565043373)](https://store.steampowered.com/app/436320/Raw_Data/)
 
 [![Aeon](https://cdn.akamai.steamstatic.com/steam/apps/543390/header.jpg?t=1635415089)](https://store.steampowered.com/app/543390/Aeon/)
-[![Star Rage VR](https://cdn.akamai.steamstatic.com/steam/apps/615270/header.jpg?t=1506742255)](https://store.steampowered.com/app/615270/Star_Rage_VR/)
-
-[![Rhythm of the Universe: Ionia](https://cdn.akamai.steamstatic.com/steam/apps/1121140/header.jpg?t=1635186636)](https://store.steampowered.com/app/1121140/Rhythm_of_the_Universe_Ionia/)
 [![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
 
+[![Rhythm of the Universe: Ionia](https://cdn.akamai.steamstatic.com/steam/apps/1121140/header.jpg?t=1635186636)](https://store.steampowered.com/app/1121140/Rhythm_of_the_Universe_Ionia/)
+[![Robinson: The Journey](IMAGE)](https://store.steampowered.com/app/579820/Robinson_The_Journey/)
+
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
-[![The Invisible Hours](https://cdn.akamai.steamstatic.com/steam/apps/582560/header.jpg?t=1572879680)](https://store.steampowered.com/app/582560/The_Invisible_Hours/)
 
 - A Minimum 2m x 2m play space is required
+
+## "Any Story Rich games?"
+
+[![The Secret of Retropolis](https://cdn.akamai.steamstatic.com/steam/apps/1288420/header.jpg?t=1628589131)](https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/)
+[![Katie](https://cdn.akamai.steamstatic.com/steam/apps/829560/header.jpg?t=1560368449)](https://store.steampowered.com/app/829560/Katie/)
+
+[![The Under Presents](https://cdn.akamai.steamstatic.com/steam/apps/1232940/header.jpg?t=1628823441)](https://store.steampowered.com/app/1232940/The_Under_Presents/)
+[![The Invisible Hours](https://cdn.akamai.steamstatic.com/steam/apps/582560/header.jpg?t=1572879680)](https://store.steampowered.com/app/582560/The_Invisible_Hours/)
+
+[![Westworld Awakening](https://cdn.akamai.steamstatic.com/steam/apps/1133320/header.jpg?t=1573845365)](https://store.steampowered.com/app/1133320/Westworld_Awakening/)
+[![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
+
+[![The Gallery - Episode 1: Call of the Starseed](https://cdn.akamai.steamstatic.com/steam/apps/270130/header.jpg?t=1603215181)](https://store.steampowered.com/app/270130/The_Gallery__Episode_1_Call_of_the_Starseed/)
+[![The Gallery - Episode 2: Heart of the Emberstone](https://cdn.akamai.steamstatic.com/steam/apps/526140/header.jpg?t=1603215138)](https://store.steampowered.com/app/526140/The_Gallery__Episode_2_Heart_of_the_Emberstone/)
+
+[![The Talos Principle VR](https://cdn.akamai.steamstatic.com/steam/apps/552440/header.jpg?t=1569317751)](https://store.steampowered.com/app/552440/The_Talos_Principle_VR/)
+[![Torn](https://cdn.akamai.steamstatic.com/steam/apps/557520/header.jpg?t=1574290133)](https://store.steampowered.com/app/557520/Torn/)
+
+[![Curious Cases](https://cdn.akamai.steamstatic.com/steam/apps/1045080/header.jpg?t=1632489659)](https://store.steampowered.com/app/1045080/Curious_Cases/)
+[![XING: The Land Beyond](https://cdn.akamai.steamstatic.com/steam/apps/299400/header.jpg?t=1579896635)](https://store.steampowered.com/app/299400/XING_The_Land_Beyond/)
 
 ### "How about 3rd Person games?"
 
@@ -162,6 +168,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Mr.Hack Jack: Robot Detective](https://cdn.akamai.steamstatic.com/steam/apps/1019230/header.jpg?t=1560506263)](https://store.steampowered.com/app/1019230/MrHack_Jack_Robot_Detective/)
 [![Marble Land](https://cdn.akamai.steamstatic.com/steam/apps/503280/header.jpg?t=1572348596)](https://store.steampowered.com/app/503280/Marble_Land/)
 
+[![LOST CAVE](https://cdn.akamai.steamstatic.com/steam/apps/946340/header.jpg?t=1543946191)](https://store.steampowered.com/app/946340/LOST_CAVE/)
 [![Please, Don't Touch Anything 3D](https://cdn.akamai.steamstatic.com/steam/apps/529590/header.jpg?t=1579122243)](https://store.steampowered.com/app/529590/Please_Dont_Touch_Anything_3D/)
 
 ### "Ok what about Escape Rooms?"
@@ -232,6 +239,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Boiling Steel](https://cdn.akamai.steamstatic.com/steam/apps/1016860/header.jpg?t=1633959823)](https://store.steampowered.com/app/1016860/Boiling_Steel/)
 
 [![Gunheart](https://cdn.akamai.steamstatic.com/steam/apps/551700/header.jpg?t=1569524890)](https://store.steampowered.com/app/551700/Gunheart/)
+[![Star Rage VR](https://cdn.akamai.steamstatic.com/steam/apps/615270/header.jpg?t=1506742255)](https://store.steampowered.com/app/615270/Star_Rage_VR/)
 
 
 ### "Ok Story Shooter?"
@@ -420,6 +428,8 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![STAR WARS: Squadrons](https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg?t=1614938362)](https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/)
 [![House of the Dying Sun](https://cdn.akamai.steamstatic.com/steam/apps/283160/header.jpg?t=1577079246)](https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/)
+
+[![Elite Dangerous](https://cdn.akamai.steamstatic.com/steam/apps/359320/header.jpg?t=1621520385)](https://store.steampowered.com/app/359320/Elite_Dangerous/)
 
 [![Ultrawings](https://cdn.akamai.steamstatic.com/steam/apps/639130/header.jpg?t=1625745550)](https://store.steampowered.com/app/639130/Ultrawings/)
 [![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
