@@ -435,14 +435,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
 
 
-## "I'm looking Good Stratagy Game?"
-
----
-
-### "How about an RTS?"
-
----
-
 ## "Where are all the good RPG's?"
 
 ---
@@ -459,7 +451,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Vengeful Rites](https://cdn.akamai.steamstatic.com/steam/apps/755410/header.jpg?t=1635507034)](https://store.steampowered.com/app/755410/Vengeful_Rites/)
 [![Vanishing Realms](https://cdn.akamai.steamstatic.com/steam/apps/322770/header.jpg?t=1571039700)](https://store.steampowered.com/app/322770/Vanishing_Realms/)
 
-
+[![Operencia: The Stolen Sun](https://cdn.akamai.steamstatic.com/steam/apps/985950/header.jpg?t=1617710664)](https://store.steampowered.com/app/985950/Operencia_The_Stolen_Sun/)
 [![Left-Hand Path](https://cdn.akamai.steamstatic.com/steam/apps/488760/header.jpg?t=1572521931)](https://store.steampowered.com/app/488760/LeftHand_Path/)
 
 
@@ -532,3 +524,18 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Resident Evil 7](https://cdn.akamai.steamstatic.com/steam/apps/418370/header.jpg?t=1634882274)](https://github.com/praydog/REFramework)
 [![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
+
+
+## "I'm looking Good Stratagy Game?"
+
+---
+
+### TBA
+
+### "How about an RTS?"
+
+---
+
+### TBA
+
+---
