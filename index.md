@@ -238,6 +238,35 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
+
+[![Ultimate Fishing Simulator VR](https://cdn.akamai.steamstatic.com/steam/apps/1024010/header.jpg?t=1604043244)](https://store.steampowered.com/app/1024010/Ultimate_Fishing_Simulator_VR/)
+[![VR Regatta](https://cdn.akamai.steamstatic.com/steam/apps/468240/header.jpg?t=1573126539)](https://store.steampowered.com/app/468240/VR_Regatta__The_Sailing_Game/)
+
+[![Creed: Rise to Glory](https://cdn.akamai.steamstatic.com/steam/apps/804490/header.jpg?t=1604620966)](https://store.steampowered.com/app/804490/Creed_Rise_to_Glory/)
+[![The Thrill of the Fight](https://cdn.akamai.steamstatic.com/steam/apps/494150/header.jpg?t=1634054367)](https://store.steampowered.com/app/494150/The_Thrill_of_the_Fight__VR_Boxing/)
+
+[![Knockout League](https://cdn.akamai.steamstatic.com/steam/apps/488920/header.jpg?t=1539717072)](https://store.steampowered.com/app/488920/Knockout_League__Arcade_VR_Boxing/)
+
+[![Chess Ultra](https://cdn.akamai.steamstatic.com/steam/apps/518060/header.jpg?t=1592559875)](https://store.steampowered.com/app/518060/Chess_Ultra/)
+
+[![Eleven Table Tennis](https://cdn.akamai.steamstatic.com/steam/apps/488310/header.jpg?t=1613251959)](https://store.steampowered.com/app/488310/Eleven_Table_Tennis/)
+[![First Person Tennis](https://cdn.akamai.steamstatic.com/steam/apps/454140/header.jpg?t=1627573075)](https://store.steampowered.com/app/454140/First_Person_Tennis__The_Real_Tennis_Simulator_VR/)
+
+[![RUSH](https://cdn.akamai.steamstatic.com/steam/apps/844040/header.jpg?t=1567474657)](https://store.steampowered.com/app/844040/RUSH/)
+
+[![Kayak VR: Mirage](https://cdn.akamai.steamstatic.com/steam/apps/1683340/header.jpg?t=1635941556)](https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/)
+[![DownStream: VR Whitewater Kayaking](https://cdn.akamai.steamstatic.com/steam/apps/1004510/header.jpg?t=1567000953)](https://store.steampowered.com/app/1004510/DownStream_VR_Whitewater_Kayaking/)
+
+[![hoVRboard](https://cdn.akamai.steamstatic.com/steam/apps/1081120/header.jpg?t=1618346591)](https://store.steampowered.com/app/1081120/hoVRboard/)
+[![VR Skater](https://cdn.akamai.steamstatic.com/steam/apps/1285920/header.jpg?t=1633451198)](https://store.steampowered.com/app/1285920/VR_Skater/)
+
+[![Grit Paintball](https://cdn.akamai.steamstatic.com/steam/apps/1323610/header.jpg?t=1592540504)](https://store.steampowered.com/app/1323610/Grit_Paintball/)
+[![Tournament Paintball VR](https://cdn.akamai.steamstatic.com/steam/apps/1286940/header.jpg?t=1605205871)](https://store.steampowered.com/app/1286940/Tournament_Paintball_VR/)
+
+[![2MD: VR Football Evolution](https://cdn.akamai.steamstatic.com/steam/apps/1230860/header.jpg?t=1616521135)](https://store.steampowered.com/app/1230860/2MD_VR_Football_Evolution/)
+[![Final Soccer VR](https://cdn.akamai.steamstatic.com/steam/apps/555060/header.jpg?t=1626406605)](https://store.steampowered.com/app/555060/Final_Soccer_VR/)
+
+
 ## "Are there any Racing games?" 
 
 
@@ -391,6 +420,10 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Euro Truck Simulator 2](https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg?t=1635849426)](https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/)
 [![American Truck Simulator](https://cdn.akamai.steamstatic.com/steam/apps/270880/header.jpg?t=1635849313)](https://store.steampowered.com/app/270880/American_Truck_Simulator/)
+
+[![Ultimate Fishing Simulator VR](https://cdn.akamai.steamstatic.com/steam/apps/1024010/header.jpg?t=1604043244)](https://store.steampowered.com/app/1024010/Ultimate_Fishing_Simulator_VR/)
+[![VR Regatta](https://cdn.akamai.steamstatic.com/steam/apps/468240/header.jpg?t=1573126539)](https://store.steampowered.com/app/468240/VR_Regatta__The_Sailing_Game/)
+
 
 [![Rolling Line](https://cdn.akamai.steamstatic.com/steam/apps/754150/header.jpg?t=1630627163)](https://store.steampowered.com/app/754150/Rolling_Line/)
 [![Fujii](https://cdn.akamai.steamstatic.com/steam/apps/589040/header.jpg?t=1635440567)](https://store.steampowered.com/app/589040/Fujii/)
