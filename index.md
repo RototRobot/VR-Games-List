@@ -49,7 +49,7 @@ A: Triple A games are expensive to make and the VR market is small you might nee
 
 [![SUPERHOT VR](https://cdn.akamai.steamstatic.com/steam/apps/617830/header.jpg?t=1627641439)](https://store.steampowered.com/app/617830/SUPERHOT_VR/)
 
-- Warning in July 2021 the Devs Self Censored and removed a small bit of conent from the game 
+- Warning in July 2021 the Devs Self Censored and removed a small bit of conent from the game. Some players may approve of the change or other not, do with this information as you like.
 
 <details>
   
@@ -59,7 +59,6 @@ The Game had a small segment where in the player must shoot themself in the head
   
 </details>
 
-- Some players may approve of the change or other not, do with this information as you may.
 
 ## "What are some good adventure games?"
 
