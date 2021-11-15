@@ -206,6 +206,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Sniper Elite VR](https://cdn.akamai.steamstatic.com/steam/apps/752480/header.jpg?t=1626975333)](https://store.steampowered.com/app/752480/Sniper_Elite_VR/)
 [![BONEWORKS](https://cdn.akamai.steamstatic.com/steam/apps/823500/header.jpg?t=1581381377)](https://store.steampowered.com/app/823500/BONEWORKS/)
 
+[![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
+[![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
 
 ### "What about Co-op Shooter?"
 
@@ -224,19 +226,122 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-## "Are there any Racing game?" 
+[![Minecraft](https://i.imgur.com/9VfVS.png)](http://www.vivecraft.org/)
+
+
+
+## "I'm looking for good Sports Games?"
+
+---
+
+## "Are there any Racing games?" 
+
+
 
 ### "Realistic racing?"
 
 ---
+[![Automobilista 2](https://cdn.akamai.steamstatic.com/steam/apps/1066890/header.jpg?t=1635992916)](https://store.steampowered.com/app/1066890/Automobilista_2/)
+[![rFactor 2](https://cdn.akamai.steamstatic.com/steam/apps/365960/header.jpg?t=1624553519)](https://store.steampowered.com/app/365960/rFactor_2/)
+
+
+[![Assetto Corsa](https://cdn.akamai.steamstatic.com/steam/apps/244210/header.jpg?t=1634026387)](https://store.steampowered.com/app/244210/Assetto_Corsa/)
+[![DiRT Rally 2.0](https://cdn.akamai.steamstatic.com/steam/apps/690790/header.jpg?t=1626343640)](https://store.steampowered.com/app/690790/DiRT_Rally_20/)
+
+
+[![Project CARS](https://cdn.akamai.steamstatic.com/steam/apps/234630/header.jpg?t=1625518420)](https://store.steampowered.com/app/234630/Project_CARS/)
+[![Project CARS 2](https://cdn.akamai.steamstatic.com/steam/apps/378860/header.jpg?t=1630583895)](https://store.steampowered.com/app/378860/Project_CARS_2/)
+
+[![Kart Racing Pro](https://cdn.akamai.steamstatic.com/steam/apps/415600/header.jpg?t=1594311317)](https://store.steampowered.com/app/415600/Kart_Racing_Pro/)
+[![KartKraft](https://cdn.akamai.steamstatic.com/steam/apps/406350/header.jpg?t=1634845231)](https://store.steampowered.com/app/406350/KartKraft/)
+
 
 ### "Arcade Racing?"
 
 ---
 
-## "I'm looking for good Sports Game?"
+[![Dash Dash World](https://cdn.akamai.steamstatic.com/steam/apps/1159860/header.jpg?t=1622567893)](https://store.steampowered.com/app/1159860/Dash_Dash_World/)
+[![Mini Motor Racing X](https://cdn.akamai.steamstatic.com/steam/apps/1303990/header.jpg?t=1592954720)](https://store.steampowered.com/app/1303990/Mini_Motor_Racing_X/)
+
+[![Touring Karts](https://cdn.akamai.steamstatic.com/steam/apps/1088950/header.jpg?t=1607879436)](https://store.steampowered.com/app/1088950/Touring_Karts/)
+[![GRIP: Combat Racing](https://cdn.akamai.steamstatic.com/steam/apps/396900/header.jpg?t=1633099700)](https://store.steampowered.com/app/396900/GRIP_Combat_Racing/)
+
+[![Sprint Vector](https://cdn.akamai.steamstatic.com/steam/apps/590690/header.jpg?t=1565043590)](https://store.steampowered.com/app/590690/Sprint_Vector/)
+
+
+
+### "F-Zero Style Racing?"
 
 ---
+
+[![Thumper](https://cdn.akamai.steamstatic.com/steam/apps/356400/header.jpg?t=1562439684)](https://store.steampowered.com/app/356400/Thumper/)
+[![BallisticNG](https://cdn.akamai.steamstatic.com/steam/apps/473770/header.jpg?t=1618363102)](https://store.steampowered.com/app/473770/BallisticNG/)
+
+[![Distance](https://cdn.akamai.steamstatic.com/steam/apps/233610/header.jpg?t=1588966660)](https://store.steampowered.com/app/233610/Distance/)
+[![Redout](https://cdn.akamai.steamstatic.com/steam/apps/517710/header.jpg?t=1628689853)](https://store.steampowered.com/app/517710/Redout_Enhanced_Edition/)
+
+[![V-Racer Hoverbike](https://cdn.akamai.steamstatic.com/steam/apps/668430/header.jpg?t=1635267562)](https://store.steampowered.com/app/668430/VRacer_Hoverbike/)
+[![Z-Race](https://cdn.akamai.steamstatic.com/steam/apps/1343750/header.jpg?t=1632303635)](https://store.steampowered.com/app/1343750/ZRace/)
+
+
+
+## "Are there any Rhythm games?" 
+
+---
+
+[![Airtone](https://cdn.akamai.steamstatic.com/steam/apps/631900/header.jpg?t=1534726561)](https://store.steampowered.com/app/631900/Airtone/)
+[![Rocking Legend](https://cdn.akamai.steamstatic.com/steam/apps/1260800/header.jpg?t=1630157385)](https://store.steampowered.com/app/1260800/Rocking_Legend/)
+
+[![Pistol Whip](https://cdn.akamai.steamstatic.com/steam/apps/1079800/header.jpg?t=1636498779)](https://store.steampowered.com/app/1079800/Pistol_Whip/)
+[![AGAINST](https://cdn.akamai.steamstatic.com/steam/apps/1584840/header.jpg?t=1636657312)](https://store.steampowered.com/app/1584840/AGAINST/)
+
+[![Synth Riders](https://cdn.akamai.steamstatic.com/steam/apps/885000/header.jpg?t=1635440833)](https://store.steampowered.com/app/885000/Synth_Riders/)
+[![AUDICA: Rhythm Shooter](https://cdn.akamai.steamstatic.com/steam/apps/1020340/header.jpg?t=1608747792)](https://store.steampowered.com/app/1020340/AUDICA_Rhythm_Shooter/)
+
+[![McOsu](https://cdn.akamai.steamstatic.com/steam/apps/607260/header.jpg?t=1610057829)](https://store.steampowered.com/app/607260/McOsu/)
+[![Audioshield](https://cdn.akamai.steamstatic.com/steam/apps/412740/header.jpg?t=1568409238)](https://store.steampowered.com/app/412740/Audioshield/)
+
+[![Space Channel 5](https://cdn.akamai.steamstatic.com/steam/apps/879140/header.jpg?t=1607498573)](https://store.steampowered.com/app/879140/Space_Channel_5_VR_Kinda_Funky_News_Flash/)
+
+[![Dance Collider](https://cdn.akamai.steamstatic.com/steam/apps/692690/header.jpg?t=1604277956)](https://store.steampowered.com/app/692690/Dance_Collider/)
+
+
+## "Are there any Flight games?" 
+
+---
+
+[![Microsoft Flight Simulator](https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg?t=1623947484)](https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator/)
+[![DCS World Steam Edition](https://cdn.akamai.steamstatic.com/steam/apps/223750/header.jpg?t=1635008906)](https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/)
+
+[![Project Wingman](https://cdn.akamai.steamstatic.com/steam/apps/895870/header.jpg?t=1625008344)](https://store.steampowered.com/app/895870/Project_Wingman/)
+[![VTOL VR](https://cdn.akamai.steamstatic.com/steam/apps/667970/header.jpg?t=1616777837)](https://store.steampowered.com/app/667970/VTOL_VR/)
+
+[![STAR WARS: Squadrons](https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg?t=1614938362)](https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/)
+[![House of the Dying Sun](https://cdn.akamai.steamstatic.com/steam/apps/283160/header.jpg?t=1577079246)](https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/)
+
+[![Ultrawings](https://cdn.akamai.steamstatic.com/steam/apps/639130/header.jpg?t=1625745550)](https://store.steampowered.com/app/639130/Ultrawings/)
+[![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
+
+
+## "What are some games with Great movement?"
+
+---
+
+[![STRIDE](https://cdn.akamai.steamstatic.com/steam/apps/1292040/header.jpg?t=1636657606)](https://store.steampowered.com/app/1292040/STRIDE/)
+
+[![Gorilla Tag](https://cdn.akamai.steamstatic.com/steam/apps/1533390/header.jpg?t=1632461123)](https://store.steampowered.com/app/1533390/Gorilla_Tag/)
+[![TOSS!](https://cdn.akamai.steamstatic.com/steam/apps/1270460/header.jpg?t=1632755699)](https://store.steampowered.com/app/1270460/TOSS/)
+
+[![Climbey](https://cdn.akamai.steamstatic.com/steam/apps/520010/header.jpg?t=1568742036)](https://store.steampowered.com/app/520010/Climbey/)
+[![Forsaken Spire](https://cdn.akamai.steamstatic.com/steam/apps/1258200/header.jpg?t=1596706832)](https://store.steampowered.com/app/1258200/Forsaken_Spire/)
+
+
+[![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
+[![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
+
+[![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
+[![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
+
 
 ## "I'm looking Good Stratagy Game?"
 
@@ -274,6 +379,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Republique VR](https://cdn.akamai.steamstatic.com/steam/apps/915200/header.jpg?t=1598728580)](https://store.steampowered.com/app/915200/Republique_VR/)
 
 [![The Spy Who Shrunk Me](https://cdn.akamai.steamstatic.com/steam/apps/754850/header.jpg?t=1590670548)](https://store.steampowered.com/app/754850/The_Spy_Who_Shrunk_Me/)
+[![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
 
 ## "I just want some Chill game to relax with"
 
