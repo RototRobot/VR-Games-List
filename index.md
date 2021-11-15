@@ -249,7 +249,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Scanner Sombre](https://cdn.akamai.steamstatic.com/steam/apps/475190/header.jpg?t=1586359715)](https://store.steampowered.com/app/475190/Scanner_Sombre/)
 
-## "Have any games gotten modding into VR?" 
+## "Have any games gotten modded into VR?" 
 
 ---
 
