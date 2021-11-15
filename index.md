@@ -439,9 +439,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![VTOL VR](https://cdn.akamai.steamstatic.com/steam/apps/667970/header.jpg?t=1616777837)](https://store.steampowered.com/app/667970/VTOL_VR/)
 
 [![STAR WARS: Squadrons](https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg?t=1614938362)](https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/)
-[![House of the Dying Sun](https://cdn.akamai.steamstatic.com/steam/apps/283160/header.jpg?t=1577079246)](https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/)
+[![House of the Dying Sun](https://cdn.cloudflare.steamstatic.com/steam/apps/1397650/header.jpg?t=1625066280)](https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/)
 
 [![Elite Dangerous](https://cdn.akamai.steamstatic.com/steam/apps/359320/header.jpg?t=1621520385)](https://store.steampowered.com/app/359320/Elite_Dangerous/)
+[![Jetborne Racing](https://cdn.akamai.steamstatic.com/steam/apps/283160/header.jpg?t=1577079246)](https://store.steampowered.com/app/1397650/Jetborne_Racing/)
 
 [![Ultrawings](https://cdn.akamai.steamstatic.com/steam/apps/639130/header.jpg?t=1625745550)](https://store.steampowered.com/app/639130/Ultrawings/)
 [![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
