@@ -154,6 +154,16 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![In Death](https://cdn.akamai.steamstatic.com/steam/apps/605450/header.jpg?t=1550531193)](https://store.steampowered.com/app/605450/In_Death/)
 
+### "More Sword Fighting!"
+
+
+[![Blade and Sorcery](https://cdn.akamai.steamstatic.com/steam/apps/629730/header.jpg?t=1635526484)](https://store.steampowered.com/app/629730/Blade_and_Sorcery/)
+[![Hellsplit: Arena](https://cdn.akamai.steamstatic.com/steam/apps/1039880/header.jpg?t=1624358632)](https://store.steampowered.com/app/1039880/Hellsplit_Arena/)
+
+[![Swordsman VR](https://cdn.akamai.steamstatic.com/steam/apps/1206480/header.jpg?t=1635219601)](https://store.steampowered.com/app/1206480/Swordsman_VR/)
+[![Sword MasterVR](https://cdn.akamai.steamstatic.com/steam/apps/523710/header.jpg?t=1494341264)](https://store.steampowered.com/app/523710/Sword_Master_VR/)
+
+
 ## "Are there any good Puzzle Games?"
 
 ---
