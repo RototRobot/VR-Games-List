@@ -280,4 +280,4 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Resident Evil 3](https://cdn.akamai.steamstatic.com/steam/apps/952060/header.jpg?t=1635811814)](https://github.com/praydog/REFramework)
 
 [![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
-[![Resident Evil 7](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
+[![Resident Evil 7](https://cdn.akamai.steamstatic.com/steam/apps/418370/header.jpg?t=1634882274)](https://github.com/praydog/REFramework)
