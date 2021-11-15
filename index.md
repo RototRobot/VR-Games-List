@@ -85,7 +85,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
 
 [![Rhythm of the Universe: Ionia](https://cdn.akamai.steamstatic.com/steam/apps/1121140/header.jpg?t=1635186636)](https://store.steampowered.com/app/1121140/Rhythm_of_the_Universe_Ionia/)
-[![Robinson: The Journey](IMAGE)](https://store.steampowered.com/app/579820/Robinson_The_Journey/)
+[![Robinson: The Journey](https://cdn.akamai.steamstatic.com/steam/apps/579820/header.jpg?t=1505808553)](https://store.steampowered.com/app/579820/Robinson_The_Journey/)
 
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
 
