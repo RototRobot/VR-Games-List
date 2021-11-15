@@ -118,6 +118,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Ven VR Adventure](https://cdn.akamai.steamstatic.com/steam/apps/1139310/header.jpg?t=1611861528)](https://store.steampowered.com/app/1139310/Ven_VR_Adventure/)
 [![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
 
+[![Wind Wind](https://cdn.akamai.steamstatic.com/steam/apps/1510390/header.jpg?t=1628657991)](https://store.steampowered.com/app/1510390/Wind_Wind/)
+
 [![A Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/559330/header.jpg?t=1618084136)](https://store.steampowered.com/app/559330/A_Fishermans_Tale/)
 - (Ok maybe this one is a cheat)
 
@@ -147,8 +149,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![GNOG](https://cdn.akamai.steamstatic.com/steam/apps/290510/header.jpg?t=1625773453)](https://store.steampowered.com/app/290510/GNOG/)
 [![Steady](https://cdn.akamai.steamstatic.com/steam/apps/986670/header.jpg?t=1606181792)](https://store.steampowered.com/app/986670/Steady/)
-
-
 
 [![The Talos Principle VR](https://cdn.akamai.steamstatic.com/steam/apps/552440/header.jpg?t=1569317751)](https://store.steampowered.com/app/552440/The_Talos_Principle_VR/)
 [![Torn](https://cdn.akamai.steamstatic.com/steam/apps/557520/header.jpg?t=1574290133)](https://store.steampowered.com/app/557520/Torn/)
