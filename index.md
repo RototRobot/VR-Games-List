@@ -40,6 +40,7 @@ A: Triple A games are expensive to make and the VR market is small you might nee
 - Warning in July 2021 the Devs Self Censored and removed a small bit of conent from the game 
 
 <details>
+  
   <summary>Spoiler for the content</summary>
   
 The Game had a small segment where in the player must shoot themself in the head.
@@ -60,7 +61,7 @@ The Game had a small segment where in the player must shoot themself in the head
 - The Modding scene for this game really is what makes it Check out Reddit.com/r/SkyrimVR and the skyrim wabbajack mod lists
 
 
-## "I'm looking for some good Adventure Games?"
+## "What are some good adventure games?"
 
 ---
 
@@ -73,14 +74,14 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
-[![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
+[![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
 
 - A Minimum 2m x 2m play space is required
 
 [![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
 
-### "Ok 3rd Person Adventure/Platformer?"
+### "How about 3rd Person Adventure/Platformer?"
 
 ---
 
@@ -107,7 +108,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Soul Scathe](https://cdn.akamai.steamstatic.com/steam/apps/1094960/header.jpg?t=1595257988)](https://store.steampowered.com/app/1094960/Soul_Scathe/)
 [![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
 
-## "I'm looking for good Puzzle Games?"
+## "Are there any good Puzzle Games?"
 
 ---
 
@@ -126,7 +127,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Mr.Hack Jack: Robot Detective](https://cdn.akamai.steamstatic.com/steam/apps/1019230/header.jpg?t=1560506263)](https://store.steampowered.com/app/1019230/MrHack_Jack_Robot_Detective/)
 [![Marble Land](https://cdn.akamai.steamstatic.com/steam/apps/503280/header.jpg?t=1572348596)](https://store.steampowered.com/app/503280/Marble_Land/)
 
-### "Ok what About Escape Rooms?"
+### "Ok what about Escape Rooms?"
 
 ---
 
@@ -143,7 +144,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Floor Plan 2](https://cdn.akamai.steamstatic.com/steam/apps/1534850/header.jpg?t=1617404199)](https://store.steampowered.com/app/1534850/Floor_Plan_2/)
 
 
-## "I'm looking for good Horror Games?"
+## "I'm looking for some good Horror Games?"
 
 ---
 
@@ -178,11 +179,11 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-## "I'm looking a good Sandbox game?"
+## "Are there any good Sandbox games?"
 
 ---
 
-## "I'm looking a good Racing game?"
+## "Are there any Racing game?" 
 
 ### "Realistic racing?"
 
@@ -192,11 +193,11 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-## "I'm looking a good Sports Game?"
+## "I'm looking for good Sports Game?"
 
 ---
 
-## "I'm looking a Good Stratagy Game?"
+## "I'm looking Good Stratagy Game?"
 
 ---
 
@@ -204,7 +205,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-## "I'm looking a good RPG Game?"
+## "Where are all the good RPG's?"
 
 ---
 
@@ -248,3 +249,35 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Scanner Sombre](https://cdn.akamai.steamstatic.com/steam/apps/475190/header.jpg?t=1586359715)](https://store.steampowered.com/app/475190/Scanner_Sombre/)
 
+## "Have any games gotten modding into VR?" 
+
+---
+
+[![MechWarrior 5](https://cdn.akamai.steamstatic.com/steam/apps/784080/header.jpg?t=1632152493)](https://www.nexusmods.com/mechwarrior5mercenaries/mods/531)
+[![Outer Wilds](https://cdn.akamai.steamstatic.com/steam/apps/753640/header.jpg?t=1633026544)](https://outerwildsmods.com/mods/nomaivr/)
+
+[![STAR WARS: TIE Fighter](https://cdn.akamai.steamstatic.com/steam/apps/355250/header.jpg?t=1586467354)](https://www.moddb.com/mods/tie-fighter-total-conversion-tftc)
+[![Risk of Rain 2](https://cdn.akamai.steamstatic.com/steam/apps/632360/header.jpg?t=1634918633)](https://thunderstore.io/package/DrBibop/VRMod/)
+
+[![Valheim](https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg?t=1636710740)](https://www.nexusmods.com/valheim/mods/847)
+[![QUAKE](https://cdn.akamai.steamstatic.com/steam/apps/2310/header.jpg?t=1629481608)](https://github.com/Fishbiter/Quakespasm-OpenVR)
+
+[![Minecraft](https://i.imgur.com/9VfVS.png)](http://www.vivecraft.org/)
+[![Yooka-Laylee](https://cdn.akamai.steamstatic.com/steam/apps/360830/header.jpg?t=1628161572)](https://github.com/Eusth/VookaRaylee)
+
+[![Receiver](https://cdn.akamai.steamstatic.com/steam/apps/234190/header.jpg?t=1586267903)](https://github.com/ShadowBrian/7DFPS)
+[![Half-Life](https://cdn.akamai.steamstatic.com/steam/apps/70/header.jpg?t=1591048039)](https://github.com/maxvollmer/Half-Life-VR/releases/)
+
+[![GTFO](https://cdn.akamai.steamstatic.com/steam/apps/493520/header.jpg?t=1635776146)](https://github.com/DSprtn/GTFO_VR_Plugin)
+[![Grand Theft Auto V](https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1618856444)](https://github.com/LukeRoss00/gta5-real-mod/releases)
+
+[![DOOM 3](https://cdn.akamai.steamstatic.com/steam/apps/208200/header.jpg?t=1569960032)](https://github.com/NPi2Loup/DOOM-3-BFG-VR)
+[![Doom](https://cdn.akamai.steamstatic.com/steam/apps/2280/header.jpg?t=1600098964)](https://github.com/Fishbiter/gz3doom)
+
+[![Alien: Isolation](https://cdn.akamai.steamstatic.com/steam/apps/214490/header.jpg?t=1603026039)](https://github.com/Nibre/MotherVR/releases)
+
+[![Resident Evil 2](https://cdn.akamai.steamstatic.com/steam/apps/883710/header.jpg?t=1635811811)](https://github.com/praydog/REFramework)
+[![Resident Evil 3](https://cdn.akamai.steamstatic.com/steam/apps/952060/header.jpg?t=1635811814)](https://github.com/praydog/REFramework)
+
+[![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
+[![Resident Evil 7](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
