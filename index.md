@@ -87,6 +87,9 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Rhythm of the Universe: Ionia](https://cdn.akamai.steamstatic.com/steam/apps/1121140/header.jpg?t=1635186636)](https://store.steampowered.com/app/1121140/Rhythm_of_the_Universe_Ionia/)
 [![Robinson: The Journey](https://cdn.akamai.steamstatic.com/steam/apps/579820/header.jpg?t=1505808553)](https://store.steampowered.com/app/579820/Robinson_The_Journey/)
 
+[![Warhammer Age of Sigmar: Tempestfall](https://cdn.akamai.steamstatic.com/steam/apps/1337100/header.jpg?t=1637167322)](https://store.steampowered.com/app/1337100/Warhammer_Age_of_Sigmar_Tempestfall/)
+[![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1637189668)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
+
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
 
 - A Minimum 2m x 2m play space is required
