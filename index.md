@@ -299,6 +299,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![The Forest](https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1590522045)](https://store.steampowered.com/app/242760/The_Forest/)
 
 [![The Solus Project](https://cdn.akamai.steamstatic.com/steam/apps/313630/header.jpg?t=1480876448)](https://store.steampowered.com/app/313630/The_Solus_Project/)
+[![Song in the Smoke](https://cdn.cloudflare.steamstatic.com/steam/apps/1787810/header.jpg?t=1639677613)](https://store.steampowered.com/app/1787810/Song_in_the_Smoke/)
 
 ## "Are there any good Sandbox/Exploration games?"
 
