@@ -16,6 +16,34 @@ A: Triple A games are expensive to make and the VR market is small you might nee
 
 (The images are links to the games steam page)
 
+Chapters
+
+* [Essential Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#essential-games)
+* [Adventure Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#what-are-some-good-adventure-games)
+* [Story Rich Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-story-rich-games)
+* [3rd Person Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#how-about-3rd-person-games)
+* [Rogue-like Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-dungeon-crawlersrouge-likes-lites)
+* [Sword Fighting Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#more-sword-fighting)
+* [Puzzle Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-puzzle-games)
+* [Escape Rooms](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#ok-what-about-escape-rooms)
+* [Horror Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-some-good-horror-games)
+* [Shooters](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-some-good-shooters)
+* [Survival Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-survival-games)
+* [Sandbox Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-sandboxexploration-games)
+* [Sports Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-good-sports-games)
+* [Racing Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-racing-games)
+* [Flight Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-flight-games)
+* [Rhythm Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-rhythm-games)
+* [Games with Great Movement](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#what-are-some-games-with-great-movement)
+* [Role-Playing Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#where-are-all-the-good-rpgs)
+* [Stealth Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-a-good-stealth-game)
+* [Better with Friends](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-good-games-to-play-with-friends)
+* [Party Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#party-games)
+* [Relaxing Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#i-just-want-some-chill-game-to-relax-with)
+* [VR Mods](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#have-any-games-gotten-modded-into-vr)
+* [TBA Sections](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-good-stratagy-games)
+
+
 ## Essential games
 
 ---
