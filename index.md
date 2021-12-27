@@ -30,7 +30,7 @@ A: Triple A games are expensive to make and the VR market is small you might nee
 [![Beat Saber](https://cdn.akamai.steamstatic.com/steam/apps/620980/header.jpg)](https://store.steampowered.com/app/620980/Beat_Saber/)
 [![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
 
-- Warning Facebook bought the Beat Saber Devs in 2019 while I think its still the best VR Rythem game on the market It may give people pause if they are wanting to avoid Facebook (I will recommend some alternatives later)
+- Warning Facebook bought the Beat Saber Devs in 2019 while I think its still the best VR Rhythm game on the market It may give people pause if they are wanting to avoid Facebook (alternatives are mentioned below)
 
 [![Budget Cuts](https://cdn.akamai.steamstatic.com/steam/apps/400940/header.jpg?t=1588007057)](https://store.steampowered.com/app/400940/Budget_Cuts/)
 [![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
