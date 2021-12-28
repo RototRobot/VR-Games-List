@@ -475,12 +475,14 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Climbey](https://cdn.akamai.steamstatic.com/steam/apps/520010/header.jpg?t=1568742036)](https://store.steampowered.com/app/520010/Climbey/)
 [![Forsaken Spire](https://cdn.akamai.steamstatic.com/steam/apps/1258200/header.jpg?t=1596706832)](https://store.steampowered.com/app/1258200/Forsaken_Spire/)
 
-
 [![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
 [![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
 
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
+
+[![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
+
 
 
 ## "Where are all the good RPG's?"
