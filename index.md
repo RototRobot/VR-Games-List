@@ -588,6 +588,8 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
+This is just a select list of VR mods [click here](https://github.com/RototRobot/VRMods-List/blob/gh-pages/index.md) for a complete list
+
 [![MechWarrior 5](https://cdn.akamai.steamstatic.com/steam/apps/784080/header.jpg?t=1632152493)](https://www.nexusmods.com/mechwarrior5mercenaries/mods/531)
 [![Outer Wilds](https://cdn.akamai.steamstatic.com/steam/apps/753640/header.jpg?t=1633026544)](https://outerwildsmods.com/mods/nomaivr/)
 
