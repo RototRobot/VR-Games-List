@@ -355,11 +355,12 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Sports Bar VR](https://cdn.akamai.steamstatic.com/steam/apps/269170/header.jpg?t=1525982190)](https://store.steampowered.com/app/269170/Sports_Bar_VR/)
 
 [![Chess Ultra](https://cdn.akamai.steamstatic.com/steam/apps/518060/header.jpg?t=1592559875)](https://store.steampowered.com/app/518060/Chess_Ultra/)
+[![RUSH](https://cdn.akamai.steamstatic.com/steam/apps/844040/header.jpg?t=1567474657)](https://store.steampowered.com/app/844040/RUSH/)
 
 [![Eleven Table Tennis](https://cdn.akamai.steamstatic.com/steam/apps/488310/header.jpg?t=1613251959)](https://store.steampowered.com/app/488310/Eleven_Table_Tennis/)
 [![First Person Tennis](https://cdn.akamai.steamstatic.com/steam/apps/454140/header.jpg?t=1627573075)](https://store.steampowered.com/app/454140/First_Person_Tennis__The_Real_Tennis_Simulator_VR/)
 
-[![RUSH](https://cdn.akamai.steamstatic.com/steam/apps/844040/header.jpg?t=1567474657)](https://store.steampowered.com/app/844040/RUSH/)
+[![Kayak VR: Mirage](https://cdn.cloudflare.steamstatic.com/steam/apps/1683340/header.jpg?t=1658913814)](https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/)
 [![DownStream: VR Whitewater Kayaking](https://cdn.akamai.steamstatic.com/steam/apps/1004510/header.jpg?t=1567000953)](https://store.steampowered.com/app/1004510/DownStream_VR_Whitewater_Kayaking/)
 
 [![hoVRboard](https://cdn.akamai.steamstatic.com/steam/apps/1081120/header.jpg?t=1618346591)](https://store.steampowered.com/app/1081120/hoVRboard/)
