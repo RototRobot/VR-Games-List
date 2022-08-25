@@ -218,6 +218,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![LOST CAVE](https://cdn.akamai.steamstatic.com/steam/apps/946340/header.jpg?t=1543946191)](https://store.steampowered.com/app/946340/LOST_CAVE/)
 [![Please, Don't Touch Anything 3D](https://cdn.akamai.steamstatic.com/steam/apps/529590/header.jpg?t=1579122243)](https://store.steampowered.com/app/529590/Please_Dont_Touch_Anything_3D/)
 
+[![The Last Clockwinder](https://cdn.cloudflare.steamstatic.com/steam/apps/1755100/header.jpg?t=1654196377)](https://store.steampowered.com/app/1755100/The_Last_Clockwinder/)
+[![Transpose](https://cdn.cloudflare.steamstatic.com/steam/apps/835950/header.jpg?t=1589493605)](https://store.steampowered.com/app/835950/Transpose/)
+
+
 ### "Ok what about Escape Rooms?"
 
 ---
