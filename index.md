@@ -77,7 +77,7 @@ Chapters
 
 [![SUPERHOT VR](https://cdn.akamai.steamstatic.com/steam/apps/617830/header.jpg?t=1627641439)](https://store.steampowered.com/app/617830/SUPERHOT_VR/)
 
-- Warning in July 2021 the Devs Self Censored and removed a small bit of conent from the game. Some players may approve of the change or other not, do with this information as you like.
+- Warning in July 2021 the Devs Self Censored and removed a small amount of content related to self harm from the game. Some players may approve of the change or other not, do with this information as you like.
 
 <details>
   
