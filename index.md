@@ -153,6 +153,9 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
+[![Moss: Book II](https://cdn.akamai.steamstatic.com/steam/apps/2059670/header.jpg?t=1668631774)](https://store.steampowered.com/app/2059670/Moss_Book_II/)
+
+
 [![Down the Rabbit Hole](https://cdn.akamai.steamstatic.com/steam/apps/1215270/header.jpg?t=1613724235)](https://store.steampowered.com/app/1215270/Down_the_Rabbit_Hole/)
 
 [![Trover Saves the Universe](https://cdn.akamai.steamstatic.com/steam/apps/1051200/header.jpg?t=1604096279)](https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/)
@@ -186,7 +189,7 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![In Death](https://cdn.akamai.steamstatic.com/steam/apps/605450/header.jpg?t=1550531193)](https://store.steampowered.com/app/605450/In_Death/)
 
-### "More Sword Fighting!"
+### "No, More Sword Fighting!"
 
 
 [![Blade and Sorcery](https://cdn.akamai.steamstatic.com/steam/apps/629730/header.jpg?t=1635526484)](https://store.steampowered.com/app/629730/Blade_and_Sorcery/)
@@ -194,6 +197,9 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Swordsman VR](https://cdn.akamai.steamstatic.com/steam/apps/1206480/header.jpg?t=1635219601)](https://store.steampowered.com/app/1206480/Swordsman_VR/)
 [![Sword MasterVR](https://cdn.akamai.steamstatic.com/steam/apps/523710/header.jpg?t=1494341264)](https://store.steampowered.com/app/523710/Sword_Master_VR/)
+
+[![Broken Edge](https://cdn.akamai.steamstatic.com/steam/apps/1947070/header.jpg?t=1668710005)](https://store.steampowered.com/app/1947070/Broken_Edge/)
+
 
 
 ## "Are there any good Puzzle Games?"
@@ -298,6 +304,8 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![Sniper Elite VR](https://cdn.akamai.steamstatic.com/steam/apps/752480/header.jpg?t=1626975333)](https://store.steampowered.com/app/752480/Sniper_Elite_VR/)
+
+[![LONN](https://cdn.akamai.steamstatic.com/steam/apps/1107340/header.jpg?t=1668714632)](https://store.steampowered.com/app/1107340/LONN/)
 [![BONEWORKS](https://cdn.akamai.steamstatic.com/steam/apps/823500/header.jpg?t=1581381377)](https://store.steampowered.com/app/823500/BONEWORKS/)
 
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
@@ -305,7 +313,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Into the Radius VR](https://cdn.akamai.steamstatic.com/steam/apps/1012790/header.jpg?t=1636053176)](https://store.steampowered.com/app/1012790/Into_the_Radius_VR/)
 [![Boiling Steel](https://cdn.akamai.steamstatic.com/steam/apps/1016860/header.jpg?t=1633959823)](https://store.steampowered.com/app/1016860/Boiling_Steel/)
-
 
 [![Serious Sam 3 VR: BFE](https://cdn.akamai.steamstatic.com/steam/apps/567670/header.jpg?t=1569249537)](https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/)
 [![A-Tech Cybernetic VR](https://cdn.akamai.steamstatic.com/steam/apps/578210/header.jpg?t=1608622929)](https://store.steampowered.com/app/578210/ATech_Cybernetic_VR/)
