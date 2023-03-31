@@ -64,7 +64,11 @@ Chapters
 [![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
 
 [![Moss](https://cdn.akamai.steamstatic.com/steam/apps/846470/header.jpg?t=1614232880)](https://store.steampowered.com/app/846470/Moss/)
+[![Moss 2](https://cdn.cloudflare.steamstatic.com/steam/apps/2059670/header.jpg?t=1674681490)](https://store.steampowered.com/app/2059670/Moss_Book_II/)
+
+
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
+[![Vertigo 2](https://cdn.cloudflare.steamstatic.com/steam/apps/843390/header.jpg?t=1680194975)](https://store.steampowered.com/app/843390/Vertigo_2/)
 
 [![STAR WARS: Squadrons](https://cdn.akamai.steamstatic.com/steam/apps/1222730/header.jpg?t=1614938362)](https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/)
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
@@ -95,7 +99,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Paper Beast](https://cdn.akamai.steamstatic.com/steam/apps/1232570/header.jpg?t=1621585585)](https://store.steampowered.com/app/1232570/Paper_Beast/)
 
 [![Falcon Age](https://cdn.akamai.steamstatic.com/steam/apps/1075080/header.jpg?t=1602171315)](https://store.steampowered.com/app/1075080/Falcon_Age/)
+[![Resist](https://cdn.cloudflare.steamstatic.com/steam/apps/1914750/header.jpg?t=1673130710)](https://store.steampowered.com/app/1914750/Resist/)
+
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
+[![Vertigo 2](https://cdn.cloudflare.steamstatic.com/steam/apps/843390/header.jpg?t=1680194975)](https://store.steampowered.com/app/843390/Vertigo_2/)
 
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
@@ -132,7 +139,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![The Invisible Hours](https://cdn.akamai.steamstatic.com/steam/apps/582560/header.jpg?t=1572879680)](https://store.steampowered.com/app/582560/The_Invisible_Hours/)
 
 [![Westworld Awakening](https://cdn.akamai.steamstatic.com/steam/apps/1133320/header.jpg?t=1573845365)](https://store.steampowered.com/app/1133320/Westworld_Awakening/)
+
+
 [![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
+[![The Walking Dead: Saints & Sinners 2](https://cdn.cloudflare.steamstatic.com/steam/apps/1947500/header.jpg?t=1680115970)](https://store.steampowered.com/app/1947500/The_Walking_Dead_Saints__Sinners__Chapter_2_Retribution/)
 
 [![The Gallery - Episode 1: Call of the Starseed](https://cdn.akamai.steamstatic.com/steam/apps/270130/header.jpg?t=1603215181)](https://store.steampowered.com/app/270130/The_Gallery__Episode_1_Call_of_the_Starseed/)
 [![The Gallery - Episode 2: Heart of the Emberstone](https://cdn.akamai.steamstatic.com/steam/apps/526140/header.jpg?t=1603215138)](https://store.steampowered.com/app/526140/The_Gallery__Episode_2_Heart_of_the_Emberstone/)
@@ -280,6 +290,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Pavlov VR](https://cdn.akamai.steamstatic.com/steam/apps/555160/header.jpg?t=1632855088)](https://store.steampowered.com/app/555160/Pavlov_VR/)
 [![Zero Caliber VR](https://cdn.akamai.steamstatic.com/steam/apps/877200/header.jpg?t=1616483383)](https://store.steampowered.com/app/877200/Zero_Caliber_VR/)
 
+[![Ghosts of Tabor](https://cdn.cloudflare.steamstatic.com/steam/apps/1957780/header.jpg?t=1679359431)](https://store.steampowered.com/app/1957780/Ghosts_of_Tabor/)
+
 [![HARD BULLET](https://cdn.akamai.steamstatic.com/steam/apps/1294760/header.jpg?t=1633618298)](https://store.steampowered.com/app/1294760/HARD_BULLET/)
 [![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
 
@@ -304,12 +316,13 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![Sniper Elite VR](https://cdn.akamai.steamstatic.com/steam/apps/752480/header.jpg?t=1626975333)](https://store.steampowered.com/app/752480/Sniper_Elite_VR/)
+[![Hubris](https://cdn.cloudflare.steamstatic.com/steam/apps/1265800/header.jpg?t=1679062365)](https://store.steampowered.com/app/1265800/Hubris/)
 
 [![LONN](https://cdn.akamai.steamstatic.com/steam/apps/1107340/header.jpg?t=1668714632)](https://store.steampowered.com/app/1107340/LONN/)
 [![BONEWORKS](https://cdn.akamai.steamstatic.com/steam/apps/823500/header.jpg?t=1581381377)](https://store.steampowered.com/app/823500/BONEWORKS/)
 
 [![Vertigo Remastered](https://cdn.akamai.steamstatic.com/steam/apps/1318090/header.jpg?t=1602788350)](https://store.steampowered.com/app/1318090/Vertigo_Remastered/)
-[![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
+[![Vertigo 2](https://cdn.cloudflare.steamstatic.com/steam/apps/843390/header.jpg?t=1680194975)](https://store.steampowered.com/app/843390/Vertigo_2/)
 
 [![Into the Radius VR](https://cdn.akamai.steamstatic.com/steam/apps/1012790/header.jpg?t=1636053176)](https://store.steampowered.com/app/1012790/Into_the_Radius_VR/)
 [![Boiling Steel](https://cdn.akamai.steamstatic.com/steam/apps/1016860/header.jpg?t=1633959823)](https://store.steampowered.com/app/1016860/Boiling_Steel/)
@@ -317,7 +330,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Serious Sam 3 VR: BFE](https://cdn.akamai.steamstatic.com/steam/apps/567670/header.jpg?t=1569249537)](https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/)
 [![A-Tech Cybernetic VR](https://cdn.akamai.steamstatic.com/steam/apps/578210/header.jpg?t=1608622929)](https://store.steampowered.com/app/578210/ATech_Cybernetic_VR/)
 
-
+[![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
 
 ### "What about Co-op Shooter?"
 
@@ -501,6 +514,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
 [![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
+[![Resist](https://cdn.cloudflare.steamstatic.com/steam/apps/1914750/header.jpg?t=1673130710)](https://store.steampowered.com/app/1914750/Resist/)
 
 
 
@@ -608,6 +622,11 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 This is just a select list of VR mods [click here](https://github.com/RototRobot/VRMods-List/blob/gh-pages/index.md) for a complete list
+
+[![HLVR2](https://cdn.cloudflare.steamstatic.com/steam/apps/658920/header.jpg?t=1679746635)](https://store.steampowered.com/app/658920/HalfLife_2_VR_Mod/)
+[![HLVR2EP1](https://cdn.cloudflare.steamstatic.com/steam/apps/2177760/header.jpg?t=1679746743)](https://store.steampowered.com/app/2177750/HalfLife_2_VR_Mod__Episode_One/)
+[![HLVR2EP2](https://cdn.cloudflare.steamstatic.com/steam/apps/2177760/header.jpg?t=1679746743)](https://store.steampowered.com/app/2177760/HalfLife_2_VR_Mod__Episode_Two/)
+
 
 [![MechWarrior 5](https://cdn.akamai.steamstatic.com/steam/apps/784080/header.jpg?t=1632152493)](https://www.nexusmods.com/mechwarrior5mercenaries/mods/531)
 [![Outer Wilds](https://cdn.akamai.steamstatic.com/steam/apps/753640/header.jpg?t=1633026544)](https://outerwildsmods.com/mods/nomaivr/)
