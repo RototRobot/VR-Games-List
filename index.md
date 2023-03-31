@@ -623,10 +623,25 @@ The Game had a small segment where in the player must shoot themself in the head
 
 This is just a select list of VR mods [click here](https://github.com/RototRobot/VRMods-List/blob/gh-pages/index.md) for a complete list
 
+[![Half-Life](https://cdn.akamai.steamstatic.com/steam/apps/70/header.jpg?t=1591048039)](https://github.com/maxvollmer/Half-Life-VR/releases/)
 [![HLVR2](https://cdn.cloudflare.steamstatic.com/steam/apps/658920/header.jpg?t=1679746635)](https://store.steampowered.com/app/658920/HalfLife_2_VR_Mod/)
-[![HLVR2EP1](https://cdn.cloudflare.steamstatic.com/steam/apps/2177760/header.jpg?t=1679746743)](https://store.steampowered.com/app/2177750/HalfLife_2_VR_Mod__Episode_One/)
+
+[![HLVR2EP1](https://cdn.cloudflare.steamstatic.com/steam/apps/2177750/header.jpg?t=1677657211)](https://store.steampowered.com/app/2177750/HalfLife_2_VR_Mod__Episode_One/)
 [![HLVR2EP2](https://cdn.cloudflare.steamstatic.com/steam/apps/2177760/header.jpg?t=1679746743)](https://store.steampowered.com/app/2177760/HalfLife_2_VR_Mod__Episode_Two/)
 
+[![Resident Evil 2](https://cdn.akamai.steamstatic.com/steam/apps/883710/header.jpg?t=1635811811)](https://github.com/praydog/REFramework)
+[![Resident Evil 3](https://cdn.akamai.steamstatic.com/steam/apps/952060/header.jpg?t=1635811814)](https://github.com/praydog/REFramework)
+
+[![Resident Evil 4](https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg?t=1680071511)](https://github.com/praydog/REFramework)
+[![Resident Evil 7](https://cdn.akamai.steamstatic.com/steam/apps/418370/header.jpg?t=1634882274)](https://github.com/praydog/REFramework)
+
+[![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
+[![Alien: Isolation](https://cdn.akamai.steamstatic.com/steam/apps/214490/header.jpg?t=1603026039)](https://github.com/Nibre/MotherVR/releases)
+
+[![GTFO](https://cdn.akamai.steamstatic.com/steam/apps/493520/header.jpg?t=1635776146)](https://github.com/DSprtn/GTFO_VR_Plugin)
+
+[![Minecraft](https://i.imgur.com/9VfVS.png)](http://www.vivecraft.org/)
+[![Yooka-Laylee](https://cdn.akamai.steamstatic.com/steam/apps/360830/header.jpg?t=1628161572)](https://github.com/Eusth/VookaRaylee)
 
 [![MechWarrior 5](https://cdn.akamai.steamstatic.com/steam/apps/784080/header.jpg?t=1632152493)](https://www.nexusmods.com/mechwarrior5mercenaries/mods/531)
 [![Outer Wilds](https://cdn.akamai.steamstatic.com/steam/apps/753640/header.jpg?t=1633026544)](https://outerwildsmods.com/mods/nomaivr/)
@@ -637,26 +652,13 @@ This is just a select list of VR mods [click here](https://github.com/RototRobot
 [![Valheim](https://cdn.akamai.steamstatic.com/steam/apps/892970/header.jpg?t=1636710740)](https://www.nexusmods.com/valheim/mods/847)
 [![QUAKE](https://cdn.akamai.steamstatic.com/steam/apps/2310/header.jpg?t=1629481608)](https://github.com/Fishbiter/Quakespasm-OpenVR)
 
-[![Minecraft](https://i.imgur.com/9VfVS.png)](http://www.vivecraft.org/)
-[![Yooka-Laylee](https://cdn.akamai.steamstatic.com/steam/apps/360830/header.jpg?t=1628161572)](https://github.com/Eusth/VookaRaylee)
-
-[![Receiver](https://cdn.akamai.steamstatic.com/steam/apps/234190/header.jpg?t=1586267903)](https://github.com/ShadowBrian/7DFPS)
-[![Half-Life](https://cdn.akamai.steamstatic.com/steam/apps/70/header.jpg?t=1591048039)](https://github.com/maxvollmer/Half-Life-VR/releases/)
-
-[![GTFO](https://cdn.akamai.steamstatic.com/steam/apps/493520/header.jpg?t=1635776146)](https://github.com/DSprtn/GTFO_VR_Plugin)
-[![Grand Theft Auto V](https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1618856444)](https://github.com/LukeRoss00/gta5-real-mod/releases)
-
 [![DOOM 3](https://cdn.akamai.steamstatic.com/steam/apps/208200/header.jpg?t=1569960032)](https://github.com/NPi2Loup/DOOM-3-BFG-VR)
 [![Doom](https://cdn.akamai.steamstatic.com/steam/apps/2280/header.jpg?t=1600098964)](https://github.com/Fishbiter/gz3doom)
 
-[![Alien: Isolation](https://cdn.akamai.steamstatic.com/steam/apps/214490/header.jpg?t=1603026039)](https://github.com/Nibre/MotherVR/releases)
-[![https://store.steampowered.com/app/1129310/Receiver_2/](https://cdn.akamai.steamstatic.com/steam/apps/1129310/header.jpg?t=1633969361)](https://store.steampowered.com/app/1129310/Receiver_2/)
+[![Receiver](https://cdn.akamai.steamstatic.com/steam/apps/234190/header.jpg?t=1586267903)](https://github.com/ShadowBrian/7DFPS)
+[![Receiver 2](https://cdn.akamai.steamstatic.com/steam/apps/1129310/header.jpg?t=1633969361)](https://store.steampowered.com/app/1129310/Receiver_2/)
 
-[![Resident Evil 2](https://cdn.akamai.steamstatic.com/steam/apps/883710/header.jpg?t=1635811811)](https://github.com/praydog/REFramework)
-[![Resident Evil 3](https://cdn.akamai.steamstatic.com/steam/apps/952060/header.jpg?t=1635811814)](https://github.com/praydog/REFramework)
-
-[![Resident Evil 7](https://cdn.akamai.steamstatic.com/steam/apps/418370/header.jpg?t=1634882274)](https://github.com/praydog/REFramework)
-[![Resident Evil Village](https://cdn.akamai.steamstatic.com/steam/apps/1196590/header.jpg?t=1634882204)](https://github.com/praydog/REFramework)
+[![Grand Theft Auto V](https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1618856444)](https://github.com/LukeRoss00/gta5-real-mod/releases)
 
 
 
