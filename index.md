@@ -2,27 +2,28 @@
 
 # This is A WIP
 
-Originally based on my [Google excel spread sheet of the same concept](https://docs.google.com/spreadsheets/d/1cnu3R813-RiJv9EPJD54qC7vBCrbh9xALIqz7hl5K-o/edit?usp=sharing)
+This list a forked section from my larger [Google excel spread sheet of good VR games](https://docs.google.com/spreadsheets/d/1cnu3R813-RiJv9EPJD54qC7vBCrbh9xALIqz7hl5K-o/edit?usp=sharing).
 
-The idea of this is to catagorize decent VR games that I have come accross to share and recommend to others
+
+The Idea behind this page is to list some of the best VR games I have played and catagorize them by Genre to make it easier to recommend to others.
 
 Q: Why should I listen to you?
 
-A: IDK really I just play a lot of VR games but I'm no one special.
+A: Really I'm no one special I just play a lot of VR.
 
-Q: why arent there more AAA games?
+Q: Why aren't there more AAA VR games?
 
-A: Triple A games are expensive to make and the VR market is small you might need to accept that and start looking at more indie and AA games
+A: AAA games are expensive to produce and the VR market is still very small if you are used to only playing AAA titles you might be disapointed but I beleive their is a lot of good VR games in the Indie and AA space that people just need to give a chance.
 
-(The images are links to the games steam page)
+(The Following images are links to that games steam page)
 
-Chapters
+# Chapters:
 
 * [Essential Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#essential-games)
 * [Adventure Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#what-are-some-good-adventure-games)
 * [Story Rich Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-story-rich-games)
 * [3rd Person Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#how-about-3rd-person-games)
-* [Rogue-like Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-dungeon-crawlersrouge-likes-lites)
+* [Roguelike Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-dungeon-crawlersrouge-likes-lites)
 * [Sword Fighting Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#more-sword-fighting)
 * [Puzzle Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-puzzle-games)
 * [Escape Rooms](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#ok-what-about-escape-rooms)
@@ -48,17 +49,17 @@ Chapters
 
 ---
 
-(before anything else you should really already own the following games)
+(Here's a list of must-play games, regardless of genre, before diving into specific genres.)
 
 [![Half-Life: Alyx](https://cdn.akamai.steamstatic.com/steam/apps/546560/header.jpg?t=1635876995)](https://store.steampowered.com/app/546560/HalfLife_Alyx/)
 [![Pavlov VR](https://cdn.akamai.steamstatic.com/steam/apps/555160/header.jpg?t=1632855088)](https://store.steampowered.com/app/555160/Pavlov_VR/)
-- Seriously if you don't own Alyx yet, then you have not even scractched the surface for good VR games 
+- If you haven't played Alyx yet, then you really have'nt even scratched the surface of VR games. 
 
 
 [![Beat Saber](https://cdn.akamai.steamstatic.com/steam/apps/620980/header.jpg)](https://store.steampowered.com/app/620980/Beat_Saber/)
 [![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
 
-- Warning Facebook bought the Beat Saber Devs in 2019 while I think its still the best VR Rhythm game on the market It may give people pause if they are wanting to avoid Facebook ( [Click here for alternatives ](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-rhythm-games))
+- Facebook bought the Beat Saber Devs in 2019 while I think it's still the best VR Rhythm game currently, you may want to explore other games to avoid facebook ( [Click here for alternatives ](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-rhythm-games))
 
 [![Budget Cuts](https://cdn.akamai.steamstatic.com/steam/apps/400940/header.jpg?t=1588007057)](https://store.steampowered.com/app/400940/Budget_Cuts/)
 [![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
@@ -178,23 +179,28 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
 
-### "Any Dungeon Crawlers/Rouge Likes (Lites)?"
+### "Any Dungeon Crawlers/Roguelike?"
 
 ---
 
 [![COMPOUND](https://cdn.akamai.steamstatic.com/steam/apps/615120/header.jpg?t=1625454495)](https://store.steampowered.com/app/615120/COMPOUND/)
 [![The Mage's Tale](https://cdn.akamai.steamstatic.com/steam/apps/766320/header.jpg?t=1576522764)](https://store.steampowered.com/app/766320/The_Mages_Tale/)
 
-[![Until You Fall](https://cdn.akamai.steamstatic.com/steam/apps/858260/header.jpg?t=1635520544)](https://store.steampowered.com/app/858260/Until_You_Fall/)
-[![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
-
 [![Soul Scathe](https://cdn.akamai.steamstatic.com/steam/apps/1094960/header.jpg?t=1595257988)](https://store.steampowered.com/app/1094960/Soul_Scathe/)
-[![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
+[![Until You Fall](https://cdn.akamai.steamstatic.com/steam/apps/858260/header.jpg?t=1635520544)](https://store.steampowered.com/app/858260/Until_You_Fall/)
 
-[![Sweet Surrender VR](https://cdn.akamai.steamstatic.com/steam/apps/638130/header.jpg?t=1633168248)](https://store.steampowered.com/app/638130/Sweet_Surrender_VR/)
+[![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
+[![The Light Brigade](https://cdn.cloudflare.steamstatic.com/steam/apps/1579880/header.jpg?t=1678091731)](https://store.steampowered.com/app/1579880/The_Light_Brigade/)
+
+[![Presentiment of Death](https://cdn.cloudflare.steamstatic.com/steam/apps/1970260/header.jpg?t=1677768940)](https://store.steampowered.com/app/1970260/Presentiment_of_Death/)
+[![Space Shells](https://cdn.cloudflare.steamstatic.com/steam/apps/2005240/header.jpg?t=1670755089)](https://store.steampowered.com/app/2005240/Space_Shells/)
+
 [![Stones of Harlath](https://cdn.akamai.steamstatic.com/steam/apps/304870/header.jpg?t=1629661341)](https://store.steampowered.com/app/304870/Stones_of_Harlath/)
+[![Sweet Surrender VR](https://cdn.akamai.steamstatic.com/steam/apps/638130/header.jpg?t=1633168248)](https://store.steampowered.com/app/638130/Sweet_Surrender_VR/)
 
 [![In Death](https://cdn.akamai.steamstatic.com/steam/apps/605450/header.jpg?t=1550531193)](https://store.steampowered.com/app/605450/In_Death/)
+[![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
+
 
 ### "No, More Sword Fighting!"
 
@@ -291,6 +297,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Zero Caliber VR](https://cdn.akamai.steamstatic.com/steam/apps/877200/header.jpg?t=1616483383)](https://store.steampowered.com/app/877200/Zero_Caliber_VR/)
 
 [![Ghosts of Tabor](https://cdn.cloudflare.steamstatic.com/steam/apps/1957780/header.jpg?t=1679359431)](https://store.steampowered.com/app/1957780/Ghosts_of_Tabor/)
+[![Contractors](https://cdn.cloudflare.steamstatic.com/steam/apps/963930/header.jpg?t=1668400587)](https://store.steampowered.com/app/963930/Contractors/)
 
 [![HARD BULLET](https://cdn.akamai.steamstatic.com/steam/apps/1294760/header.jpg?t=1633618298)](https://store.steampowered.com/app/1294760/HARD_BULLET/)
 [![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
@@ -368,9 +375,9 @@ The Game had a small segment where in the player must shoot themself in the head
 [![cyubeVR](https://cdn.akamai.steamstatic.com/steam/apps/619500/header.jpg?t=1635915966)](https://store.steampowered.com/app/619500/cyubeVR/)
 
 [![No Man's Sky](https://cdn.akamai.steamstatic.com/steam/apps/275850/header_alt_assets_3.jpg?t=1634736686)](https://store.steampowered.com/app/275850/No_Mans_Sky/)
+[![SpaceEngine](https://cdn.akamai.steamstatic.com/steam/apps/314650/header.jpg?t=1630548669)](https://store.steampowered.com/app/314650/SpaceEngine/)
 
 [![Hot Dogs, Horseshoes & Hand Grenades](https://cdn.akamai.steamstatic.com/steam/apps/450540/header.jpg?t=1576960750)](https://store.steampowered.com/app/450540/Hot_Dogs_Horseshoes__Hand_Grenades/)
-[![SpaceEngine](https://cdn.akamai.steamstatic.com/steam/apps/314650/header.jpg?t=1630548669)](https://store.steampowered.com/app/314650/SpaceEngine/)
 
 ## "I'm looking for good Sports Games?"
 
@@ -411,10 +418,8 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Automobilista 2](https://cdn.akamai.steamstatic.com/steam/apps/1066890/header.jpg?t=1635992916)](https://store.steampowered.com/app/1066890/Automobilista_2/)
 [![rFactor 2](https://cdn.akamai.steamstatic.com/steam/apps/365960/header.jpg?t=1624553519)](https://store.steampowered.com/app/365960/rFactor_2/)
 
-
 [![Assetto Corsa](https://cdn.akamai.steamstatic.com/steam/apps/244210/header.jpg?t=1634026387)](https://store.steampowered.com/app/244210/Assetto_Corsa/)
 [![DiRT Rally 2.0](https://cdn.akamai.steamstatic.com/steam/apps/690790/header.jpg?t=1626343640)](https://store.steampowered.com/app/690790/DiRT_Rally_20/)
-
 
 [![Project CARS](https://cdn.akamai.steamstatic.com/steam/apps/234630/header.jpg?t=1625518420)](https://store.steampowered.com/app/234630/Project_CARS/)
 [![Project CARS 2](https://cdn.akamai.steamstatic.com/steam/apps/378860/header.jpg?t=1630583895)](https://store.steampowered.com/app/378860/Project_CARS_2/)
@@ -469,8 +474,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Aircar](https://cdn.akamai.steamstatic.com/steam/apps/1073390/header.jpg?t=1574392904)](https://store.steampowered.com/app/1073390/Aircar/)
 
 
-
-
 ## "Are there any Rhythm games?" 
 
 ---
@@ -515,7 +518,6 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
 [![Resist](https://cdn.cloudflare.steamstatic.com/steam/apps/1914750/header.jpg?t=1673130710)](https://store.steampowered.com/app/1914750/Resist/)
-
 
 
 ## "Where are all the good RPG's?"
