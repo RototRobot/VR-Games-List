@@ -361,7 +361,13 @@ The Game had a small segment where in the player must shoot themself in the head
 ## "Are there any good Survival games?"
 
 [![Into the Radius VR](https://cdn.akamai.steamstatic.com/steam/apps/1012790/header.jpg?t=1636053176)](https://store.steampowered.com/app/1012790/Into_the_Radius_VR/)
+[![REQUISITION VR](https://cdn.akamai.steamstatic.com/steam/apps/1730650/header.jpg?t=1683370352)](https://store.steampowered.com/app/1730650/REQUISITION_VR/)
+
+
+
 [![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
+[![The Walking Dead: Saints & Sinners 2](https://cdn.cloudflare.steamstatic.com/steam/apps/1947500/header.jpg?t=1680115970)](https://store.steampowered.com/app/1947500/The_Walking_Dead_Saints__Sinners__Chapter_2_Retribution/)
+
 
 [![The Forest](https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1590522045)](https://store.steampowered.com/app/242760/The_Forest/)
 [![Green Hell VR](https://cdn.cloudflare.steamstatic.com/steam/apps/1782330/header.jpg?t=1660733601)](https://store.steampowered.com/app/1782330/Green_Hell_VR/)
