@@ -174,9 +174,10 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Ven VR Adventure](https://cdn.akamai.steamstatic.com/steam/apps/1139310/header.jpg?t=1611861528)](https://store.steampowered.com/app/1139310/Ven_VR_Adventure/)
 [![Carly and the Reaperman](https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg?t=1618898544)](https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/)
 
-[![Wind Wind](https://cdn.akamai.steamstatic.com/steam/apps/1510390/header.jpg?t=1628657991)](https://store.steampowered.com/app/1510390/Wind_Wind/)
 [![A Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/559330/header.jpg?t=1618084136)](https://store.steampowered.com/app/559330/A_Fishermans_Tale/)
+[![Another Fisherman's Tale](https://cdn.akamai.steamstatic.com/steam/apps/2096570/header.jpg?t=1683837389)](https://store.steampowered.com/app/2096570/Another_Fishermans_Tale/)
 
+[![Wind Wind](https://cdn.akamai.steamstatic.com/steam/apps/1510390/header.jpg?t=1628657991)](https://store.steampowered.com/app/1510390/Wind_Wind/)
 [![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
 
 ### "Any Dungeon Crawlers/Roguelike?"
@@ -231,6 +232,9 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Obduction](https://cdn.akamai.steamstatic.com/steam/apps/306760/header.jpg?t=1609893760)](https://store.steampowered.com/app/306760/Obduction/)
 [![Myst](https://cdn.akamai.steamstatic.com/steam/apps/1255560/header.jpg?t=1636151128)](https://store.steampowered.com/app/1255560/Myst/)
 
+[![Maskmaker](https://cdn.cloudflare.steamstatic.com/steam/apps/1337530/header.jpg?t=1653477434)](https://store.steampowered.com/app/1337530/Maskmaker/)
+[![Firmament](https://cdn.akamai.steamstatic.com/steam/apps/754890/header.jpg?t=1684429224)](https://store.steampowered.com/app/754890/Firmament/)
+
 [![Mr.Hack Jack: Robot Detective](https://cdn.akamai.steamstatic.com/steam/apps/1019230/header.jpg?t=1560506263)](https://store.steampowered.com/app/1019230/MrHack_Jack_Robot_Detective/)
 [![Marble Land](https://cdn.akamai.steamstatic.com/steam/apps/503280/header.jpg?t=1572348596)](https://store.steampowered.com/app/503280/Marble_Land/)
 
@@ -240,7 +244,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![The Last Clockwinder](https://cdn.cloudflare.steamstatic.com/steam/apps/1755100/header.jpg?t=1654196377)](https://store.steampowered.com/app/1755100/The_Last_Clockwinder/)
 [![Transpose](https://cdn.cloudflare.steamstatic.com/steam/apps/835950/header.jpg?t=1589493605)](https://store.steampowered.com/app/835950/Transpose/)
 
-[![Maskmaker](https://cdn.cloudflare.steamstatic.com/steam/apps/1337530/header.jpg?t=1653477434)](https://store.steampowered.com/app/1337530/Maskmaker/)
+[![Humanity](https://store.steampowered.com/app/1581480/Humanity/)](https://store.steampowered.com/app/1581480/Humanity/)
 
 
 
@@ -305,17 +309,19 @@ The Game had a small segment where in the player must shoot themself in the head
 [![COMPOUND](https://cdn.akamai.steamstatic.com/steam/apps/615120/header.jpg?t=1625454495)](https://store.steampowered.com/app/615120/COMPOUND/)
 [![Quell 4D](https://cdn.akamai.steamstatic.com/steam/apps/534230/header.jpg?t=1546979915)](https://store.steampowered.com/app/534230/Quell_4D/)
 
+[![District Steel](https://cdn.akamai.steamstatic.com/steam/apps/616820/header.jpg?t=1676570692)](https://store.steampowered.com/app/616820/District_Steel/)
 [![Dead Effect 2 VR](https://cdn.akamai.steamstatic.com/steam/apps/646200/header.jpg?t=1554494043)](https://store.steampowered.com/app/646200/Dead_Effect_2_VR/)
-[![Battlezone](https://cdn.akamai.steamstatic.com/steam/apps/312650/header.jpg?t=1589876364)](https://store.steampowered.com/app/312650/Battlezone_Gold_Edition/)
 
+[![Battlezone](https://cdn.akamai.steamstatic.com/steam/apps/312650/header.jpg?t=1589876364)](https://store.steampowered.com/app/312650/Battlezone_Gold_Edition/)
 [![Overload](https://cdn.akamai.steamstatic.com/steam/apps/448850/header.jpg?t=1598739265)](https://store.steampowered.com/app/448850/Overload/)
-[![Sublevel Zero Redux](https://cdn.akamai.steamstatic.com/steam/apps/327880/header.jpg?t=1589293679)](https://store.steampowered.com/app/327880/Sublevel_Zero_Redux/)
 
 [![Bandit Point](https://cdn.akamai.steamstatic.com/steam/apps/1105430/header.jpg?t=1618813512)](https://store.steampowered.com/app/1105430/Bandit_Point/)
-[![Boiling Steel](https://cdn.akamai.steamstatic.com/steam/apps/1016860/header.jpg?t=1633959823)](https://store.steampowered.com/app/1016860/Boiling_Steel/)
+[![AMID EVIL VR](https://cdn.akamai.steamstatic.com/steam/apps/2320910/header.jpg?t=1683316657)](https://store.steampowered.com/app/2320910/AMID_EVIL_VR/)
 
 [![Gunheart](https://cdn.akamai.steamstatic.com/steam/apps/551700/header.jpg?t=1569524890)](https://store.steampowered.com/app/551700/Gunheart/)
 [![Star Rage VR](https://cdn.akamai.steamstatic.com/steam/apps/615270/header.jpg?t=1506742255)](https://store.steampowered.com/app/615270/Star_Rage_VR/)
+
+[![Sublevel Zero Redux](https://cdn.akamai.steamstatic.com/steam/apps/327880/header.jpg?t=1589293679)](https://store.steampowered.com/app/327880/Sublevel_Zero_Redux/)
 
 
 ### "Ok Story Shooter?"
