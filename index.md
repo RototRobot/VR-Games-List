@@ -24,7 +24,7 @@ A: AAA games are expensive to produce and the VR market is still very small if y
 * [Story Rich Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-story-rich-games)
 * [3rd Person Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#how-about-3rd-person-games)
 * [Roguelike Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-dungeon-crawlersroguelike)
-* [Sword Fighting Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#No,-More-Sword-Fighting!)
+* [Sword Fighting Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#no-more-sword-fighting)
 * [Puzzle Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-puzzle-games)
 * [Escape Rooms](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#ok-what-about-escape-rooms)
 * [Horror Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-some-good-horror-games)
