@@ -139,6 +139,10 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ## "Any Story Rich games?"
 
+[![Journey to Foundation](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950330/header.jpg?t=1717772424)](https://store.steampowered.com/app/2950330/Journey_to_Foundation/)
+[![Snow Scout](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1802520/header.jpg?t=1717425454)](https://store.steampowered.com/app/1802520/Snow_Scout/)
+
+
 [![The Secret of Retropolis](https://cdn.akamai.steamstatic.com/steam/apps/1288420/header.jpg?t=1628589131)](https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/)
 [![The Secret of Retropolis 2](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2293440/header.jpg?t=1707822215)](https://store.steampowered.com/app/2293440/Retropolis_2_Never_Say_Goodbye/)
 
@@ -258,7 +262,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Transpose](https://cdn.cloudflare.steamstatic.com/steam/apps/835950/header.jpg?t=1589493605)](https://store.steampowered.com/app/835950/Transpose/)
 
 [![Tin Hearts](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831700/header.jpg?t=1716473387)](https://store.steampowered.com/app/1831700/Tin_Hearts/)
-[![Humanity](https://store.steampowered.com/app/1581480/Humanity/)](https://store.steampowered.com/app/1581480/Humanity/)
+[![Humanity](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1581480/header.jpg?t=1715984742)](https://store.steampowered.com/app/1581480/Humanity/)
 
 
 
@@ -287,26 +291,27 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![Westworld Awakening](https://cdn.akamai.steamstatic.com/steam/apps/1133320/header.jpg?t=1573845365)](https://store.steampowered.com/app/1133320/Westworld_Awakening/)
-[![Blair Witch VR](https://cdn.akamai.steamstatic.com/steam/apps/1576350/header.jpg?t=1635427051)](https://store.steampowered.com/app/1576350/Blair_Witch_VR/)
+[![MADiSON VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414550/header.jpg?t=1715972067)](https://store.steampowered.com/app/2414550/MADiSON_VR/)
 
+[![Blair Witch VR](https://cdn.akamai.steamstatic.com/steam/apps/1576350/header.jpg?t=1635427051)](https://store.steampowered.com/app/1576350/Blair_Witch_VR/)
 [![Organ Quarter](https://cdn.akamai.steamstatic.com/steam/apps/605830/header.jpg?t=1570508008)](https://store.steampowered.com/app/605830/Organ_Quarter/)
-[![Phasmophobia](https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg?t=1635347530)](https://store.steampowered.com/app/739630/Phasmophobia/)
 
 [![FOREWARNED](https://cdn.akamai.steamstatic.com/steam/apps/1562420/header.jpg?t=1636234739)](https://store.steampowered.com/app/1562420/FOREWARNED/)
-[![Cosmodread](https://cdn.akamai.steamstatic.com/steam/apps/1256060/header.jpg?t=1620726395)](https://store.steampowered.com/app/1256060/Cosmodread/)
+[![Phasmophobia](https://cdn.akamai.steamstatic.com/steam/apps/739630/header.jpg?t=1635347530)](https://store.steampowered.com/app/739630/Phasmophobia/)
 
 [![Propagation VR](https://cdn.akamai.steamstatic.com/steam/apps/1363430/header.jpg?t=1615560858)](https://store.steampowered.com/app/1363430/Propagation_VR/)
+[![Cosmodread](https://cdn.akamai.steamstatic.com/steam/apps/1256060/header.jpg?t=1620726395)](https://store.steampowered.com/app/1256060/Cosmodread/)
+
 [![Hello Puppets! VR](https://cdn.akamai.steamstatic.com/steam/apps/1426280/header.jpg?t=1619888525)](https://store.steampowered.com/app/1426280/Hello_Puppets_VR/)
-
 [![The Dark Method](https://cdn.akamai.steamstatic.com/steam/apps/1462700/header.jpg?t=1635361410)](https://store.steampowered.com/app/1462700/The_Dark_Method/)
+
 [![Dreadhalls](https://cdn.akamai.steamstatic.com/steam/apps/589200/header.jpg?t=1560876505)](https://store.steampowered.com/app/589200/Dreadhalls/)
-
 [![Last Labyrinth](https://cdn.akamai.steamstatic.com/steam/apps/979400/header.jpg?t=1584081474)](https://store.steampowered.com/app/979400/Last_Labyrinth/)
+
 [![Narcosis](https://cdn.akamai.steamstatic.com/steam/apps/366870/header.jpg?t=1531522061)](https://store.steampowered.com/app/366870/Narcosis/)
-
 [![Wraith: The Oblivion - Afterlife](https://cdn.akamai.steamstatic.com/steam/apps/1386870/header.jpg?t=1623159697)](https://store.steampowered.com/app/1386870/Wraith_The_Oblivion__Afterlife/)
-[![Transference](https://cdn.akamai.steamstatic.com/steam/apps/647570/header.jpg?t=1537371233)](https://store.steampowered.com/app/647570/Transference/)
 
+[![Transference](https://cdn.akamai.steamstatic.com/steam/apps/647570/header.jpg?t=1537371233)](https://store.steampowered.com/app/647570/Transference/)
 [![Twin Peaks VR](https://cdn.akamai.steamstatic.com/steam/apps/1081040/header.jpg?t=1615054820)](https://store.steampowered.com/app/1081040/Twin_Peaks_VR/)
 
 
@@ -577,6 +582,9 @@ The Game had a small segment where in the player must shoot themself in the head
 
 [![Table of Tales: The Crooked Crown](https://cdn.akamai.steamstatic.com/steam/apps/1030310/header.jpg?t=1631684261)](https://store.steampowered.com/app/1030310/Table_of_Tales_The_Crooked_Crown/)
 [![Demeo](https://cdn.akamai.steamstatic.com/steam/apps/1484280/header.jpg?t=1635963745)](https://store.steampowered.com/app/1484280/Demeo/)
+
+[![Survival Nation](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153780/header.jpg?t=1715683473)](https://store.steampowered.com/app/2153780/Survival_Nation/)
+[![Legendary Tales](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465070/header.jpg?t=1710443135)](https://store.steampowered.com/app/1465070/Legendary_Tales/)
 
 [![5089: The Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/414510/header.jpg?t=1568814385)](https://store.steampowered.com/app/414510/5089_The_Action_RPG/)
 [![8089: The Next Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/1593280/header.jpg?t=1636128977)](https://store.steampowered.com/app/1593280/8089_The_Next_Action_RPG/)
