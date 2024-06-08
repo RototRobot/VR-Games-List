@@ -108,33 +108,42 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 [![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
 
-[![Cave Digger 2: Dig Harder](https://cdn.akamai.steamstatic.com/steam/apps/1523510/header.jpg?t=1635424211)](https://store.steampowered.com/app/1523510/Cave_Digger_2_Dig_Harder/)
-[![Bean Stalker](https://cdn.akamai.steamstatic.com/steam/apps/1704080/header.jpg?t=1635953071)](https://store.steampowered.com/app/1704080/Bean_Stalker/)
-
 [![Red Matter](https://cdn.akamai.steamstatic.com/steam/apps/966680/header.jpg?t=1589135545)](https://store.steampowered.com/app/966680/Red_Matter/)
 [![Red Matter 2](https://cdn.cloudflare.steamstatic.com/steam/apps/2081470/header.jpg?t=1661300047)](https://store.steampowered.com/app/2081470/Red_Matter_2/)
 
 [![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
 [![The Wizards - Dark Times](https://cdn.akamai.steamstatic.com/steam/apps/1103860/header.jpg?t=1635524610)](https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times/)
 
-[![Sairento VR](https://cdn.akamai.steamstatic.com/steam/apps/555880/header.jpg?t=1592675082)](https://store.steampowered.com/app/555880/Sairento_VR/)
-[![Raw Data](https://cdn.akamai.steamstatic.com/steam/apps/436320/header.jpg?t=1565043373)](https://store.steampowered.com/app/436320/Raw_Data/)
-
-[![Wandering in space](https://cdn.cloudflare.steamstatic.com/steam/apps/1971770/header.jpg?t=1659767141)](https://store.steampowered.com/app/1971770/Wandering_in_space/)
-[![Aeon](https://cdn.akamai.steamstatic.com/steam/apps/543390/header.jpg?t=1635415089)](https://store.steampowered.com/app/543390/Aeon/)
-
 [![Rhythm of the Universe: Ionia](https://cdn.akamai.steamstatic.com/steam/apps/1121140/header.jpg?t=1635186636)](https://store.steampowered.com/app/1121140/Rhythm_of_the_Universe_Ionia/)
 [![Robinson: The Journey](https://cdn.akamai.steamstatic.com/steam/apps/579820/header.jpg?t=1505808553)](https://store.steampowered.com/app/579820/Robinson_The_Journey/)
 
+[![Cave Digger 2: Dig Harder](https://cdn.akamai.steamstatic.com/steam/apps/1523510/header.jpg?t=1635424211)](https://store.steampowered.com/app/1523510/Cave_Digger_2_Dig_Harder/)
+[![Bean Stalker](https://cdn.akamai.steamstatic.com/steam/apps/1704080/header.jpg?t=1635953071)](https://store.steampowered.com/app/1704080/Bean_Stalker/)
+
 [![Eye of the Temple](https://cdn.akamai.steamstatic.com/steam/apps/589940/header.jpg)](https://store.steampowered.com/app/589940/Eye_of_the_Temple/)
+
+
+## "Action heavy adventure games?"
+
+---
+
+[![Hellsweeper VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1341490/header.jpg?t=1714663866)](https://store.steampowered.com/app/1341490/Hellsweeper_VR/)
 [![Warhammer Age of Sigmar: Tempestfall](https://cdn.akamai.steamstatic.com/steam/apps/1337100/header.jpg?t=1637167322)](https://store.steampowered.com/app/1337100/Warhammer_Age_of_Sigmar_Tempestfall/)
+
+[![Sairento VR](https://cdn.akamai.steamstatic.com/steam/apps/555880/header.jpg?t=1592675082)](https://store.steampowered.com/app/555880/Sairento_VR/)
+[![Raw Data](https://cdn.akamai.steamstatic.com/steam/apps/436320/header.jpg?t=1565043373)](https://store.steampowered.com/app/436320/Raw_Data/)
+
+[![Aeon](https://cdn.akamai.steamstatic.com/steam/apps/543390/header.jpg?t=1635415089)](https://store.steampowered.com/app/543390/Aeon/)
 
 - A Minimum 2m x 2m play space is required
 
 ## "Any Story Rich games?"
 
 [![The Secret of Retropolis](https://cdn.akamai.steamstatic.com/steam/apps/1288420/header.jpg?t=1628589131)](https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/)
+[![The Secret of Retropolis 2](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2293440/header.jpg?t=1707822215)](https://store.steampowered.com/app/2293440/Retropolis_2_Never_Say_Goodbye/)
+
 [![Katie](https://cdn.akamai.steamstatic.com/steam/apps/829560/header.jpg?t=1560368449)](https://store.steampowered.com/app/829560/Katie/)
+[![Titan Station](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1881120/header.jpg?t=1700761406)](https://store.steampowered.com/app/1881120/Titan_Station/)
 
 [![The Under Presents](https://cdn.akamai.steamstatic.com/steam/apps/1232940/header.jpg?t=1628823441)](https://store.steampowered.com/app/1232940/The_Under_Presents/)
 [![The Invisible Hours](https://cdn.akamai.steamstatic.com/steam/apps/582560/header.jpg?t=1572879680)](https://store.steampowered.com/app/582560/The_Invisible_Hours/)
@@ -185,10 +194,10 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![COMPOUND](https://cdn.akamai.steamstatic.com/steam/apps/615120/header.jpg?t=1625454495)](https://store.steampowered.com/app/615120/COMPOUND/)
-[![The Mage's Tale](https://cdn.akamai.steamstatic.com/steam/apps/766320/header.jpg?t=1576522764)](https://store.steampowered.com/app/766320/The_Mages_Tale/)
+[![UNDERDOGS](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/header.jpg?t=1710256618)](https://store.steampowered.com/app/2441700/UNDERDOGS/)
 
+[![The Mage's Tale](https://cdn.akamai.steamstatic.com/steam/apps/766320/header.jpg?t=1576522764)](https://store.steampowered.com/app/766320/The_Mages_Tale/)
 [![Soul Scathe](https://cdn.akamai.steamstatic.com/steam/apps/1094960/header.jpg?t=1595257988)](https://store.steampowered.com/app/1094960/Soul_Scathe/)
-[![Until You Fall](https://cdn.akamai.steamstatic.com/steam/apps/858260/header.jpg?t=1635520544)](https://store.steampowered.com/app/858260/Until_You_Fall/)
 
 [![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
 [![The Light Brigade](https://cdn.cloudflare.steamstatic.com/steam/apps/1579880/header.jpg?t=1678091731)](https://store.steampowered.com/app/1579880/The_Light_Brigade/)
@@ -200,7 +209,11 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Sweet Surrender VR](https://cdn.akamai.steamstatic.com/steam/apps/638130/header.jpg?t=1633168248)](https://store.steampowered.com/app/638130/Sweet_Surrender_VR/)
 
 [![In Death](https://cdn.akamai.steamstatic.com/steam/apps/605450/header.jpg?t=1550531193)](https://store.steampowered.com/app/605450/In_Death/)
+[![Until You Fall](https://cdn.akamai.steamstatic.com/steam/apps/858260/header.jpg?t=1635520544)](https://store.steampowered.com/app/858260/Until_You_Fall/)
+
 [![Ancient Dungeon](https://cdn.akamai.steamstatic.com/steam/apps/1125240/header.jpg?t=1635958852)](https://store.steampowered.com/app/1125240/Ancient_Dungeon/)
+[![Wandering in space](https://cdn.cloudflare.steamstatic.com/steam/apps/1971770/header.jpg?t=1659767141)](https://store.steampowered.com/app/1971770/Wandering_in_space/)
+
 
 
 ### "No, More Sword Fighting!"
@@ -244,6 +257,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![The Last Clockwinder](https://cdn.cloudflare.steamstatic.com/steam/apps/1755100/header.jpg?t=1654196377)](https://store.steampowered.com/app/1755100/The_Last_Clockwinder/)
 [![Transpose](https://cdn.cloudflare.steamstatic.com/steam/apps/835950/header.jpg?t=1589493605)](https://store.steampowered.com/app/835950/Transpose/)
 
+[![Tin Hearts](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831700/header.jpg?t=1716473387)](https://store.steampowered.com/app/1831700/Tin_Hearts/)
 [![Humanity](https://store.steampowered.com/app/1581480/Humanity/)](https://store.steampowered.com/app/1581480/Humanity/)
 
 
@@ -252,8 +266,11 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
+[![Escape Simulator](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/header.jpg?t=1713522706)](https://store.steampowered.com/app/1435790/Escape_Simulator/)
 [![I Expect You To Die](https://cdn.akamai.steamstatic.com/steam/apps/587430/header.jpg?t=1636654793)](https://store.steampowered.com/app/587430/I_Expect_You_To_Die/)
+
 [![I Expect You To Die 2](https://cdn.akamai.steamstatic.com/steam/apps/1499120/header.jpg?t=1629824226)](https://store.steampowered.com/app/1499120/I_Expect_You_To_Die_2/)
+[![I Expect You To Die 3](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296380/header.jpg?t=1698699366)](https://store.steampowered.com/app/2296380/I_Expect_You_To_Die_3_Cog_in_the_Machine/)
 
 [![A Rogue Escape](https://cdn.akamai.steamstatic.com/steam/apps/1476100/header.jpg?t=1632419375)](https://store.steampowered.com/app/1476100/A_Rogue_Escape/)
 [![Neverout](https://cdn.akamai.steamstatic.com/steam/apps/579720/header.jpg?t=1632730603)](https://store.steampowered.com/app/579720/Neverout/)
@@ -303,14 +320,17 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Ghosts of Tabor](https://cdn.cloudflare.steamstatic.com/steam/apps/1957780/header.jpg?t=1679359431)](https://store.steampowered.com/app/1957780/Ghosts_of_Tabor/)
 [![Contractors](https://cdn.cloudflare.steamstatic.com/steam/apps/963930/header.jpg?t=1668400587)](https://store.steampowered.com/app/963930/Contractors/)
 
+[![Crossfire: Sierra Squad](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636030/header.jpg?t=1709527890)](https://store.steampowered.com/app/1636030/Crossfire_Sierra_Squad/)
+[![Gunheart](https://cdn.akamai.steamstatic.com/steam/apps/551700/header.jpg?t=1569524890)](https://store.steampowered.com/app/551700/Gunheart/)
+
+[![District Steel](https://cdn.akamai.steamstatic.com/steam/apps/616820/header.jpg?t=1676570692)](https://store.steampowered.com/app/616820/District_Steel/)
+[![Dead Effect 2 VR](https://cdn.akamai.steamstatic.com/steam/apps/646200/header.jpg?t=1554494043)](https://store.steampowered.com/app/646200/Dead_Effect_2_VR/)
+
 [![HARD BULLET](https://cdn.akamai.steamstatic.com/steam/apps/1294760/header.jpg?t=1633618298)](https://store.steampowered.com/app/1294760/HARD_BULLET/)
 [![EVERSLAUGHT](https://cdn.akamai.steamstatic.com/steam/apps/1530750/header.jpg?t=1634141510)](https://store.steampowered.com/app/1530750/EVERSLAUGHT/)
 
 [![COMPOUND](https://cdn.akamai.steamstatic.com/steam/apps/615120/header.jpg?t=1625454495)](https://store.steampowered.com/app/615120/COMPOUND/)
 [![Quell 4D](https://cdn.akamai.steamstatic.com/steam/apps/534230/header.jpg?t=1546979915)](https://store.steampowered.com/app/534230/Quell_4D/)
-
-[![District Steel](https://cdn.akamai.steamstatic.com/steam/apps/616820/header.jpg?t=1676570692)](https://store.steampowered.com/app/616820/District_Steel/)
-[![Dead Effect 2 VR](https://cdn.akamai.steamstatic.com/steam/apps/646200/header.jpg?t=1554494043)](https://store.steampowered.com/app/646200/Dead_Effect_2_VR/)
 
 [![Battlezone](https://cdn.akamai.steamstatic.com/steam/apps/312650/header.jpg?t=1589876364)](https://store.steampowered.com/app/312650/Battlezone_Gold_Edition/)
 [![Overload](https://cdn.akamai.steamstatic.com/steam/apps/448850/header.jpg?t=1598739265)](https://store.steampowered.com/app/448850/Overload/)
@@ -318,13 +338,11 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Bandit Point](https://cdn.akamai.steamstatic.com/steam/apps/1105430/header.jpg?t=1618813512)](https://store.steampowered.com/app/1105430/Bandit_Point/)
 [![AMID EVIL VR](https://cdn.akamai.steamstatic.com/steam/apps/2320910/header.jpg?t=1683316657)](https://store.steampowered.com/app/2320910/AMID_EVIL_VR/)
 
-[![Gunheart](https://cdn.akamai.steamstatic.com/steam/apps/551700/header.jpg?t=1569524890)](https://store.steampowered.com/app/551700/Gunheart/)
 [![Star Rage VR](https://cdn.akamai.steamstatic.com/steam/apps/615270/header.jpg?t=1506742255)](https://store.steampowered.com/app/615270/Star_Rage_VR/)
-
 [![Sublevel Zero Redux](https://cdn.akamai.steamstatic.com/steam/apps/327880/header.jpg?t=1589293679)](https://store.steampowered.com/app/327880/Sublevel_Zero_Redux/)
 
 
-### "Ok Story Shooter?"
+### "Ok more Story Shooter?"
 
 ---
 
@@ -343,6 +361,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Serious Sam 3 VR: BFE](https://cdn.akamai.steamstatic.com/steam/apps/567670/header.jpg?t=1569249537)](https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/)
 [![A-Tech Cybernetic VR](https://cdn.akamai.steamstatic.com/steam/apps/578210/header.jpg?t=1608622929)](https://store.steampowered.com/app/578210/ATech_Cybernetic_VR/)
 
+[![Genotype](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667980/header.jpg?t=1717611855)](https://store.steampowered.com/app/2667980/Genotype/)
 [![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
 
 ### "What about Co-op Shooter?"
@@ -356,26 +375,28 @@ The Game had a small segment where in the player must shoot themself in the head
 [![PAYDAY 2](https://cdn.akamai.steamstatic.com/steam/apps/218620/header.jpg?t=1635426490)](https://store.steampowered.com/app/218620/PAYDAY_2/)
 
 [![Arizona Sunshine](https://cdn.akamai.steamstatic.com/steam/apps/342180/header.jpg?t=1635453160)](https://store.steampowered.com/app/342180/Arizona_Sunshine/)
+[![Arizona Sunshine 2](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540210/header.jpg?t=1717595670)](https://store.steampowered.com/app/1540210/Arizona_Sunshine_2/)
+
+- Arizona sunshine 1 feels quite early VR these days keeping it for posterity but I recommend skipping straight to the sequel
+
 [![After the Fall](https://cdn.akamai.steamstatic.com/steam/apps/751630/header.jpg?t=1635451254)](https://store.steampowered.com/app/751630/After_the_Fall/)
+
+[![Crossfire: Sierra Squad](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636030/header.jpg?t=1709527890)](https://store.steampowered.com/app/1636030/Crossfire_Sierra_Squad/)
+
 
 ## "Are there any good Survival games?"
 
 [![Into the Radius VR](https://cdn.akamai.steamstatic.com/steam/apps/1012790/header.jpg?t=1636053176)](https://store.steampowered.com/app/1012790/Into_the_Radius_VR/)
 [![REQUISITION VR](https://cdn.akamai.steamstatic.com/steam/apps/1730650/header.jpg?t=1683370352)](https://store.steampowered.com/app/1730650/REQUISITION_VR/)
 
-
-
 [![The Walking Dead: Saints & Sinners](https://cdn.akamai.steamstatic.com/steam/apps/916840/header.jpg?t=1632416461)](https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/)
 [![The Walking Dead: Saints & Sinners 2](https://cdn.cloudflare.steamstatic.com/steam/apps/1947500/header.jpg?t=1680115970)](https://store.steampowered.com/app/1947500/The_Walking_Dead_Saints__Sinners__Chapter_2_Retribution/)
-
 
 [![The Forest](https://cdn.akamai.steamstatic.com/steam/apps/242760/header.jpg?t=1590522045)](https://store.steampowered.com/app/242760/The_Forest/)
 [![Green Hell VR](https://cdn.cloudflare.steamstatic.com/steam/apps/1782330/header.jpg?t=1660733601)](https://store.steampowered.com/app/1782330/Green_Hell_VR/)
 
-
 [![Subnautica](https://cdn.akamai.steamstatic.com/steam/apps/264710/header.jpg?t=1634241829)](https://store.steampowered.com/app/264710/Subnautica/)
 [![The Solus Project](https://cdn.akamai.steamstatic.com/steam/apps/313630/header.jpg?t=1480876448)](https://store.steampowered.com/app/313630/The_Solus_Project/)
-
 
 [![Song in the Smoke](https://cdn.cloudflare.steamstatic.com/steam/apps/1787810/header.jpg?t=1639677613)](https://store.steampowered.com/app/1787810/Song_in_the_Smoke/)
 
@@ -445,11 +466,12 @@ The Game had a small segment where in the player must shoot themself in the head
 ---
 
 [![Dash Dash World](https://cdn.akamai.steamstatic.com/steam/apps/1159860/header.jpg?t=1622567893)](https://store.steampowered.com/app/1159860/Dash_Dash_World/)
+[![Galaxy Kart VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401970/header.jpg?t=1704305663)](https://store.steampowered.com/app/1401970/Galaxy_Kart_VR/)
+
 [![Mini Motor Racing X](https://cdn.akamai.steamstatic.com/steam/apps/1303990/header.jpg?t=1592954720)](https://store.steampowered.com/app/1303990/Mini_Motor_Racing_X/)
-
 [![Touring Karts](https://cdn.akamai.steamstatic.com/steam/apps/1088950/header.jpg?t=1607879436)](https://store.steampowered.com/app/1088950/Touring_Karts/)
-[![GRIP: Combat Racing](https://cdn.akamai.steamstatic.com/steam/apps/396900/header.jpg?t=1633099700)](https://store.steampowered.com/app/396900/GRIP_Combat_Racing/)
 
+[![GRIP: Combat Racing](https://cdn.akamai.steamstatic.com/steam/apps/396900/header.jpg?t=1633099700)](https://store.steampowered.com/app/396900/GRIP_Combat_Racing/)
 [![Sprint Vector](https://cdn.akamai.steamstatic.com/steam/apps/590690/header.jpg?t=1565043590)](https://store.steampowered.com/app/590690/Sprint_Vector/)
 
 ### "F-Zero Style Racing?"
@@ -513,23 +535,37 @@ The Game had a small segment where in the player must shoot themself in the head
 
 ---
 
-[![STRIDE](https://cdn.akamai.steamstatic.com/steam/apps/1292040/header.jpg?t=1636657606)](https://store.steampowered.com/app/1292040/STRIDE/)
-[![TO THE TOP](https://cdn.akamai.steamstatic.com/steam/apps/509250/header.jpg?t=1569022917)](https://store.steampowered.com/app/509250/TO_THE_TOP/)
+[![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
+[![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
 
-[![Gorilla Tag](https://cdn.akamai.steamstatic.com/steam/apps/1533390/header.jpg?t=1632461123)](https://store.steampowered.com/app/1533390/Gorilla_Tag/)
+[![Yupitergrad](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
+[![Yupitergrad2](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969000/header.jpg?t=1699537400)](https://store.steampowered.com/app/1969000/Yupitergrad_2_The_Lost_Station/)
+
+[![STRIDE](https://cdn.akamai.steamstatic.com/steam/apps/1292040/header.jpg?t=1636657606)](https://store.steampowered.com/app/1292040/STRIDE/)
+[![STRIDEFates](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597880/header.jpg?t=1715935721)](https://store.steampowered.com/app/2597880/STRIDE_Fates/)
+
+[![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
 [![TOSS!](https://cdn.akamai.steamstatic.com/steam/apps/1270460/header.jpg?t=1632755699)](https://store.steampowered.com/app/1270460/TOSS/)
+
+[![Resist](https://cdn.cloudflare.steamstatic.com/steam/apps/1914750/header.jpg?t=1673130710)](https://store.steampowered.com/app/1914750/Resist/)
+[![Slinger VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/609850/header.jpg?t=1587661200)](https://store.steampowered.com/app/609850/Slinger_VR/)
+
+[![Stilt](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482270/header.jpg?t=1716796188)](https://store.steampowered.com/app/2482270/Stilt/)
+[![No More Rainbows](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634100/header.jpg?t=1715268596)](https://store.steampowered.com/app/1634100/No_More_Rainbows/)
+
+[![Windlands](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/428370/header.jpg?t=1699358532)](https://store.steampowered.com/app/428370/Windlands/)
+[![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
+
+[![Grapple Flow VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2871150/header.jpg?t=1717705527)](https://store.steampowered.com/app/2871150/Grapple_Flow_VR/)
+[![JETBOUNCE](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1819950/header.jpg?t=1679690573)](https://store.steampowered.com/app/1819950/JETBOUNCE/)
 
 [![Climbey](https://cdn.akamai.steamstatic.com/steam/apps/520010/header.jpg?t=1568742036)](https://store.steampowered.com/app/520010/Climbey/)
 [![Forsaken Spire](https://cdn.akamai.steamstatic.com/steam/apps/1258200/header.jpg?t=1596706832)](https://store.steampowered.com/app/1258200/Forsaken_Spire/)
 
-[![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
-[![Yupitergrad ](https://cdn.akamai.steamstatic.com/steam/apps/1352020/header.jpg?t=1634828039)](https://store.steampowered.com/app/1352020/Yupitergrad_Virtual_Reality_Adventure/)
+[![TO THE TOP](https://cdn.akamai.steamstatic.com/steam/apps/509250/header.jpg?t=1569022917)](https://store.steampowered.com/app/509250/TO_THE_TOP/)
 
-[![Jet Island](https://cdn.akamai.steamstatic.com/steam/apps/587220/header.jpg?t=1593104730)](https://store.steampowered.com/app/587220/Jet_Island/)
-[![Windlands 2](https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg?t=1616410886)](https://store.steampowered.com/app/458580/Windlands_2/)
-
-[![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
-[![Resist](https://cdn.cloudflare.steamstatic.com/steam/apps/1914750/header.jpg?t=1673130710)](https://store.steampowered.com/app/1914750/Resist/)
+[![GRAB](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1701130/header.jpg?t=1707778995)](https://store.steampowered.com/app/1701130/GRAB/)
+[![Gorilla Tag](https://cdn.akamai.steamstatic.com/steam/apps/1533390/header.jpg?t=1632461123)](https://store.steampowered.com/app/1533390/Gorilla_Tag/)
 
 
 ## "Where are all the good RPG's?"
@@ -551,7 +587,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Operencia: The Stolen Sun](https://cdn.akamai.steamstatic.com/steam/apps/985950/header.jpg?t=1617710664)](https://store.steampowered.com/app/985950/Operencia_The_Stolen_Sun/)
 [![Left-Hand Path](https://cdn.akamai.steamstatic.com/steam/apps/488760/header.jpg?t=1572521931)](https://store.steampowered.com/app/488760/LeftHand_Path/)
 
-
 ## "I'm looking a good Stealth Game?"
 
 ---
@@ -560,7 +595,7 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
 
 [![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
-[![Panther VR](https://cdn.akamai.steamstatic.com/steam/apps/864730/header.jpg?t=1635350953)](https://store.steampowered.com/app/864730/Panther_VR/)
+[![Vampire: The Masquerade](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431700/header.jpg?t=1708071660)](https://store.steampowered.com/app/2431700/Vampire_The_Masquerade__Justice/)
 
 [![Espire 1: VR Operative](https://cdn.akamai.steamstatic.com/steam/apps/669290/header.jpg?t=1588687958)](https://store.steampowered.com/app/669290/Espire_1_VR_Operative/)
 [![Republique VR](https://cdn.akamai.steamstatic.com/steam/apps/915200/header.jpg?t=1598728580)](https://store.steampowered.com/app/915200/Republique_VR/)
@@ -587,8 +622,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Automata Break](https://cdn.cloudflare.steamstatic.com/steam/apps/1322010/header.jpg?t=1620870080)](https://store.steampowered.com/app/1322010/Automata_Break/)
 [![Tabletop Simulator](https://cdn.cloudflare.steamstatic.com/steam/apps/286160/header.jpg?t=1620412025)](https://store.steampowered.com/app/286160/Tabletop_Simulator/)
 
-
-
 ### "Party games?"
 
 ---
@@ -605,8 +638,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Late For Work](https://cdn.cloudflare.steamstatic.com/steam/apps/623540/header.jpg?t=1619785418)](https://store.steampowered.com/app/623540/Late_For_Work/)
 
 
-
-
 ## "I just want some Chill game to relax with"
 
 ---
@@ -617,15 +648,18 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Ultimate Fishing Simulator VR](https://cdn.akamai.steamstatic.com/steam/apps/1024010/header.jpg?t=1604043244)](https://store.steampowered.com/app/1024010/Ultimate_Fishing_Simulator_VR/)
 [![VR Regatta](https://cdn.akamai.steamstatic.com/steam/apps/468240/header.jpg?t=1573126539)](https://store.steampowered.com/app/468240/VR_Regatta__The_Sailing_Game/)
 
-
 [![Rolling Line](https://cdn.akamai.steamstatic.com/steam/apps/754150/header.jpg?t=1630627163)](https://store.steampowered.com/app/754150/Rolling_Line/)
 [![Fujii](https://cdn.akamai.steamstatic.com/steam/apps/589040/header.jpg?t=1635440567)](https://store.steampowered.com/app/589040/Fujii/)
 
 [![Golf It!](https://cdn.akamai.steamstatic.com/steam/apps/571740/header.jpg?t=1628676035)](https://store.steampowered.com/app/571740/Golf_It/)
-[![Gadgeteer](https://cdn.akamai.steamstatic.com/steam/apps/746560/header.jpg?t=1615415999)](https://store.steampowered.com/app/746560/Gadgeteer/)
+[![Walkabout Mini Golf VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1408230/header.jpg?t=1714755983)](https://store.steampowered.com/app/1408230/Walkabout_Mini_Golf_VR/)
 
 - Golf can be relaxing right?
 
+[![Under Pressure](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2524980/header.jpg?t=1699458453)](https://store.steampowered.com/app/2524980/Under_Pressure/)
+[![PowerWash Adventure VR](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2589440/header.jpg?t=1702515661)](https://store.steampowered.com/app/2589440/PowerWash_Adventure_VR/)
+
+[![Gadgeteer](https://cdn.akamai.steamstatic.com/steam/apps/746560/header.jpg?t=1615415999)](https://store.steampowered.com/app/746560/Gadgeteer/)
 [![Garden of the Sea](https://cdn.akamai.steamstatic.com/steam/apps/1086850/header.jpg?t=1605013889)](https://store.steampowered.com/app/1086850/Garden_of_the_Sea/)
 
 - Warning the [PC Version was downgraded to the same visuals as the quest version](https://www.reddit.com/r/ValveIndex/comments/qt5vyb/another_once_great_index_game_gets_profoundly/)
