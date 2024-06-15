@@ -193,6 +193,11 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Wind Wind](https://cdn.akamai.steamstatic.com/steam/apps/1510390/header.jpg?t=1628657991)](https://store.steampowered.com/app/1510390/Wind_Wind/)
 [![Along Together](https://cdn.akamai.steamstatic.com/steam/apps/859640/header.jpg)](https://store.steampowered.com/app/859640/Along_Together/)
 
+[![A Knight in the Attic](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318700/header.jpg?t=1681406114)](https://store.steampowered.com/app/1318700/A_Knight_in_the_Attic/)
+
+
+
+
 ### "Any Dungeon Crawlers/Roguelike?"
 
 ---
