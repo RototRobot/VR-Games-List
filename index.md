@@ -29,6 +29,9 @@ A: AAA games are expensive to produce and the VR market is still very small if y
 * [Escape Rooms](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#ok-what-about-escape-rooms)
 * [Horror Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-some-good-horror-games)
 * [Shooters](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-some-good-shooters)
+* [Role-Playing Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#where-are-all-the-good-rpgs)
+* [Strategy Games](https://github.com/RototRobot/VR-Games-List/edit/gh-pages/index.md#any-good-stratagy-games)
+* [Stealth Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-a-good-stealth-game)
 * [Survival Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-survival-games)
 * [Sandbox Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-good-sandboxexploration-games)
 * [Sports Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-for-good-sports-games)
@@ -36,8 +39,6 @@ A: AAA games are expensive to produce and the VR market is still very small if y
 * [Flight Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-flight-games)
 * [Rhythm Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#are-there-any-rhythm-games)
 * [Games with Great Movement](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#what-are-some-games-with-great-movement)
-* [Role-Playing Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#where-are-all-the-good-rpgs)
-* [Stealth Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#im-looking-a-good-stealth-game)
 * [Better with Friends](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#any-good-games-to-play-with-friends)
 * [Party Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#party-games)
 * [Relaxing Games](https://github.com/RototRobot/VR-Games-List/blob/gh-pages/index.md#i-just-want-some-chill-game-to-relax-with)
@@ -354,6 +355,23 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Sublevel Zero Redux](https://cdn.akamai.steamstatic.com/steam/apps/327880/header.jpg?t=1589293679)](https://store.steampowered.com/app/327880/Sublevel_Zero_Redux/)
 
 
+### "What about Co-op Shooter?"
+
+---
+
+[![Pavlov VR](https://cdn.akamai.steamstatic.com/steam/apps/555160/header.jpg?t=1632855088)](https://store.steampowered.com/app/555160/Pavlov_VR/)
+[![SURV1V3](https://cdn.akamai.steamstatic.com/steam/apps/722180/header.jpg?t=1636796296)](https://store.steampowered.com/app/722180/SURV1V3/)
+
+[![Zero Caliber VR](https://cdn.akamai.steamstatic.com/steam/apps/877200/header.jpg?t=1616483383)](https://store.steampowered.com/app/877200/Zero_Caliber_VR/)
+[![PAYDAY 2](https://cdn.akamai.steamstatic.com/steam/apps/218620/header.jpg?t=1635426490)](https://store.steampowered.com/app/218620/PAYDAY_2/)
+
+[![Arizona Sunshine Remake](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2897700/header.jpg?t=1732789729)](https://store.steampowered.com/app/2897700/Arizona_Sunshine_Remake/)
+[![Arizona Sunshine 2](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540210/header.jpg?t=1717595670)](https://store.steampowered.com/app/1540210/Arizona_Sunshine_2/)
+
+[![After the Fall](https://cdn.akamai.steamstatic.com/steam/apps/751630/header.jpg?t=1635451254)](https://store.steampowered.com/app/751630/After_the_Fall/)
+[![Crossfire: Sierra Squad](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636030/header.jpg?t=1709527890)](https://store.steampowered.com/app/1636030/Crossfire_Sierra_Squad/)
+
+
 ### "Ok more Story Shooter?"
 
 ---
@@ -378,21 +396,59 @@ The Game had a small segment where in the player must shoot themself in the head
 [![Genotype](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667980/header.jpg?t=1717611855)](https://store.steampowered.com/app/2667980/Genotype/)
 [![Downward Spiral: Horus Station](https://cdn.akamai.steamstatic.com/steam/apps/690620/header.jpg?t=1543337077)](https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/)
 
-### "What about Co-op Shooter?"
+
+## "Where are all the good RPG's?"
 
 ---
 
-[![Pavlov VR](https://cdn.akamai.steamstatic.com/steam/apps/555160/header.jpg?t=1632855088)](https://store.steampowered.com/app/555160/Pavlov_VR/)
-[![SURV1V3](https://cdn.akamai.steamstatic.com/steam/apps/722180/header.jpg?t=1636796296)](https://store.steampowered.com/app/722180/SURV1V3/)
+[![The Elder Scrolls V: Skyrim VR](https://cdn.akamai.steamstatic.com/steam/apps/611670/header.jpg?t=1564002443)](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/)
+[![Fallout 4 VR](https://cdn.akamai.steamstatic.com/steam/apps/611660/header.jpg?t=1607445202)](https://store.steampowered.com/app/611660/Fallout_4_VR)
 
-[![Zero Caliber VR](https://cdn.akamai.steamstatic.com/steam/apps/877200/header.jpg?t=1616483383)](https://store.steampowered.com/app/877200/Zero_Caliber_VR/)
-[![PAYDAY 2](https://cdn.akamai.steamstatic.com/steam/apps/218620/header.jpg?t=1635426490)](https://store.steampowered.com/app/218620/PAYDAY_2/)
+[![Table of Tales: The Crooked Crown](https://cdn.akamai.steamstatic.com/steam/apps/1030310/header.jpg?t=1631684261)](https://store.steampowered.com/app/1030310/Table_of_Tales_The_Crooked_Crown/)
+[![Demeo](https://cdn.akamai.steamstatic.com/steam/apps/1484280/header.jpg?t=1635963745)](https://store.steampowered.com/app/1484280/Demeo/)
 
-[![Arizona Sunshine Remake](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2897700/header.jpg?t=1732789729)](https://store.steampowered.com/app/2897700/Arizona_Sunshine_Remake/)
-[![Arizona Sunshine 2](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540210/header.jpg?t=1717595670)](https://store.steampowered.com/app/1540210/Arizona_Sunshine_2/)
+[![Survival Nation](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153780/header.jpg?t=1715683473)](https://store.steampowered.com/app/2153780/Survival_Nation/)
+[![Legendary Tales](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465070/header.jpg?t=1710443135)](https://store.steampowered.com/app/1465070/Legendary_Tales/)
 
-[![After the Fall](https://cdn.akamai.steamstatic.com/steam/apps/751630/header.jpg?t=1635451254)](https://store.steampowered.com/app/751630/After_the_Fall/)
-[![Crossfire: Sierra Squad](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636030/header.jpg?t=1709527890)](https://store.steampowered.com/app/1636030/Crossfire_Sierra_Squad/)
+[![5089: The Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/414510/header.jpg?t=1568814385)](https://store.steampowered.com/app/414510/5089_The_Action_RPG/)
+[![8089: The Next Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/1593280/header.jpg?t=1636128977)](https://store.steampowered.com/app/1593280/8089_The_Next_Action_RPG/)
+
+[![Vengeful Rites](https://cdn.akamai.steamstatic.com/steam/apps/755410/header.jpg?t=1635507034)](https://store.steampowered.com/app/755410/Vengeful_Rites/)
+[![Vanishing Realms](https://cdn.akamai.steamstatic.com/steam/apps/322770/header.jpg?t=1571039700)](https://store.steampowered.com/app/322770/Vanishing_Realms/)
+
+[![Operencia: The Stolen Sun](https://cdn.akamai.steamstatic.com/steam/apps/985950/header.jpg?t=1617710664)](https://store.steampowered.com/app/985950/Operencia_The_Stolen_Sun/)
+[![Left-Hand Path](https://cdn.akamai.steamstatic.com/steam/apps/488760/header.jpg?t=1572521931)](https://store.steampowered.com/app/488760/LeftHand_Path/)
+
+
+
+## "Any Good Stratagy Games?"
+
+
+
+[![Underworld Overseer](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2909910/header.jpg?t=1730716162)](https://store.steampowered.com/app/2909910/Underworld_Overseer/)
+[![Quar: Battle for Gate 18](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/436940/header.jpg?t=1686588195)](https://store.steampowered.com/app/436940/Quar_Battle_for_Gate_18/)
+
+- Really loved the story told between the letters in Quar.
+
+---
+
+
+## "I'm looking a good Stealth Game?"
+
+---
+
+[![Budget Cuts](https://cdn.akamai.steamstatic.com/steam/apps/400940/header.jpg?t=1588007057)](https://store.steampowered.com/app/400940/Budget_Cuts/)
+[![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
+
+[![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
+[![Vampire: The Masquerade](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431700/header.jpg?t=1708071660)](https://store.steampowered.com/app/2431700/Vampire_The_Masquerade__Justice/)
+
+[![Espire 1: VR Operative](https://cdn.akamai.steamstatic.com/steam/apps/669290/header.jpg?t=1588687958)](https://store.steampowered.com/app/669290/Espire_1_VR_Operative/)
+[![Republique VR](https://cdn.akamai.steamstatic.com/steam/apps/915200/header.jpg?t=1598728580)](https://store.steampowered.com/app/915200/Republique_VR/)
+
+[![The Spy Who Shrunk Me](https://cdn.akamai.steamstatic.com/steam/apps/754850/header.jpg?t=1590670548)](https://store.steampowered.com/app/754850/The_Spy_Who_Shrunk_Me/)
+[![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
+
 
 
 ## "Are there any good Survival games?"
@@ -585,43 +641,6 @@ The Game had a small segment where in the player must shoot themself in the head
 [![TO THE TOP](https://cdn.akamai.steamstatic.com/steam/apps/509250/header.jpg?t=1569022917)](https://store.steampowered.com/app/509250/TO_THE_TOP/)
 
 
-## "Where are all the good RPG's?"
-
----
-
-[![The Elder Scrolls V: Skyrim VR](https://cdn.akamai.steamstatic.com/steam/apps/611670/header.jpg?t=1564002443)](https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/)
-[![Fallout 4 VR](https://cdn.akamai.steamstatic.com/steam/apps/611660/header.jpg?t=1607445202)](https://store.steampowered.com/app/611660/Fallout_4_VR)
-
-[![Table of Tales: The Crooked Crown](https://cdn.akamai.steamstatic.com/steam/apps/1030310/header.jpg?t=1631684261)](https://store.steampowered.com/app/1030310/Table_of_Tales_The_Crooked_Crown/)
-[![Demeo](https://cdn.akamai.steamstatic.com/steam/apps/1484280/header.jpg?t=1635963745)](https://store.steampowered.com/app/1484280/Demeo/)
-
-[![Survival Nation](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153780/header.jpg?t=1715683473)](https://store.steampowered.com/app/2153780/Survival_Nation/)
-[![Legendary Tales](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465070/header.jpg?t=1710443135)](https://store.steampowered.com/app/1465070/Legendary_Tales/)
-
-[![5089: The Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/414510/header.jpg?t=1568814385)](https://store.steampowered.com/app/414510/5089_The_Action_RPG/)
-[![8089: The Next Action RPG](https://cdn.akamai.steamstatic.com/steam/apps/1593280/header.jpg?t=1636128977)](https://store.steampowered.com/app/1593280/8089_The_Next_Action_RPG/)
-
-[![Vengeful Rites](https://cdn.akamai.steamstatic.com/steam/apps/755410/header.jpg?t=1635507034)](https://store.steampowered.com/app/755410/Vengeful_Rites/)
-[![Vanishing Realms](https://cdn.akamai.steamstatic.com/steam/apps/322770/header.jpg?t=1571039700)](https://store.steampowered.com/app/322770/Vanishing_Realms/)
-
-[![Operencia: The Stolen Sun](https://cdn.akamai.steamstatic.com/steam/apps/985950/header.jpg?t=1617710664)](https://store.steampowered.com/app/985950/Operencia_The_Stolen_Sun/)
-[![Left-Hand Path](https://cdn.akamai.steamstatic.com/steam/apps/488760/header.jpg?t=1572521931)](https://store.steampowered.com/app/488760/LeftHand_Path/)
-
-## "I'm looking a good Stealth Game?"
-
----
-
-[![Budget Cuts](https://cdn.akamai.steamstatic.com/steam/apps/400940/header.jpg?t=1588007057)](https://store.steampowered.com/app/400940/Budget_Cuts/)
-[![Budget Cuts 2: Mission Insolvency](https://cdn.akamai.steamstatic.com/steam/apps/1092430/header_alt_assets_0.jpg?t=1635427750)](https://store.steampowered.com/app/1092430/Budget_Cuts_2_Mission_Insolvency/#app_reviews_hash)
-
-[![ROGAN: The Thief in the Castle](https://cdn.akamai.steamstatic.com/steam/apps/966560/header.jpg?t=1630300233)](https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/)
-[![Vampire: The Masquerade](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431700/header.jpg?t=1708071660)](https://store.steampowered.com/app/2431700/Vampire_The_Masquerade__Justice/)
-
-[![Espire 1: VR Operative](https://cdn.akamai.steamstatic.com/steam/apps/669290/header.jpg?t=1588687958)](https://store.steampowered.com/app/669290/Espire_1_VR_Operative/)
-[![Republique VR](https://cdn.akamai.steamstatic.com/steam/apps/915200/header.jpg?t=1598728580)](https://store.steampowered.com/app/915200/Republique_VR/)
-
-[![The Spy Who Shrunk Me](https://cdn.akamai.steamstatic.com/steam/apps/754850/header.jpg?t=1590670548)](https://store.steampowered.com/app/754850/The_Spy_Who_Shrunk_Me/)
-[![Shadow Uprising](https://cdn.akamai.steamstatic.com/steam/apps/987000/header.jpg?t=1577895043)](https://store.steampowered.com/app/987000/Shadow_Uprising/)
 
 ## "Any Good Games to play with friends?"
 
@@ -731,16 +750,6 @@ This is just a select list of VR mods [click here](https://github.com/RototRobot
 
 
 
-## "Any Good Stratagy Games?"
-
-
-
-[![Underworld Overseer](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2909910/header.jpg?t=1730716162)](https://store.steampowered.com/app/2909910/Underworld_Overseer/)
-[![Quar: Battle for Gate 18](https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/436940/header.jpg?t=1686588195)](https://store.steampowered.com/app/436940/Quar_Battle_for_Gate_18/)
-
-- Really loved the story told between the letters in Quar.
-
----
 
 ### TBA
 
