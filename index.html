@@ -12,12 +12,66 @@
             padding: 0; /* MODIFIED: Removed padding, moved to #main-content */
         }
 
-        /* --- 1. Filter Button Row --- */
-        #filter-container {
+        /* --- 1. Outer Container: Sets the stage for positioning --- */
+        #filter-controls-row {
+            display: flex;         /* Enable Flexbox */
+            align-items: flex-start; /* Align items to the top (important for multi-row content) */
+            flex-wrap: wrap;       /* Allow the content to wrap onto multiple lines */
             margin-bottom: 24px;
-            text-align: center;
+            padding: 0 15px; 
+            width: 100%;
+            
+            /* Remove any positioning properties that would interfere with clicks */
+            position: static; 
         }
 
+        /* --- 2. Main Filter Group: Centered Block Wrapper --- */
+        #filter-buttons-group {
+            /* Allow the group to take up maximum space */
+            flex-grow: 1; 
+            
+            /* Use text-align to center the block-level children (the .filter-group rows) */
+            text-align: center;
+            
+            /* Remove conflicting margin settings */
+            margin: 0;
+        }
+
+        /* --- 3. Individual Filter Containers (These are your actual rows) --- */
+        .filter-group { 
+            /* Treat each group as a centered, wrapping block */
+            display: inline-block; /* Allows the row to be centered by parent's text-align */
+            text-align: center; 
+            margin-bottom: 8px;
+            
+            /* Ensure the buttons inside are flexible */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* 🔴 4. Clear Button: Ensures Right Alignment and Clickability 🔴 */
+        #clear-all-btn {
+            /* Explicitly prevent the button from growing/shrinking */
+            flex-shrink: 0; 
+            
+            /* Use margin-left: auto to push it to the far right if it's on the same line. 
+               If it wraps, it will simply align to the right edge of the container. */
+            margin-left: 15px;
+            
+            /* Pale Red Styling (keep) */
+            background-color: #f8d7da; 
+            border-color: #f5c6cb;
+            color: #721c24; 
+            margin-top: 4px; /* Adjust top margin to align vertically with the first row */
+            
+            /* CRITICAL: Remove all positioning that was causing overlap */
+            position: static; 
+            right: auto;
+            top: auto;
+        }
+
+        /* --- Existing Button Styles --- */
         .filter-btn {
             background-color: #ffffff;
             border: 1px solid #ccd0d5;
@@ -37,9 +91,43 @@
             color: #ffffff;
             border-color: #007bff;
         }
+        /* Style for a button when it IS toggled Off */
+        .filter-btn.exclude {
+            background-color: #FF007B;
+            color: #ffffff;
+            border-color: #FF007B;
+        }
+
+        
 
         .filter-btn:hover:not(.active) {
             background-color: #f5f5f5;
+        }
+
+        .filter-btn:hover:not(.exclude) {
+            background-color: #f5f5f5;
+        }        
+
+        /* Style and Position for the Clear Button*/
+        #clear-all-btn {
+            /* Pushes the button as far right as possible. 
+               This works even if #filter-container is centered by 'justify-content: center' */
+            margin-left: auto; 
+            
+            /* Ensure it has a margin to the left of the centered group */
+            margin-right: 4px; 
+            
+            /* Pale Red Styling */
+            background-color: #f8d7da; /* Very pale red/pink background */
+            border-color: #f5c6cb; /* Slightly darker pale red border */
+            color: #721c24; /* Darker red text for readability */
+        }
+
+        /* Ensure the clear button doesn't accidentally get the blue active style */
+        #clear-all-btn.active {
+            background-color: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
         }
 
         /* --- 2. Game Grid --- */
@@ -281,6 +369,41 @@
     }
 
 
+    /* ------------------------------------------- */
+    /* Scroll to Top */
+    /* ------------------------------------------- */
+
+    #scrollToTopBtn {
+        /* Fixed position keeps it in the same place when scrolling */
+        position: fixed; 
+        
+        /* Position it slightly up from the bottom */
+        bottom: 20px; 
+        
+        /* Center it horizontally */
+        left: 50%;
+        transform: translateX(-50%); 
+        
+        /* Styling */
+        display: none; /* Initially hide the button */
+        background-color: #007bff; /* Use your primary color */
+        color: white;
+        border: none;
+        border-radius: 50%; /* Make it circular */
+        padding: 15px 20px;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: opacity 0.3s, background-color 0.3s;
+        z-index: 1000; /* Ensure it stays above other content */
+    }
+
+    #scrollToTopBtn:hover {
+        opacity: 1;
+        background-color: #0056b3;
+    }
+
+
     </style>
 </head>
 <body>
@@ -295,56 +418,74 @@
     <h2>Robot_ninja_pirate's Page of Good VR games</h2>
 
     <div class="faq-section">
-        <p>This list a forked section from my larger Google excel spread sheet of good VR games.</p>
-        <p>The Idea behind this page is to list some of the best VR games I have played and catagorize them by Genre to make it easier to recommend to others.</p>
+        <p>This list is a forked section from my larger Google excel spreadsheet of good VR games. <a href="https://docs.google.com/spreadsheets/d/1cnu3R813-RiJv9EPJD54qC7vBCrbh9xALIqz7hl5K-o/edit?gid=2144938032#gid=2144938032" target="_blank">View the full spreadsheet here.</a></p>
+        <p>The idea behind this page a simple graphical list for people new to VR or getting back to VR looking for a sort of Top 100 best games kind of list. and can be used as a resource for others rather than making lengthly reddit posts everytime someone asks.</p>
+
         <h3>FAQ</h3>
         <h4>Q: Why should I listen to you?</h4>
-        <p>A: Really I'm no one special I just play a lot of VR.</p>
-        <h4>Q: Why aren't there more AAA VR games?</h4>
-        <p>A: AAA games are expensive to produce and the VR market is still very small if you are used to only playing AAA titles you might be disapointed but I beleive their is a lot of good VR games in the Indie and AA space that people just need to give a chance.</p>
+        <p>A: Really, I'm no one special, I just play a lot of VR.</p>
+
+        <h4>Q: A lot of these games look indie or AA were are the AAA games?</h4>
+        <p> as of the time of making list there are only about 8 million Active Quest users and 4-5 SteamVR users. it important to understand that VR is still quite niche and that only a handful of AAA developers have invested. but VR is still changing rapidly and Indies are making some really creative games that I think are worth looking at too.</p>
+
+        <h4>Q: I've already played everything you listed!</h4>
+
+        <p>A: Well then this list might not be for you, it's really meant for people just getting into VR or on the fence not a verteran like yourself.</p>
+
+
+
     </div>
 </div>
 
 <div id="main-content">
 
-    <div id="filter-container">
-        <button class="filter-btn" data-genre="choice">Editor's Choice</button>
-        <button class="filter-btn" data-genre="essental">Essentials</button>
-        <button class="filter-btn" data-genre="beginner">Beginner</button>
-        <button class="filter-btn" data-genre="underrated">Underrated</button>
-        </div>     
+    <div id="filter-controls-row">
+        <div id="filter-buttons-group">
 
-    <div id="filter-container">
+            <div class="filter-group">
+                <button class="filter-btn" data-genre="choice">Editor's Choice</button>
+                <button class="filter-btn" data-genre="essental">Essentials</button>
+                <button class="filter-btn" data-genre="beginner">Beginner</button>
+                <button class="filter-btn" data-genre="underrated">Underrated</button>
+            </div>     
 
-        <button class="filter-btn" data-genre="action">Action</button>
-        <button class="filter-btn" data-genre="adventure">Adventure</button>
-        <button class="filter-btn" data-genre="puzzle">Puzzle</button>
-        <button class="filter-btn" data-genre="rpg">RPG</button>
-        <button class="filter-btn" data-genre="simulation">Simulation</button>
-        <button class="filter-btn" data-genre="narrative">Narrative</button>
-        <button class="filter-btn" data-genre="storyrich">Story Rich</button>
-        <button class="filter-btn" data-genre="escaperoom">Escape Room</button>
-        <button class="filter-btn" data-genre="stealth">Stealth</button>
-        <button class="filter-btn" data-genre="shooter">Shooter</button>
-        <button class="filter-btn" data-genre="flight">Flight</button>
-        <button class="filter-btn" data-genre="horror">Horror</button>
-        <button class="filter-btn" data-genre="metroidvania">Metroidvania</button>
-        <button class="filter-btn" data-genre="great-movement">Great Movement</button>
-        <button class="filter-btn" data-genre="survival">Survival</button>
-        <button class="filter-btn" data-genre="roguelike">Roguelike</button>
-        <button class="filter-btn" data-genre="platformer">Platformer</button>
-        <button class="filter-btn" data-genre="exploration">Exploration</button>
-        <button class="filter-btn" data-genre="casual">Casual</button>
-        <button class="filter-btn" data-genre="port">VR Port</button>
-        </div> 
+            <div class="filter-group">
+                <button class="filter-btn" data-genre="action">Action</button>
+                <button class="filter-btn" data-genre="adventure">Adventure</button>
+                <button class="filter-btn" data-genre="puzzle">Puzzle</button>
+                <button class="filter-btn" data-genre="rpg">RPG</button>
+                <button class="filter-btn" data-genre="platformer">Platformer</button>
+                <button class="filter-btn" data-genre="narrative">Narrative</button>
+                <button class="filter-btn" data-genre="stealth">Stealth</button>
+                <button class="filter-btn" data-genre="shooter">Shooter</button>
+                <button class="filter-btn" data-genre="flight">Flight</button>
+            </div> 
 
-    <div id="filter-container">
+            <div class="filter-group">
+                <button class="filter-btn" data-genre="simulation">Simulation</button>
+                <button class="filter-btn" data-genre="storyrich">Story Rich</button>
+                <button class="filter-btn" data-genre="escaperoom">Escape Room</button>
+                <button class="filter-btn" data-genre="horror">Horror</button>
+                <button class="filter-btn" data-genre="metroidvania">Metroidvania</button>
+                <button class="filter-btn" data-genre="great-movement">Great Movement</button>
+                <button class="filter-btn" data-genre="survival">Survival</button>
+                <button class="filter-btn" data-genre="roguelike">Roguelike</button>
+                <button class="filter-btn" data-genre="exploration">Exploration</button>
+                <button class="filter-btn" data-genre="casual">Casual</button>
+                <button class="filter-btn" data-genre="port">VR Port</button>
+            </div> 
 
-        <button class="filter-btn" data-genre="1st">First Person</button>
-        <button class="filter-btn" data-genre="3rd">Third Person</button>
-        <button class="filter-btn" data-genre="co-op">Co-op</button>
-        <button class="filter-btn" data-genre="asymmetrical">Asymmetrical</button>
-        </div> 
+            <div class="filter-group">
+                <button class="filter-btn" data-genre="1st">First Person</button>
+                <button class="filter-btn" data-genre="3rd">Third Person</button>
+                <button class="filter-btn" data-genre="co-op">Co-op</button>
+                <button class="filter-btn" data-genre="asymmetrical">Asymmetrical</button>
+            </div> 
+        </div>
+
+        <button id="clear-all-btn" class="filter-btn">Clear Filters</button>
+    </div>
+
 
     <div id="game-grid">
         
@@ -1237,55 +1378,103 @@
 
     </div>  
 
+<button id="scrollToTopBtn" title="Go to top">&#9650;</button>
+
 </div> <script>
-        // This JavaScript makes the filters work
-        document.addEventListener('DOMContentLoaded', () => {
-            const filterButtons = document.querySelectorAll('#filter-container .filter-btn');
-            const gameItems = document.querySelectorAll('#game-grid .game-item');
-            
-            // This function will run every time a button is clicked
-            const filterGames = () => {
-                // 1. Get all *active* filters
-                const activeFilters = [];
-                filterButtons.forEach(button => {
-                    if (button.classList.contains('active')) {
-                        activeFilters.push(button.dataset.genre);
-                    }
-                });
+// This JavaScript makes the filters work with three states: include, exclude, or off
+document.addEventListener('DOMContentLoaded', () => {
+    // Selector is correct based on your final HTML structure
+    const filterButtons = document.querySelectorAll('#filter-buttons-group .filter-btn');
+    const clearAllButton = document.querySelector('#clear-all-btn');
+    const gameItems = document.querySelectorAll('#game-grid .game-item');
 
-                // 2. Loop through every game item
-                gameItems.forEach(item => {
-                    const itemTags = item.dataset.tags.split(' ');
-                    
-                    // 3. Decide to show or hide
-                    if (activeFilters.length === 0) {
-                        // If no filters are active, show all games
-                        item.classList.remove('hide');
-                    } else {
-                        // Check if the item has *at least one* of the active tags
-                        //const hasMatch = activeFilters.some(filter => itemTags.includes(filter));
-                        const hasMatch = activeFilters.every(filter => itemTags.includes(filter));
-                        if (hasMatch) {
-                            item.classList.remove('hide'); // Show it
-                        } else {
-                            item.classList.add('hide');    // Hide it
-                        }
-                    }
-                });
-            };
+    // This function will run every time a button is clicked
+    const filterGames = () => {
+        // Collect all filters into separate arrays based on their state
+        const inclusionFilters = [];
+        const exclusionFilters = [];
 
-            // Add a click listener to each button
-            filterButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    // Toggle the 'active' class on the button itself
-                    button.classList.toggle('active');
-                    
-                    // Re-run the filter logic
-                    filterGames();
-                });
-            });
+        filterButtons.forEach(button => {
+            if (button.classList.contains('active')) {
+                inclusionFilters.push(button.dataset.genre);
+            } else if (button.classList.contains('exclude')) {
+                exclusionFilters.push(button.dataset.genre);
+            }
         });
-        
+
+        const hasActiveFilters = inclusionFilters.length > 0 || exclusionFilters.length > 0;
+
+        // Loop through every game item
+        gameItems.forEach(item => {
+            const itemTags = item.dataset.tags ? item.dataset.tags.split(' ') : [];
+
+            // 1. If no filters are active at all, show all games
+            if (!hasActiveFilters) {
+                item.classList.remove('hide');
+                return;
+            }
+
+            // 2. Check Inclusionary Filters (MUST have ALL of these tags)
+            const passesInclusion = inclusionFilters.every(filter => itemTags.includes(filter));
+
+            // 3. Check Exclusionary Filters (MUST NOT have ANY of these tags)
+            // The item fails if it includes *any* tag that is in the exclusionFilters list
+            const failsExclusion = exclusionFilters.some(filter => itemTags.includes(filter));
+
+            // 4. Final Decision
+            // Show item if it:
+            // a) Passes ALL inclusion filters AND
+            // b) Does NOT fail ANY exclusion filters
+            if (passesInclusion && !failsExclusion) {
+                item.classList.remove('hide'); // Show it
+            } else {
+                item.classList.add('hide');   // Hide it
+            }
+        });
+    };
+
+    // Clears all active filters and re-runs filterGames
+    const clearFilters = () => {
+        filterButtons.forEach(button => {
+            button.classList.remove('active');
+            button.classList.remove('exclude');
+        });
+        filterGames();
+    };
+
+    // --- BUTTON EVENT LISTENERS (THREE-STATE LOGIC) ---
+
+    // Add a click listener to EACH regular filter button (only once!)
+    filterButtons.forEach(button => {
+        button.addEventListener('click', () => {
+            // Check current state and transition to the next state
+
+            if (button.classList.contains('active')) {
+                // State 1 (Active/Include) -> State 2 (Exclude)
+                button.classList.remove('active');
+                button.classList.add('exclude');
+            } else if (button.classList.contains('exclude')) {
+                // State 2 (Exclude) -> State 3 (Off/Default)
+                button.classList.remove('exclude');
+                // No class change needed, it's now back to default
+            } else {
+                // State 3 (Off/Default) -> State 1 (Active/Include)
+                button.classList.add('active');
+            }
+
+            // Re-run the filter logic
+            filterGames();
+        });
+    });
+
+    // Add a click listener to the Clear All button, but only if it exists
+    if (clearAllButton) {
+        clearAllButton.addEventListener('click', clearFilters);
+    }
+
+    // --- End of DOMContentLoaded function ---
+});
+            
         // This JavaScript makes the game card info box expand
         document.addEventListener('DOMContentLoaded', function() {
             // Select all expand buttons
@@ -1329,6 +1518,44 @@
 
         // Close menu when X is clicked
         closeButton.addEventListener('click', toggleMenu);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+    // ... all your existing filter code ...
+
+    // --- NEW SCROLL TO TOP FUNCTIONALITY ---
+
+    const scrollBtn = document.getElementById("scrollToTopBtn");
+
+    // Function to check scroll position and toggle button visibility
+    const scrollFunction = () => {
+        // Show the button if the user has scrolled down 300 pixels
+        if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+            scrollBtn.style.display = "block";
+        } else {
+            scrollBtn.style.display = "none";
+        }
+    };
+
+    // Function to scroll to the top of the document
+    const topFunction = () => {
+        // Use smooth scroll behavior if supported
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+        // Fallback for older browsers
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    };
+
+    // 1. Add event listener for when the user scrolls
+    window.onscroll = scrollFunction;
+
+    // 2. Add event listener for when the button is clicked
+    if (scrollBtn) {
+        scrollBtn.addEventListener('click', topFunction);
+    }
     });
 
 // --- Content Loading Function ---
