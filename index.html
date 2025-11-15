@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Filter Grid</title>
+    <style>
+        /* --- Basic Setup --- */
+        body {
+            font-family: sans-serif;
+            background-color: #0f1826;
+            margin: 0;
+            padding: 0; /* MODIFIED: Removed padding, moved to #main-content */
+        }
+
+        /* --- 1. Filter Button Row --- */
+        #filter-container {
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .filter-btn {
+            background-color: #ffffff;
+            border: 1px solid #ccd0d5;
+            border-radius: 18px;
+            padding: 10px 20px;
+            margin: 4px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #333;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        /* Style for a button when it IS toggled on */
+        .filter-btn.active {
+            background-color: #007bff;
+            color: #ffffff;
+            border-color: #007bff;
+        }
+
+        .filter-btn:hover:not(.active) {
+            background-color: #f5f5f5;
+        }
+
+        /* --- 2. Game Grid --- */
+        #game-grid {
+            display: grid;
+            /* This creates the 4-wide grid as requested */
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        .game-item {
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s ease, opacity 0.2s ease;
+        }
+
+        .game-item .image-container {
+            position: relative;
+            /* Ensure no extra space below the image */
+            line-height: 0; 
+        }
+
+        /* This is the class JavaScript will add/remove */
+        .game-item.hide {
+            transform: scale(0.9);
+            opacity: 0;
+            display: none; /* Fallback and final state */
+        }
+
+
+        .game-item img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+
+        .game-item h3 {
+            position: absolute; /* Takes it out of the normal flow */
+            bottom: 0;         /* Positions it at the bottom of .image-container */
+            left: 0;           /* Starts at the left edge */
+            width: 100%;       /* Spans the full width */
+
+            min-height: 15px;
+            
+            /* Semi-transparent background (RGB for black, A for alpha/opacity) */
+            background-color: rgba(0, 0, 0, 0.7); 
+            
+            /* Text styling */
+            color: white;
+            padding: 10px;
+            margin: 0; /* Remove default margin from h3 */
+            font-size: 1.1em;
+            font-weight: normal;
+
+            /* FIX FOR AUTO-RESIZING (TRUNCATION)  */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+
+            /* Use flexbox to position the title and the button */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.3s ease-in-out; /* Smooth transition */
+            z-index: 20; /* Ensure H3 is above expanded content */
+
+        }
+
+        /* Style for the Expand Button (your "little icon") */
+        .expand-btn {
+            background: none;
+            border: 1px solid white;
+            color: white;
+            border-radius: 50%;
+            width: 15px;
+            height: 15px;
+            cursor: pointer;
+            font-size: 10px;
+            line-height: 1;
+            text-align: center;
+            margin: 0px 15px;
+            background-color: rgba(0, 0, 0, 0); 
+        }        
+
+        /* ---------------------------------------------------- */
+        /* STYLES FOR THE EXPANDED STATE */
+        /* ---------------------------------------------------- */
+
+        /* 1. Initially hide the expanded paragraph content */
+        .expanded-content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease-in-out;
+            z-index: 10; /* Ensure it's under the H3 overlay initially */
+            line-height: 1.5;
+
+            /* Content styling */
+            color: white;
+            padding: 10px 15px;
+            box-sizing: border-box;
+        }
+
+        /* 2. When the .game-item has the .is-expanded class, show the content */
+        .game-item.is-expanded .expanded-content {
+            background-color: rgba(0, 0, 0, 0.9); /* Full background coverage with transparency */
+            opacity: 1;
+            visibility: visible;
+            padding-top: 40px;
+            z-index: 30; /* Bring it to the top */
+        }
+
+        /* 3. Also, move the H3 element out of the way for the expanded view */
+        .game-item.is-expanded h3 {
+            background-color: transparent;
+            bottom: calc(100% - 44px); /* Moves the bar to the top of the container */
+            padding: 10px 15px;
+
+            z-index: 40;
+            background-color: rgba(0, 0, 0, 0); 
+        }
+        /* --- Responsive Design --- */
+        /* On smaller screens, go from 4-wide to 2-wide */
+        @media (max-width: 900px) {
+            #game-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* On very small screens, stack them */
+        @media (max-width: 500px) {
+            #game-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+    /* ------------------------------------------- */
+    /* SIDEBAR AND HAMBURGER STYLES (MODIFIED) */
+    /* ------------------------------------------- */
+
+    /* Style for the hamburger icon button */
+    .hamburger-menu {
+        position: fixed; /* Keep it visible even when scrolling */
+        top: 20px;
+        left: 20px;
+        z-index: 1000; /* Ensure it's on top of everything */
+        font-size: 24px;
+        background: #333;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        /* MODIFIED: Added transition for the push animation */
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* Style for the sidebar itself */
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 300px; /* Width of the menu */
+        background-color: #2c3e50; /* Dark background */
+        color: white;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        padding: 20px;
+        box-sizing: border-box;
+        
+        /* Initially hide the menu off-screen to the left */
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    /* MODIFIED: Class is now on the BODY, not the sidebar */
+    body.sidebar-is-open .sidebar {
+        transform: translateX(0);
+    }
+
+    /* Style for the Close Button */
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: none;
+        border: none;
+        color: white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    /* Sidebar Content Styling */
+    .sidebar h2 {
+        margin-top: 60px;
+        font-size: 1.3em;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .sidebar .faq-section h4 {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .sidebar .faq-section p {
+        font-size: 0.9em;
+        line-height: 1.4;
+        color: #ccc;
+    }
+
+    /* ------------------------------------------- */
+    /* NEW STYLES FOR PUSH CONTENT (MODIFIED) */
+    /* ------------------------------------------- */
+
+    #main-content {
+        /* This wrapper holds all the content that gets pushed */
+        padding: 24px; /* Moved from body */
+        transition: margin-left 0.3s ease-in-out;
+        margin-left: 0; /* Base state */
+    }
+
+    /* When the sidebar is open, push the main content */
+    body.sidebar-is-open #main-content {
+        margin-left: 300px;
+    }
+
+    /* When the sidebar is open, push the hamburger menu */
+    body.sidebar-is-open .hamburger-menu {
+        /* Use transform for smoother animation */
+        transform: translateX(300px);
+    }
+
+
+    </style>
+</head>
+<body>
+
+<button id="menu-toggle" class="hamburger-menu" aria-expanded="false" aria-controls="sidebar-menu">
+    &#9776; 
+</button>
+
+<div id="sidebar-menu" class="sidebar">
+    <button class="close-btn" aria-label="Close menu">&times;</button>
+    
+    <h2>Robot_ninja_pirate's Page of Good VR games</h2>
+
+    <div class="faq-section">
+        <p>This list a forked section from my larger Google excel spread sheet of good VR games.</p>
+        <p>The Idea behind this page is to list some of the best VR games I have played and catagorize them by Genre to make it easier to recommend to others.</p>
+        <h3>FAQ</h3>
+        <h4>Q: Why should I listen to you?</h4>
+        <p>A: Really I'm no one special I just play a lot of VR.</p>
+        <h4>Q: Why aren't there more AAA VR games?</h4>
+        <p>A: AAA games are expensive to produce and the VR market is still very small if you are used to only playing AAA titles you might be disapointed but I beleive their is a lot of good VR games in the Indie and AA space that people just need to give a chance.</p>
+    </div>
+</div>
+
+<div id="main-content">
+
+    <div id="filter-container">
+        <button class="filter-btn" data-genre="choice">Editor's Choice</button>
+        <button class="filter-btn" data-genre="essental">Essentials</button>
+        <button class="filter-btn" data-genre="beginner">Beginner</button>
+        <button class="filter-btn" data-genre="underrated">Underrated</button>
+        </div>     
+
+    <div id="filter-container">
+
+        <button class="filter-btn" data-genre="action">Action</button>
+        <button class="filter-btn" data-genre="adventure">Adventure</button>
+        <button class="filter-btn" data-genre="puzzle">Puzzle</button>
+        <button class="filter-btn" data-genre="rpg">RPG</button>
+        <button class="filter-btn" data-genre="simulation">Simulation</button>
+        <button class="filter-btn" data-genre="narrative">Narrative</button>
+        <button class="filter-btn" data-genre="storyrich">Story Rich</button>
+        <button class="filter-btn" data-genre="escaperoom">Escape Room</button>
+        <button class="filter-btn" data-genre="stealth">Stealth</button>
+        <button class="filter-btn" data-genre="shooter">Shooter</button>
+        <button class="filter-btn" data-genre="flight">Flight</button>
+        <button class="filter-btn" data-genre="horror">Horror</button>
+        <button class="filter-btn" data-genre="metroidvania">Metroidvania</button>
+        <button class="filter-btn" data-genre="great-movement">Great Movement</button>
+        <button class="filter-btn" data-genre="survival">Survival</button>
+        <button class="filter-btn" data-genre="roguelike">Roguelike</button>
+        <button class="filter-btn" data-genre="platformer">Platformer</button>
+        <button class="filter-btn" data-genre="exploration">Exploration</button>
+        <button class="filter-btn" data-genre="casual">Casual</button>
+        <button class="filter-btn" data-genre="port">VR Port</button>
+        </div> 
+
+    <div id="filter-container">
+
+        <button class="filter-btn" data-genre="1st">First Person</button>
+        <button class="filter-btn" data-genre="3rd">Third Person</button>
+        <button class="filter-btn" data-genre="co-op">Co-op</button>
+        <button class="filter-btn" data-genre="asymmetrical">Asymmetrical</button>
+        </div> 
+
+    <div id="game-grid">
+        
+        <div class="game-item" data-tags="1st essental action narrative shooter adventure">
+            <a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg" alt="Half-Life: Alyx">
+                    <h3>
+                        Half-Life: Alyx
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental beginner action 1st rhythm">
+            <a href="https://store.steampowered.com/app/620980/Beat_Saber/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/header.jpg" alt="Beat Saber">
+                    <h3>
+                        Beat Saber
+                        <button class="expand-btn" aria-expanded="false" aria-controls="game-details-546560">i</button>
+                    </h3>
+
+                    <div id="game-details-546560" class="expanded-content">
+                        <p>
+                            Facebook bought the Beat Saber Devs in 2019 while I think it's still the best VR Rhythm game currently, you may want to explore other games to avoid facebook
+                        </p>
+                    </div>                    
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="1st essental action shooter adventure choice narrative">
+            <a href="https://store.steampowered.com/app/1318090/Vertigo_Remastered/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318090/header.jpg" alt="Vertigo Remastered">
+                    <h3>Vertigo Remastered</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="1st essental action shooter adventure narrative">
+            <a href="https://store.steampowered.com/app/843390/Vertigo_2/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/843390/header.jpg" alt="Vertigo 2">
+                    <h3>Vertigo 2</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="1st essental action rpg adventure choice narrative">
+            <a href="https://store.steampowered.com/app/1707990/Skydances_BEHEMOTH/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1707990/header.jpg" alt="Skydances behemoth">
+                    <h3>Skydance's Behemoth</h3>
+                </div>
+            </a>
+        </div>
+        
+
+        <div class="game-item" data-tags="1st essental steath adventure">
+            <a href="https://store.steampowered.com/app/2221980/Budget_Cuts_Ultimate/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221980/header.jpg" alt="Budget Cuts Ultimate">
+                    <h3>Budget Cuts Ultimate</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="1st essental action shooter horror choice narrative">
+            <a href="https://store.steampowered.com/app/2669410/Metro_Awakening/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669410/header.jpg" alt="Metro Awakening">
+                    <h3>Metro Awakening</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="3rd essental adventure narrative">
+            <a href="https://store.steampowered.com/app/846470/Moss/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/846470/header.jpg" alt="Moss">
+                    <h3>Moss</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="3rd essental adventure narrative">
+            <a href="https://store.steampowered.com/app/2059670/Moss_Book_II/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059670/header.jpg" alt="Moss: Book II">
+                    <h3>Moss: Book II</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="1st essental action co-op shooter choice">
+            <a href="https://store.steampowered.com/app/587220/Jet_Island/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587220/header.jpg" alt="Jet Island">
+                    <h3>Jet Island</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental beginner action shooter puzzle 1st">
+            <a href="https://store.steampowered.com/app/617830/SUPERHOT_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/617830/header.jpg" alt="Superhot VR">
+                    <h3>
+                        Superhot VR
+                        <button class="expand-btn" aria-expanded="false" aria-controls="game-details-546560">i</button>
+
+                    </h3>
+
+                    <div id="game-details-546560" class="expanded-content">
+                        <p>
+                            Warning in July 2021 the Devs Self Censored and removed a small amount of content related to self harm from the game. Some players may approve of the change or other not, do with this information as you like.
+                        </p>   
+                    </div>                 
+                </div>
+            </a>
+        </div>        
+
+        <div class="game-item" data-tags="1st essental action adventure metroidvania choice">
+            <a href="https://store.steampowered.com/app/2274200/Arken_Age/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2274200/header.jpg" alt="Arken Age">
+                    <h3>Arken Age</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter horror narrative stealth 1st survival">
+            <a href="https://store.steampowered.com/app/1850050/Alien_Rogue_Incursion_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850050/header.jpg" alt="Alien: Rogue Incursion">
+                    <h3>Alien: Rogue Incursion</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="1st flight action narrative choice">
+            <a href="https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222730/header.jpg" alt="Star Wars: Squadrons">
+                    <h3>Star Wars: Squadrons</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="1st stealth action narrative">
+            <a href="https://store.steampowered.com/app/2431700/Vampire_The_Masquerade__Justice/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431700/header.jpg" alt="Vampire: The Masquerade - Justice">
+                    <h3>Vampire: The Masquerade - Justice</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="action adventure shooter 1st choice">
+            <a href="https://store.steampowered.com/app/1107340/LONN/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1107340/header.jpg" alt="LONN">
+                    <h3>LONN</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="action adventure great-movement 1st platformer choice">
+            <a href="https://store.steampowered.com/app/2482270/Stilt/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482270/header.jpg" alt="Stilt">
+                    <h3>Stilt</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure puzzle narrative great-movement 1st platformer choice">
+            <a href="https://store.steampowered.com/app/1352020/Yupitergrad/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1352020/header.jpg" alt="Yupitergrad">
+                    <h3>Yupitergrad</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter puzzle narrative great-movement 1st metroidvania">
+            <a href="https://store.steampowered.com/app/1969000/Yupitergrad_2_The_Lost_Station/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969000/header.jpg" alt="Yupitergrad 2: The Lost Station">
+                    <h3>Yupitergrad 2: The Lost Station</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental action adventure shooter horror narrative stealth 1st survival">
+            <a href="https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916840/header.jpg" alt="The Walking Dead: Saints & Sinners">
+                    <h3>The Walking Dead: Saints & Sinners</h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="action adventure shooter horror narrative stealth 1st survival">
+            <a href="https://store.steampowered.com/app/1947500/The_Walking_Dead_Saints__Sinners__Chapter_2_Retribution/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1947500/header.jpg" alt="The Walking Dead: Saints & Sinners - Chapter 2: Retribution">
+                    <h3>The Walking Dead: Saints & Sinners - Chapter 2: Retribution</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner adventure puzzle simulation 1st choice">
+            <a href="https://store.steampowered.com/app/1232570/Paper_Beast/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1232570/header.jpg" alt="Paper Beast">
+                    <h3>Paper Beast</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter narrative stealth 1st simulation">
+            <a href="https://store.steampowered.com/app/752480/Sniper_Elite_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/752480/header.jpg" alt="Sniper Elite VR">
+                    <h3>Sniper Elite VR</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter stealth 1st survival rpg">
+            <a href="https://store.steampowered.com/app/1012790/Into_the_Radius_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1012790/header.jpg" alt="Into the Radius VR">
+                    <h3>Into the Radius VR</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter stealth 1st co-op survival rpg">
+            <a href="https://store.steampowered.com/app/2307350/Into_the_Radius_2/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2307350/header.jpg" alt="Into the Radius 2">
+                    <h3>Into the Radius 2</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter narrative great-movement 1st choice">
+            <a href="https://store.steampowered.com/app/2073880/The_Burst/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2073880/header.jpg" alt="The Burst">
+                    <h3>The Burst</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter narrative narrative 1st ">
+            <a href="https://store.steampowered.com/app/1265800/Hubris/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1265800/header.jpg" alt="Hubris">
+                    <h3>Hubris</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action shooter adventure narrative 1st">
+            <a href="https://store.steampowered.com/app/1733890/Warhammer_40000_Battle_Sister/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1733890/header.jpg" alt="Warhammer 40,000: Battle Sister">
+                    <h3>
+                        Warhammer 40,000: Battle Sister
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="puzzle 1st essental">
+            <a href="https://secretlocation.itch.io/transpose">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/835950/header.jpg" alt="Transpose">
+                    <h3>
+                        Transpose
+                        <button class="expand-btn" aria-expanded="false" aria-controls="game-details-546560">i</button>
+                    </h3>
+
+                    <div id="game-details-546560" class="expanded-content">
+                        <p>The Developers Secret Location Inc exited the game making market and delisted it from Steam but it can still be purchased in Itch.io and you get a Steam Key.
+                        </p>
+                    </div>
+
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental action shooter 1st adventure roguelike">
+            <a href="https://store.steampowered.com/app/615120/COMPOUND/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/615120/header.jpg" alt="COMPOUND">
+                    <h3>
+                        COMPOUND
+                    </h3>
+                </div>
+            </a>
+        </div>        
+
+        <div class="game-item" data-tags="action shooter adventure narrative 1st great-movement essental openworld">
+            <a href="https://store.steampowered.com/app/1914750/Resist/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1914750/header.jpg" alt="Resist">
+                    <h3>
+                        Resist
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="puzzle co-op asymmetrical beginner platformer">
+            <a href="https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/547480/header.jpg" alt="Carly and the Reaperman - Escape from the Underworld">
+                    <h3>
+                        Carly and the Reaperman - Escape from the Underworld
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental action simulation shooter 1st">
+            <a href="https://store.steampowered.com/app/823500/BONEWORKS/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/823500/header.jpg" alt="BONEWORKS">
+                    <h3>
+                        BONEWORKS
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter great-movement 1st narrative">
+            <a href="https://store.steampowered.com/app/1873920/Fracked/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1873920/header.jpg" alt="Fracked">
+                    <h3>
+                        Fracked
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="great-movement 1st exploration platformer">
+            <a href="https://store.steampowered.com/app/428370/Windlands/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/428370/header.jpg" alt="Windlands">
+                    <h3>
+                        Windlands
+                    </h3>
+                </div>
+            </a>
+        </div>        
+
+        <div class="game-item" data-tags="action adventure great-movement 1st co-op exploration platformer">
+            <a href="https://store.steampowered.com/app/458580/Windlands_2/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/458580/header.jpg" alt="Windlands 2">
+                    <h3>
+                        Windlands 2
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter great-movement 1st co-op">
+            <a href="https://store.steampowered.com/app/1839680/Titan_Isles/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839680/812ee094f43ee0fe2db3d7256c58ab693563d030/header.jpg" alt="Titan Isles">
+                    <h3>
+                        Titan Isles
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner adventure puzzle narrative 3rd">
+            <a href="https://store.steampowered.com/app/1215270/Down_the_Rabbit_Hole/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1215270/header.jpg" alt="Down the Rabbit Hole">
+                    <h3>
+                        Down the Rabbit Hole
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner adventure puzzle narrative 3rd ">
+            <a href="https://store.steampowered.com/app/3471390/Escaping_Wonderland/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3471390/26dce9f1de6d4edf883fb56490bf6fa41117da57/header.jpg?t=1751036913" alt="Escaping Wonderland">
+                    <h3>
+                        Escaping Wonderland
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure shooter 1st great-movement">
+            <a href="https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690620/header.jpg" alt="Downward Spiral: Horus Station">
+                    <h3>
+                        Downward Spiral: Horus Station
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental beginner puzzle adventure escaperoom 1st">
+            <a href="https://store.steampowered.com/app/587430/I_Expect_You_To_Die/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587430/header.jpg" alt="I Expect You To Die">
+                    <h3>
+                        I Expect You To Die
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner puzzle adventure escaperoom 1st">
+            <a href="https://store.steampowered.com/app/1499120/I_Expect_You_To_Die_2_The_Spy_and_the_Liar/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1499120/header.jpg" alt="I Expect You To Die 2: The Spy and the Liar">
+                    <h3>
+                        I Expect You To Die 2: The Spy and the Liar
+                    </h3>
+                </div>
+            </a>
+        </div>        
+
+        <div class="game-item" data-tags="beginner puzzle adventure escaperoom 1st">
+            <a href="https://store.steampowered.com/app/2296380/I_Expect_You_To_Die_3_Cog_in_the_Machine/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296380/header.jpg" alt="I Expect You To Die 3: Cog in the Machine">
+                    <h3>
+                        I Expect You To Die 3: Cog in the Machine
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure puzzle narrative 1st">
+            <a href="https://store.steampowered.com/app/1599560/Wanderer/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1599560/header.jpg" alt="Wanderer">
+                    <h3>
+                        Wanderer
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="horror stealth narrative adventure 1st">
+            <a href="https://store.steampowered.com/app/1133320/Westworld_Awakening/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133320/header.jpg" alt="Westworld Awakening">
+                    <h3>
+                        Westworld Awakening
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="beginner adventure puzzle narrative storyrich casual 1st point-and-click">
+            <a href="https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288420/header.jpg" alt="The Secret of Retropolis">
+                    <h3>
+                        The Secret of Retropolis
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative storyrich beginner 1st point-and-click">
+            <a href="https://store.steampowered.com/app/2293440/Retropolis_2_Never_Say_Goodbye/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2293440/header.jpg" alt="Retropolis 2: Never Say Goodbye">
+                    <h3>
+                        Retropolis 2: Never Say Goodbye
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+
+        <div class="game-item" data-tags="platformer co-op great-movement 1st">
+            <a href="https://store.steampowered.com/app/520010/Climbey/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/520010/header.jpg" alt="Climbey">
+                    <h3>
+                        Climbey
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure narrative 1st">
+            <a href="https://store.steampowered.com/app/1075080/Falcon_Age/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1075080/header.jpg" alt="Falcon Age">
+                    <h3>
+                        Falcon Age
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner adventure puzzle narrative exploration 1st">
+            <a href="https://store.steampowered.com/app/1337530/Maskmaker/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1337530/header.jpg" alt="Maskmaker">
+                    <h3>
+                        Maskmaker
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner adventure narrative exploration 1st">
+            <a href="https://store.steampowered.com/app/966680/Red_Matter/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/966680/header.jpg" alt="Red Matter">
+                    <h3>
+                        Red Matter
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental action adventure  narrative exploration shooter  1st">
+            <a href="https://store.steampowered.com/app/2081470/Red_Matter_2/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2081470/header.jpg" alt="Red Matter 2">
+                    <h3>
+                        Red Matter 2
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure narrative co-op 1st">
+            <a href="https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times_Brotherhood/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1103860/header.jpg" alt="The Wizards - Dark Times: Brotherhood">
+                    <h3>
+                        The Wizards - Dark Times: Brotherhood
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure narrative storyrich exploration 1st shooter">
+                <a href="https://store.steampowered.com/app/2950330/Journey_to_Foundation/">
+                    <div class="image-container">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950330/header.jpg" alt="Journey to Foundation">
+                        <h3>
+                            Journey to Foundation
+                        </h3>
+                    </div>
+                </a>
+            </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative exploration 1st">
+            <a href="https://store.steampowered.com/app/579820/Robinson_The_Journey/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579820/header.jpg" alt="Robinson: The Journey">
+                    <h3>
+                        Robinson: The Journey
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure narrative storyrich casual exploration">
+                <a href="https://store.steampowered.com/app/829560/Katie/">
+                    <div class="image-container">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/829560/header.jpg" alt="Katie">
+                        <h3>
+                            Katie
+                        </h3>
+                    </div>
+                </a>
+            </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative beginner 1st essential">
+            <a href="https://store.steampowered.com/app/559330/A_Fishermans_Tale/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/559330/header.jpg" alt="A Fisherman's Tale">
+                    <h3>
+                        A Fisherman's Tale
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative beginner 1st">
+            <a href="https://store.steampowered.com/app/2096570/Another_Fishermans_Tale/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2096570/header.jpg" alt="Another Fisherman's Tale">
+                    <h3>
+                        Another Fisherman's Tale
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure narrative storyrich casual beginner 1st">
+                <a href="https://store.steampowered.com/app/582560/The_Invisible_Hours/">
+                    <div class="image-container">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582560/header.jpg" alt="The Invisible Hours">
+                        <h3>
+                            The Invisible Hours
+                        </h3>
+                    </div>
+                </a>
+            </div>     
+
+        <div class="game-item" data-tags="adventure puzzle casual 3rd choice underrated">
+            <a href="https://store.steampowered.com/app/1510390/Wind_Wind/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510390/header.jpg" alt="Wind Wind">
+                    <h3>
+                        Wind Wind
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="game-item" data-tags="adventure narrative exploration storyrich sports casual 1st choice underrated">
+                <a href="https://store.steampowered.com/app/1802520/Snow_Scout/">
+                    <div class="image-container">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1802520/header.jpg" alt="Snow Scout">
+                        <h3>
+                            Snow Scout
+                        </h3>
+                    </div>
+                </a>
+            </div>        
+
+        <div class="game-item" data-tags="adventure puzzle narrative beginner 1st">
+                <a href="https://store.steampowered.com/app/270130/The_Gallery__Episode_1_Call_of_the_Starseed/">
+                    <div class="image-container">
+                        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270130/header.jpg" alt="The Gallery - Episode 1: Call of the Starseed">
+                        <h3>
+                            The Gallery - Episode 1: Call of the Starseed
+                        </h3>
+                    </div>
+                </a>
+            </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative 1st">
+            <a href="https://store.steampowered.com/app/526140/The_Gallery__Episode_2_Heart_of_the_Emberstone/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526140/header.jpg" alt="The Gallery - Episode 2: Heart of the Emberstone">
+                    <h3>
+                        The Gallery - Episode 2: Heart of the Emberstone
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative storyrich exploration 1st">
+            <a href="https://store.steampowered.com/app/557520/Torn/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/557520/header.jpg" alt="Torn">
+                    <h3>
+                        Torn
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative storyrich exploration 1st casual">
+            <a href="https://store.steampowered.com/app/299400/XING_The_Land_Beyond/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299400/header.jpg" alt="XING: The Land Beyond">
+                    <h3>
+                        XING: The Land Beyond
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure puzzle narrative storyrich exploration 1st">
+            <a href="https://store.steampowered.com/app/1036260/Journey_For_Elysium/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1036260/header.jpg" alt="Journey For Elysium">
+                    <h3>
+                        Journey For Elysium
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure action 3rd narrative ">
+            <a href="https://store.steampowered.com/app/677330/Theseus/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/677330/header.jpg" alt="Theseus">
+                    <h3>
+                        Theseus
+                    </h3>
+                </div>
+            </a>
+        </div>  
+
+        <div class="game-item" data-tags="adventure puzzle narrative casual beginner 3rd">
+            <a href="https://store.steampowered.com/app/1318700/A_Knight_in_the_Attic/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318700/header.jpg" alt="A Knight in the Attic">
+                    <h3>
+                        A Knight in the Attic
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure platformer casual 3rd beginner">
+            <a href="https://store.steampowered.com/app/1139310/Ven_VR_Adventure/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139310/header.jpg" alt="Ven VR Adventure">
+                    <h3>
+                        Ven VR Adventure
+                    </h3>
+                </div>
+            </a>
+        </div>      
+
+        <div class="game-item" data-tags="1st 3rd action adventure platformer puzzle narrative port">
+            <a href="https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1051200/header.jpg" alt="Trover Saves the Universe">
+                    <h3>
+                        Trover Saves the Universe
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="adventure puzzle exploration platformer great-movement 1st">
+            <a href="https://store.steampowered.com/app/589940/Eye_of_the_Temple/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589940/header.jpg" alt="Eye of the Temple">
+                    <h3>
+                        Eye of the Temple
+                    </h3>
+                </div>
+            </a>
+        </div>        
+
+
+        <div class="game-item" data-tags="action shooter 1st great-movement port">
+            <a href="https://store.steampowered.com/app/2320910/AMID_EVIL_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320910/header.jpg" alt="AMID EVIL VR">
+                    <h3>
+                        AMID EVIL VR
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action shooter narrative adventure 1st port">
+            <a href="https://store.steampowered.com/app/2451320/Bulletstorm_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451320/header.jpg" alt="Bulletstorm VR">
+                    <h3>
+                        Bulletstorm VR
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action shooter rpg horror co-op 1st port">
+            <a href="https://store.steampowered.com/app/646200/Dead_Effect_2_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646200/header.jpg" alt="Dead Effect 2 VR">
+                    <h3>
+                        Dead Effect 2 VR
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="beginner puzzle escaperoom adventure co-op 1st port">
+            <a href="https://store.steampowered.com/app/1435790/Escape_Simulator/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/header.jpg" alt="Escape Simulator">
+                    <h3>
+                        Escape Simulator
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="simulation 1st casual port">
+            <a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg" alt="Euro Truck Simulator 2">
+                    <h3>
+                        Euro Truck Simulator 2
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="simulation 1st casual port">
+            <a href="https://store.steampowered.com/app/270880/American_Truck_Simulator/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg" alt="American Truck Simulator">
+                    <h3>
+                        American Truck Simulator
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="action adventure narrative horror 3rd port">
+            <a href="https://store.steampowered.com/app/747350/Hellblade_Senuas_Sacrifice_VR_Edition/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/747350/header.jpg" alt="Hellblade: Senua's Sacrifice VR Edition">
+                    <h3>
+                        Hellblade: Senua's Sacrifice VR Edition
+                    </h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="essental action adventure rpg narrative 1st port">
+            <a href="https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/611670/header.jpg" alt="The Elder Scrolls V: Skyrim VR">
+                    <h3>
+                        The Elder Scrolls V: Skyrim VR
+                        <button class="expand-btn" aria-expanded="false" aria-controls="game-details-546560">i</button>
+                    </h3>
+
+                    <div id="game-details-546560" class="expanded-content">
+                        <p>
+                            The Modding scene for this game really is what makes it Check out Reddit.com/r/SkyrimVR and the skyrim wabbajack mod lists
+                        </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="game-item" data-tags="puzzle narrative 1st port">
+            <a href="https://store.steampowered.com/app/552440/The_Talos_Principle_VR/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552440/header.jpg" alt="The Talos Principle VR">
+                    <h3>
+                        The Talos Principle VR
+                    </h3>
+                </div>
+            </a>
+        </div>
+  
+
+    <div class="game-item" data-tags="port adventure puzzle narrative exploration casual 1st">
+            <a href="https://store.steampowered.com/app/674140/Bugsnax/">
+                <div class="image-container">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/674140/header.jpg" alt="Bugsnax">
+                    <h3>
+                        Bugsnax
+                    </h3>
+                </div>
+            </a>
+        </div>    
+
+
+    </div>  
+
+</div> <script>
+        // This JavaScript makes the filters work
+        document.addEventListener('DOMContentLoaded', () => {
+            const filterButtons = document.querySelectorAll('#filter-container .filter-btn');
+            const gameItems = document.querySelectorAll('#game-grid .game-item');
+            
+            // This function will run every time a button is clicked
+            const filterGames = () => {
+                // 1. Get all *active* filters
+                const activeFilters = [];
+                filterButtons.forEach(button => {
+                    if (button.classList.contains('active')) {
+                        activeFilters.push(button.dataset.genre);
+                    }
+                });
+
+                // 2. Loop through every game item
+                gameItems.forEach(item => {
+                    const itemTags = item.dataset.tags.split(' ');
+                    
+                    // 3. Decide to show or hide
+                    if (activeFilters.length === 0) {
+                        // If no filters are active, show all games
+                        item.classList.remove('hide');
+                    } else {
+                        // Check if the item has *at least one* of the active tags
+                        //const hasMatch = activeFilters.some(filter => itemTags.includes(filter));
+                        const hasMatch = activeFilters.every(filter => itemTags.includes(filter));
+                        if (hasMatch) {
+                            item.classList.remove('hide'); // Show it
+                        } else {
+                            item.classList.add('hide');    // Hide it
+                        }
+                    }
+                });
+            };
+
+            // Add a click listener to each button
+            filterButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Toggle the 'active' class on the button itself
+                    button.classList.toggle('active');
+                    
+                    // Re-run the filter logic
+                    filterGames();
+                });
+            });
+        });
+        
+        // This JavaScript makes the game card info box expand
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select all expand buttons
+            const expandButtons = document.querySelectorAll('.expand-btn');
+
+            expandButtons.forEach(button => {
+                button.addEventListener('click', function(event) {
+                    // 1. STOP the click from activating the main <a> tag link
+                    event.preventDefault(); 
+                    event.stopPropagation();
+
+                    // 2. Find the main game item container
+                    const gameItem = button.closest('.game-item');
+
+                    // 3. Toggle the expanded class
+                    gameItem.classList.toggle('is-expanded');
+
+                    // 4. Update the ARIA state for accessibility
+                    const isExpanded = gameItem.classList.contains('is-expanded');
+                    button.setAttribute('aria-expanded', isExpanded);
+                });
+            });
+        });      
+
+    // This JavaScript handles the sidebar toggle (MODIFIED)
+    document.addEventListener('DOMContentLoaded', function() {
+        const toggleButton = document.getElementById('menu-toggle');
+        const closeButton = document.querySelector('.sidebar .close-btn');
+        const sidebar = document.getElementById('sidebar-menu');
+
+        function toggleMenu() {
+            // MODIFIED: Toggle class on the BODY element
+            const isOpen = document.body.classList.toggle('sidebar-is-open');
+            
+            // MODIFIED: Update ARIA on the toggle button
+            toggleButton.setAttribute('aria-expanded', isOpen);
+        }
+
+        // Open menu when hamburger is clicked
+        toggleButton.addEventListener('click', toggleMenu);
+
+        // Close menu when X is clicked
+        closeButton.addEventListener('click', toggleMenu);
+    });
+
+// --- Content Loading Function ---
+        async function loadMainContent() {
+            try {
+                const response = await fetch('main-content.html');
+                
+                // Check if the file was found
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const htmlContent = await response.text();
+                const mainContentEl = document.getElementById('main-content');
+                
+                if (mainContentEl) {
+                    mainContentEl.innerHTML = htmlContent;
+                    
+                    // --- 3. Initialize Content-Dependent Scripts ---
+                    // These functions MUST run *after* the content is loaded
+                    initFilterButtons();
+                    initExpandButtons();
+                }
+
+            } catch (error) {
+                console.error('Could not load main content:', error);
+                document.getElementById('main-content').innerHTML = '<p style="color: white; text-align: center;">Error: Could not load game list.</p>';
+            }
+        }
+
+    </script>
+
+</body>
+</html>
