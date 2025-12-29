@@ -4,8 +4,6 @@
 	<meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Game Filter Grid</title>
 	<style>
-		/* --- Basic Setup --- */
-
 		body {
 			font-family: sans-serif;
 			background-color: #0f1826;
@@ -28,9 +26,7 @@
 		}
 
 		/* --- 2. Main Filter Group: Centered Block Wrapper --- */
-		#filter-buttons-group {
-			/* REMOVED: flex-grow: 1; - Using calc() instead for fixed width */
-			
+		#filter-buttons-group {		
 			/* Calculate the width: 
 			   100% of the container - (width of filter-status + gap) 
 			   I'm estimating filter-status is about 150px wide, and the gap is 15px. */
@@ -62,7 +58,6 @@
 				/* Add a little space between the button and the count */
 				margin-top: 5px; 
 
-				/* Keep your existing styling */
 				color: white; 
 				border: 1px solid white;
 				border-radius: 12px;
@@ -76,12 +71,10 @@
 				/* Ensure the button aligns with the center of the column */
 				align-self: center; 
 
-				/* Remove conflicting margin settings */
 				margin-left: 0;
 				margin-right: 0;
-				margin-top: 4px; /* Keep this to align it better with the filter rows */
+				margin-top: 4px; /* align it better with the filter rows */
 
-				/* Keep existing styling... */
 				flex-shrink: 0; 
 				background-color: #f8d7da; 
 				border-color: #f5c6cb;
@@ -89,7 +82,7 @@
 				position: static; 
 			}
 
-			/* --- Existing Button Styles --- */
+			/* --- Button Styles --- */
 			.filter-btn {
 				background-color: #ffffff;
 				border: 1px solid #ccd0d5;
@@ -116,7 +109,6 @@
 				border-color: #FF007B;
 			}
 
-
 			.filter-btn:hover:not(.active) {
 				background-color: #f5f5f5;
 			}
@@ -125,17 +117,13 @@
 				background-color: #f5f5f5;
 			}        
 
-			/* Ensure the clear button doesn't accidentally get the blue active style */
 			#clear-all-btn.active {
 				background-color: #f8d7da;
 				border-color: #f5c6cb;
 				color: #721c24;
 			}
 
-		/*
-		 * 1. Flexbox for Alignment (Clear Button & Count)
-		 * We target the new wrapper to put the items side-by-side.
-		 */
+		/* 1. Flexbox for Alignment (Clear Button & Count)*/
 			#filter-status {
 				display: flex;
 				/* Aligns the count text vertically with the button */
@@ -144,33 +132,17 @@
 				gap: 15px;
 			}
 
-		/* * 2. Styling the Game Count Element
-		 * Applies the requested rounded outline and white text.
-		 */
+		/* * 2. Styling the Game Count Element*/
 			#game-count {
-				/* White text and border */
 				color: white; 
 				border: 1px solid white;
-
-				/* Rounded corners */
 				border-radius: 12px;
-
-				/* Padding for spacing inside the border */
 				padding: 4px 10px;
-
-				/* Optionally set the font size */
 				font-size: 0.9em;
-
-				/* Ensures the text doesn't wrap */
 				white-space: nowrap; 
 			}
 
-		/* * Optional: Ensure the main control row can accommodate the space.
-		 * If your entire control row is using a layout like flex or grid, 
-		 * you may need minor adjustments to the parent of #filter-status.
-		 */
 			#filter-controls-row {
-				/* Example: If you want the buttons/groups on the left and status on the right */
 				/* display: flex; */
 				/* justify-content: space-between; */
 				/* align-items: flex-start; */
@@ -178,7 +150,6 @@
 
 
 /* --- Expanded Hero Panel Styles --- */
-
 .details-panel {
 	grid-column: 1 / -1;
 	position: relative; /* Needed for absolute positioning of the image */
@@ -211,7 +182,7 @@
 	background-position: center center;
 	z-index: 0; /* Puts it behind the text */
 	
-	/* The Magic: Linear Gradient Mask makes it fade from transparent (left) to opaque (right) */
+	/* Linear Gradient Mask makes it fade from transparent (left) to opaque (right) */
 	-webkit-mask-image: linear-gradient(to right, transparent 0%, black 60%);
 	mask-image: linear-gradient(to right, transparent 0%, black 60%);
 	
@@ -244,7 +215,7 @@
 	margin-bottom: 25px;
 }
 
-/* Stats Grid - made semi-transparent background */
+/* Stats Grid */
 .details-stats-grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -253,7 +224,7 @@
 	padding: 15px;
 	border-radius: 8px;
 	border: 1px solid rgba(255,255,255,0.1);
-	backdrop-filter: blur(5px); /* Nice blur effect behind stats */
+	backdrop-filter: blur(5px); /*  blur effect behind stats */
 }
 
 .stat-item strong {
@@ -270,7 +241,6 @@
 	to { opacity: 1; height: auto; margin-bottom: 20px; }
 }
 
-/* Responsive: On mobile, just darken the image and stack */
 @media (max-width: 768px) {
 	.details-panel-content { width: 100%; }
 	.details-hero-bg { 
@@ -324,7 +294,7 @@
 
 	min-height: 15px;
 
-	/* Semi-transparent background (RGB for black, A for alpha/opacity) */
+	/* Semi-transparent background */
 	background-color: rgba(0, 0, 0, 0.7); 
 
 	/* Text styling */
@@ -334,7 +304,7 @@
 	font-size: 1.1em;
 	font-weight: normal;
 
-	/* FIX FOR AUTO-RESIZING (TRUNCATION)  */
+	/* FIX FOR AUTO-RESIZING */
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -349,7 +319,7 @@
 
 }
 
-/* Style for the Expand Button (your "little icon") */
+/* Style for the Expand Button */
 .expand-btn {
 	background: none;
 	border: 1px solid white;
@@ -394,10 +364,10 @@
 	opacity: 1;
 	visibility: visible;
 	padding-top: 40px;
-	z-index: 30; /* Bring it to the top */
+	z-index: 30;
 }
 
-/* 3. Also, move the H3 element out of the way for the expanded view */
+/* 3. move the H3 element out of the way for the expanded view */
 .game-item.is-expanded h3 {
 	background-color: transparent;
 	bottom: calc(100% - 44px); /* Moves the bar to the top of the container */
@@ -422,7 +392,7 @@
 }
 
 /* ------------------------------------------- */
-/* SIDEBAR AND HAMBURGER STYLES (MODIFIED) */
+/* SIDEBAR AND HAMBURGER STYLES */
 /* ------------------------------------------- */
 
 /* Style for the hamburger icon button */
@@ -430,7 +400,7 @@
 	position: fixed; /* Keep it visible even when scrolling */
 	top: 20px;
 	left: 20px;
-	z-index: 1000; /* Ensure it's on top of everything */
+	z-index: 1000; 
 	font-size: 24px;
 	background: #333;
 	color: white;
@@ -438,9 +408,40 @@
 	padding: 10px 15px;
 	border-radius: 4px;
 	cursor: pointer;
-	/* MODIFIED: Added transition for the push animation */
 	transition: transform 0.3s ease-in-out;
 }
+
+
+/* Position the badge inside the image-container */
+.image-container {
+    position: relative;
+}
+
+.price-badge {
+    position: absolute;
+    top: 15px; /* Positions it just above the <h3> title */
+    right: 5px;
+    align-items: center;
+    gap: 0;
+    font-family: sans-serif;
+    z-index: 10;
+}
+
+.discount-label {
+    background-color: #4c6b22; /* Steam Green */
+    color: #beee11;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.price-label {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 14px;
+}
+
 
 /* Style for the sidebar itself */
 .sidebar {
@@ -448,8 +449,8 @@
 	top: 0;
 	left: 0;
 	height: 100%;
-	width: 300px; /* Width of the menu */
-	background-color: #2c3e50; /* Dark background */
+	width: 300px; 
+	background-color: #2c3e50; 
 	color: white;
 	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
 	z-index: 999;
@@ -461,7 +462,7 @@
 	transition: transform 0.3s ease-in-out;
 }
 
-/* MODIFIED: Class is now on the BODY, not the sidebar */
+/* Class is now on the BODY, not the sidebar */
 body.sidebar-is-open .sidebar {
 	transform: translateX(0);
 }
@@ -497,14 +498,14 @@ body.sidebar-is-open .sidebar {
 }
 
 /* ------------------------------------------- */
-/* NEW STYLES FOR PUSH CONTENT (MODIFIED) */
+/* NEW STYLES FOR PUSH CONTENT */
 /* ------------------------------------------- */
 
 #main-content {
 	/* This wrapper holds all the content that gets pushed */
 	padding: 24px; /* Moved from body */
 	transition: margin-left 0.3s ease-in-out;
-	margin-left: 0; /* Base state */
+	margin-left: 0; 
 }
 
 /* When the sidebar is open, push the main content */
@@ -536,7 +537,7 @@ body.sidebar-is-open .hamburger-menu {
 
 	/* Styling */
 	display: none; /* Initially hide the button */
-	background-color: #007bff; /* Use your primary color */
+	background-color: #007bff;
 	color: white;
 	border: none;
 	border-radius: 50%; /* Make it circular */
@@ -556,10 +557,10 @@ body.sidebar-is-open .hamburger-menu {
 /* --- A. Tooltip Container (The Button) --- */
 /* Set the parent button to be the positioning context */
 .has-tooltip {
-	position: relative; /* CRITICAL: All child tooltips are positioned relative to this button */
+	position: relative;
 }
 
-/* --- B. Tooltip Text (The actual content) --- */
+/* --- B. Tooltip Text --- */
 .tooltip-text {
 	/* Hiding by default */
 	visibility: hidden;
@@ -576,20 +577,20 @@ body.sidebar-is-open .hamburger-menu {
 
 	/* Absolute Positioning relative to the button */
 	position: absolute;
-	top: 125%; /* Position above the button */
+	top: 125%; 
 	left: 50%;
-	margin-left: -75px; /* Half of the width (150px) to center it */
+	margin-left: -75px; 
 
 	/* Animation and Delay */
 	transition: opacity 0.3s, visibility 0.3s; /* Smooth fade effect */
-	transition-delay: .5s; /* *** THIS CREATES THE 1-SECOND DELAY *** */
+	transition-delay: .5s; 
 }
 
 /* Optional: Add a small arrow/tail */
 .tooltip-text::after {
 	content: "";
 	position: absolute;
-	bottom: 100%; /* At the bottom of the tooltip */
+	bottom: 100%;
 	left: 50%;
 	margin-left: -5px;
 	border-width: 5px;
@@ -608,7 +609,7 @@ body.sidebar-is-open .hamburger-menu {
 
 /* Optional: Add a delay to hide it gracefully when the mouse moves out */
 .has-tooltip:not(:hover) .tooltip-text {
-	transition-delay: 0s 0.2s; /* Hides immediately, but has a slight fade */
+	transition-delay: 0s 0.2s;
 }
 
 </style>
@@ -642,15 +643,6 @@ body.sidebar-is-open .hamburger-menu {
 			<h4>Q: I've already played everything you listed!</h4>
 
 			<p>A: Well then this list might not be for you, it's really meant for people just getting into VR or on the fence not a verteran like yourself.</p>
-
-
-
-
-
-
-
-
-
 
 		</div>
 	</div>
@@ -718,8 +710,17 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 
 			<div id="filter-status">
-				<button id="clear-all-btn" class="filter-btn">Clear Filters</button>
-				<span id="game-count"></span>
+			    <button id="clear-all-btn" class="filter-btn">Clear Filters</button>
+			    <span id="game-count"></span>
+			    
+			    <div id="price-filter-container" style="margin-top: 15px; width: 100%; color: white; text-align: center;">
+			        <label for="price-slider" style="display: block; font-size: 0.8em; margin-bottom: 5px;">Max Price: <span id="price-limit-display">$60</span></label>
+			        <input type="range" id="price-slider" min="0" max="60" value="60" style="width: 100%;">
+			        <div style="display: flex; justify-content: space-between; font-size: 0.7em; margin-top: 5px;">
+			            <span>$0</span>
+			            <span>$60+</span>
+			        </div>
+			    </div>
 			</div>
 
 		</div>
@@ -728,11 +729,12 @@ body.sidebar-is-open .hamburger-menu {
 		<div id="game-grid">
 
 
-			<div class="game-item" data-tags="1st essental action narrative shooter adventure">
+			<div class="game-item" data-appid="546560" data-tags="1st essental action narrative shooter adventure">
 				<a href="https://store.steampowered.com/app/546560/HalfLife_Alyx/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/546560/header.jpg" alt="Half-Life: Alyx" loading="lazy">
 						<h3>Half-Life: Alyx</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -749,11 +751,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental beginner action casual 1st rhythm">
+			<div class="game-item" data-appid="620980" data-tags="essental beginner action casual 1st rhythm">
 				<a href="https://store.steampowered.com/app/620980/Beat_Saber/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620980/header.jpg" alt="Beat Saber">
 						<h3>Beat Saber</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -771,11 +774,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 
 
-			<div class="game-item" data-tags="1st essental action shooter adventure choice narrative">
+			<div class="game-item" data-appid="1318090" data-tags="1st essental action shooter adventure choice narrative">
 				<a href="https://store.steampowered.com/app/1318090/Vertigo_Remastered/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318090/header.jpg" alt="Vertigo Remastered">
 						<h3>Vertigo Remastered</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -788,11 +792,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st essental action shooter adventure narrative">
+			<div class="game-item" data-appid="843390" data-tags="1st essental action shooter adventure narrative">
 				<a href="https://store.steampowered.com/app/843390/Vertigo_2/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/843390/header.jpg" alt="Vertigo 2">
 						<h3>Vertigo 2</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -805,11 +810,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st essental action rpg adventure choice narrative sword">
+			<div class="game-item" data-appid="1707990" data-tags="1st essental action rpg adventure choice narrative sword">
 				<a href="https://store.steampowered.com/app/1707990/Skydances_BEHEMOTH/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1707990/header.jpg" alt="Skydances behemoth">
 						<h3>Skydance's Behemoth</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -822,11 +828,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st essental action steath adventure">
+			<div class="game-item" data-appid="2221980" data-tags="1st essental action steath adventure">
 				<a href="https://store.steampowered.com/app/2221980/Budget_Cuts_Ultimate/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2221980/header.jpg" alt="Budget Cuts Ultimate">
 						<h3>Budget Cuts Ultimate</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -839,11 +846,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st essental adventure action shooter horror choice narrative">
+			<div class="game-item" data-appid="2669410" data-tags="1st essental adventure action shooter horror choice narrative">
 				<a href="https://store.steampowered.com/app/2669410/Metro_Awakening/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2669410/header.jpg" alt="Metro Awakening">
 						<h3>Metro Awakening</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -856,11 +864,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="3rd essental beginner action adventure puzzle platformer narrative">
+			<div class="game-item" data-appid="846470" data-tags="3rd essental beginner action adventure puzzle platformer narrative">
 				<a href="https://store.steampowered.com/app/846470/Moss/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/846470/header.jpg" alt="Moss">
 						<h3>Moss</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -873,11 +882,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="3rd essental beginner action adventure puzzle platformer narrative">
+			<div class="game-item" data-appid="2059670" data-tags="3rd essental beginner action adventure puzzle platformer narrative">
 				<a href="https://store.steampowered.com/app/2059670/Moss_Book_II/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2059670/header.jpg" alt="Moss: Book II" loading="lazy">
 						<h3>Moss: Book II</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -890,13 +900,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental choice adventure puzzle narrative storyrich stealth horror 1st">
+			<div class="game-item" data-appid="2863640" data-tags="essental choice adventure puzzle narrative storyrich stealth horror 1st">
 				<a href="https://store.steampowered.com/app/2863640/The_Midnight_Walk/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2863640/header.jpg" alt="The Midnight Walk" loading="lazy">
-						<h3>
-							The Midnight Walk
-						</h3>
+						<h3>The Midnight Walk</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -910,13 +919,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 
 
-			<div class="game-item" data-tags="1st essental exploration action co-op shooter choice">
+			<div class="game-item" data-appid="587220" data-tags="1st essental exploration action co-op shooter choice">
 				<a href="https://store.steampowered.com/app/587220/Jet_Island/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587220/header.jpg" alt="Jet Island" loading="lazy">
 						<h3>
 							Jet Island
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -929,13 +939,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental action adventure stealth shooter narrative exploration 1st port sandbox">
+			<div class="game-item" data-appid="1659040" data-tags="essental action adventure stealth shooter narrative exploration 1st port sandbox">
 				<a href="https://store.steampowered.com/app/1659040/HITMAN_World_of_Assassination/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/header.jpg" alt="HITMAN World of Assassination" loading="lazy">
 						<h3>
 							HITMAN World of Assassination
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -948,13 +959,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>     
 
-			<div class="game-item" data-tags="essental beginner action shooter puzzle 1st">
+			<div class="game-item" data-appid="617830" data-tags="essental beginner action shooter puzzle 1st">
 				<a href="https://store.steampowered.com/app/617830/SUPERHOT_VR/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/617830/header.jpg" alt="Superhot VR" loading="lazy">
 						<h3>
 							Superhot VR
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -968,13 +980,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st essental action adventure metroidvania choice">
+			<div class="game-item" data-appid="2274200" data-tags="1st essental action adventure metroidvania choice">
 				<a href="https://store.steampowered.com/app/2274200/Arken_Age/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2274200/header.jpg" alt="Arken Age" loading="lazy">
 						<h3>
 							Arken Age
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -987,13 +1000,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure shooter horror narrative stealth 1st survival">
+			<div class="game-item" data-appid="1850050" data-tags="action adventure shooter horror narrative stealth 1st survival">
 				<a href="https://store.steampowered.com/app/1850050/Alien_Rogue_Incursion_VR/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1850050/header.jpg" alt="Alien: Rogue Incursion" loading="lazy">
 						<h3>
 							Alien: Rogue Incursion
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1006,13 +1020,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st flight action narrative adventure choice">
+			<div class="game-item" data-appid="1222730" data-tags="1st flight action narrative adventure choice">
 				<a href="https://store.steampowered.com/app/1222730/STAR_WARS_Squadrons/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222730/header.jpg" alt="Star Wars: Squadrons" loading="lazy">
-						<h3>
-							Star Wars: Squadrons
-						</h3>
+						<h3>Star Wars: Squadrons</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1025,13 +1038,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1st stealth action adventure narrative">
+			<div class="game-item" data-appid="2431700" data-tags="1st stealth action adventure narrative">
 				<a href="https://store.steampowered.com/app/2431700/Vampire_The_Masquerade__Justice/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2431700/header.jpg" alt="Vampire: The Masquerade - Justice" loading="lazy">
-						<h3>
-							Vampire: The Masquerade - Justice
-						</h3>
+						<h3>Vampire: The Masquerade - Justice</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1045,14 +1057,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 
 
-			<div class="game-item" data-tags="action adventure narrative shooter 1st choice">
+			<div class="game-item" data-appid="1107340" data-tags="action adventure narrative shooter 1st choice">
 				<a href="https://store.steampowered.com/app/1107340/LONN/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1107340/header.jpg" alt="LONN" loading="lazy">
-						<h3>
-							LONN
-						</h3>
+						<h3>LONN</h3>
+						<div class="price-badge"></div>
 					</div>
+
 				</a>
 				<div class="game-info-hidden" style="display: none;">
 					<span class="data-bg">https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1107340/ss_3234d4c7e2178e82aacbcbe8ade8047d064cfe7f.1920x1080.jpg?t=1680289586</span>
@@ -1065,13 +1077,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 
 
-			<div class="game-item" data-tags=" 1st shooter action adventure platformer narrative storyrich puzzle exploration stealth">
+			<div class="game-item" data-appid="3141330" data-tags=" 1st shooter action adventure platformer narrative storyrich puzzle exploration stealth">
 				<a href="https://store.steampowered.com/app/3141330/Of_Lies_and_Rain/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3141330/header.jpg" alt="Of Lies and Rain" loading="lazy">
 						<h3>
 							Of Lies and Rain
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1084,13 +1097,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure great-movement 1st platformer choice">
+			<div class="game-item" data-appid="2482270" data-tags="action adventure great-movement 1st platformer choice">
 				<a href="https://store.steampowered.com/app/2482270/Stilt/">
 					<div class="image-container">
 						<img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2482270/5eddfefadfc4542ccd12fd2f4d67476023a41475/header.jpg" alt="Stilt" loading="lazy">
 						<h3>
 							Stilt
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1103,13 +1117,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="adventure puzzle narrative great-movement 1st platformer choice">
+			<div class="game-item" data-appid="1352020" data-tags="adventure puzzle narrative great-movement 1st platformer choice">
 				<a href="https://store.steampowered.com/app/1352020/Yupitergrad/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1352020/header.jpg" alt="Yupitergrad" loading="lazy">
 						<h3>
 							Yupitergrad
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1122,13 +1137,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure shooter puzzle narrative great-movement 1st metroidvania">
+			<div class="game-item" data-appid="1969000" data-tags="action adventure shooter puzzle narrative great-movement 1st metroidvania">
 				<a href="https://store.steampowered.com/app/1969000/Yupitergrad_2_The_Lost_Station/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1969000/header.jpg" alt="Yupitergrad 2: The Lost Station" loading="lazy">
 						<h3>
 							Yupitergrad 2: The Lost Station
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1141,13 +1157,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental action RPG adventure shooter horror narrative stealth 1st survival">
+			<div class="game-item" data-appid="916840" data-tags="essental action RPG adventure shooter horror narrative stealth 1st survival">
 				<a href="https://store.steampowered.com/app/916840/The_Walking_Dead_Saints__Sinners/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/916840/header.jpg" alt="The Walking Dead: Saints & Sinners" loading="lazy">
 						<h3>
 							The Walking Dead: Saints & Sinners
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1159,13 +1176,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">2 (Moderate) </span>
 				</div>
 			</div>
-			<div class="game-item" data-tags= "action RPG adventure shooter horror narrative stealth 1st survival">
+			<div class="game-item" data-appid="1947500" data-tags= "action RPG adventure shooter horror narrative stealth 1st survival">
 				<a href="https://store.steampowered.com/app/1947500/The_Walking_Dead_Saints__Sinners__Chapter_2_Retribution/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1947500/header.jpg" alt="The Walking Dead: Saints & Sinners - Chapter 2: Retribution" loading="lazy">
 						<h3>
 							The Walking Dead: Saints & Sinners - Chapter 2: Retribution
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1179,13 +1197,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="beginner casual adventure puzzle simulation 1st choice">
+			<div class="game-item" data-appid="1232570" data-tags="beginner casual adventure puzzle simulation 1st choice">
 				<a href="https://store.steampowered.com/app/1232570/Paper_Beast/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1232570/header.jpg" alt="Paper Beast" loading="lazy">
 						<h3>
 							Paper Beast
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1198,13 +1217,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="narrative storyrich adventure casual simulation 1st beginner">
+			<div class="game-item" data-appid="2419240" data-tags="narrative storyrich adventure casual simulation 1st beginner">
 				<a href="https://store.steampowered.com/app/2419240/Sushi_Ben/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2419240/header.jpg" alt="Sushi Ben" loading="lazy">
 						<h3>
 							Sushi Ben
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1217,13 +1237,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>    
 
-			<div class="game-item" data-tags="action adventure shooter narrative stealth 1st">
+			<div class="game-item" data-appid="752480" data-tags="action adventure shooter narrative stealth 1st">
 				<a href="https://store.steampowered.com/app/752480/Sniper_Elite_VR/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/752480/header.jpg" alt="Sniper Elite VR" loading="lazy">
 						<h3>
 							Sniper Elite VR
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1236,13 +1257,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure shooter stealth 1st survival rpg">
+			<div class="game-item" data-appid="1012790" data-tags="action adventure shooter stealth 1st survival rpg">
 				<a href="https://store.steampowered.com/app/1012790/Into_the_Radius_VR/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1012790/header.jpg" alt="Into the Radius VR" loading="lazy">
 						<h3>
 							Into the Radius VR
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1254,13 +1276,15 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (Experienced)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure shooter stealth 1st co-op survival rpg">
+
+			<div class="game-item" data-appid="2307350" data-tags="action adventure shooter stealth 1st co-op survival rpg">
 				<a href="https://store.steampowered.com/app/2307350/Into_the_Radius_2/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/2307350/header.jpg" alt="Into the Radius 2" loading="lazy">
 						<h3>
 							Into the Radius 2
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1272,13 +1296,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (High Motion)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure shooter narrative great-movement 1st choice">
+			<div class="game-item" data-appid="2073880" data-tags="action adventure shooter narrative great-movement 1st choice">
 				<a href="https://store.steampowered.com/app/2073880/The_Burst/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/2073880/header.jpg" alt="The Burst" loading="lazy">
 						<h3>
 							The Burst
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1291,13 +1316,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure shooter narrative 1st">
+			<div class="game-item" data-appid="1265800" data-tags="action adventure shooter narrative 1st">
 				<a href="https://store.steampowered.com/app/1265800/Hubris/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1265800/header.jpg" alt="Hubris" loading="lazy">
 						<h3>
 							Hubris
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1310,13 +1336,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="puzzle adventure narrative storyrich beginner horror">
+			<div class="game-item" data-appid="2496180" data-tags="puzzle adventure narrative storyrich beginner horror">
 				<a href="https://store.steampowered.com/app/2496180/Ghost_Town/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/2496180/header.jpg" alt="Ghost Town" loading="lazy">
 						<h3>
 							Ghost Town
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1329,13 +1356,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="puzzle adventure narrative storyrich stealth horror port 1st 3rd">
+			<div class="game-item" data-appid="3558720" data-tags="puzzle adventure narrative storyrich stealth horror port 1st 3rd">
 				<a href="https://store.steampowered.com/app/3558720/Out_of_Sight_VR/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3558720/78ab43d5e6b3a49deb8d7897ad2b851f4b7823e2/header.jpg?t=1749030384" alt="Out of Sight VR" loading="lazy">
 						<h3>
 							Out of Sight VR
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1348,13 +1376,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="puzzle adventure narrative storyrich horror escaperoom choice">
+			<div class="game-item" data-appid="2456960" data-tags="puzzle adventure narrative storyrich horror escaperoom choice">
 				<a href="https://store.steampowered.com/app/2456960/The_7th_Guest_VR/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/2456960/header.jpg" alt="The 7th Guest VR" loading="lazy">
 						<h3>
 							The 7th Guest VR
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1367,13 +1396,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="puzzle rhythm essental beginner action casual">
+			<div class="game-item" data-appid="1003590" data-tags="puzzle rhythm essental beginner action casual">
 				<a href="https://store.steampowered.com/app/1003590/Tetris_Effect_Connected/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1003590/header.jpg" alt="Tetris Effect: Connected" loading="lazy">
 						<h3>
 							Tetris Effect: Connected
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1386,13 +1416,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="1 puzzle rhythm strategy">
+			<div class="game-item" data-appid="2370000" data-tags="1 puzzle rhythm strategy">
 				<a href="https://store.steampowered.com/app/2370000/Lumines_Arise/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2370000/b3416ea55318a28142922206c47eff907b457e59/header.jpg?t=1765416851" alt="Lumines Arise" loading="lazy">
 						<h3>
 							Lumines Arise
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1405,13 +1436,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action shooter adventure narrative 1st">
+			<div class="game-item" data-appid="1733890" data-tags="action shooter adventure narrative 1st">
 				<a href="https://store.steampowered.com/app/1733890/Warhammer_40000_Battle_Sister/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1733890/header.jpg" alt="Warhammer 40,000: Battle Sister" loading="lazy">
 						<h3>
 							Warhammer 40,000: Battle Sister
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1445,13 +1477,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental choice action shooter 1st roguelike">
+			<div class="game-item" data-appid="615120" data-tags="essental choice action shooter 1st roguelike">
 				<a href="https://store.steampowered.com/app/615120/COMPOUND/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/615120/header.jpg" alt="COMPOUND" loading="lazy">
 						<h3>
 							COMPOUND
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1463,13 +1496,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">2 (Moderate)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action shooter rpg adventure narrative 1st great-movement essental openworld">
+			<div class="game-item" data-appid="1914750" data-tags="action shooter rpg adventure narrative 1st great-movement essental openworld">
 				<a href="https://store.steampowered.com/app/1914750/Resist/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1914750/header.jpg" alt="Resist" loading="lazy">
 						<h3>
 							Resist
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1481,13 +1515,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (High-Motion)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="puzzle co-op asymmetrical beginner platformer">
+			<div class="game-item" data-appid="547480" data-tags="puzzle co-op asymmetrical beginner platformer">
 				<a href="https://store.steampowered.com/app/547480/Carly_and_the_Reaperman__Escape_from_the_Underworld/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/547480/header.jpg" alt="Carly and the Reaperman - Escape from the Underworld" loading="lazy">
 						<h3>
 							Carly and the Reaperman - Escape from the Underworld
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1499,13 +1534,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">1 (Very Comfortable)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="essental action adventure simulation shooter 1st">
+			<div class="game-item" data-appid="823500" data-tags="essental action adventure simulation shooter 1st">
 				<a href="https://store.steampowered.com/app/823500/BONEWORKS/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/823500/header.jpg" alt="BONEWORKS" loading="lazy">
 						<h3>
 							BONEWORKS
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1517,13 +1553,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (High-Motion)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure shooter great-movement 1st narrative">
+			<div class="game-item" data-appid="1873920" data-tags="action adventure shooter great-movement 1st narrative">
 				<a href="https://store.steampowered.com/app/1873920/Fracked/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1873920/header.jpg" alt="Fracked" loading="lazy">
 						<h3>
 							Fracked
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1536,13 +1573,14 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="great-movement 1st exploration platformer">
+			<div class="game-item" data-appid="428370" data-tags="great-movement 1st exploration platformer">
 				<a href="https://store.steampowered.com/app/428370/Windlands/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/428370/header.jpg" alt="Windlands" loading="lazy">
 						<h3>
 							Windlands
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1554,13 +1592,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (High-Motion)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure great-movement 1st co-op exploration platformer">
+			<div class="game-item" data-appid="458580" data-tags="action adventure great-movement 1st co-op exploration platformer">
 				<a href="https://store.steampowered.com/app/458580/Windlands_2/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/458580/header.jpg" alt="Windlands 2" loading="lazy">
 						<h3>
 							Windlands 2
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1572,13 +1611,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (High-Motion)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure shooter great-movement 1st co-op">
+			<div class="game-item" data-appid="1839680" data-tags="action adventure shooter great-movement 1st co-op">
 				<a href="https://store.steampowered.com/app/1839680/Titan_Isles/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839680/812ee094f43ee0fe2db3d7256c58ab693563d030/header.jpg?t=1765195857" alt="Titan Isles" loading="lazy">
 						<h3>
 							Titan Isles
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1590,13 +1630,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort"> (High-Motion)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="beginner casual adventure puzzle narrative 3rd">
+			<div class="game-item" data-appid="1215270" data-tags="beginner casual adventure puzzle narrative 3rd">
 				<a href="https://store.steampowered.com/app/1215270/Down_the_Rabbit_Hole/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/1215270/header.jpg" alt="Down the Rabbit Hole" loading="lazy">
 						<h3>
 							Down the Rabbit Hole
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1608,13 +1649,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">1 (Very Comfortable)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="beginner adventure puzzle narrative 3rd">
+			<div class="game-item" data-appid="3471390" data-tags="beginner adventure puzzle narrative 3rd">
 				<a href="https://store.steampowered.com/app/3471390/Escaping_Wonderland/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3471390/26dce9f1de6d4edf883fb56490bf6fa41117da57/header.jpg?t=1751036913" alt="Escaping Wonderland" loading="lazy">
 						<h3>
 							Escaping Wonderland
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1626,13 +1668,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">1 (Very Comfortable)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure platformer narrative metroidvania 1st 3rd">
+			<div class="game-item" data-appid="2133890" data-tags="action adventure platformer narrative metroidvania 1st 3rd">
 				<a href="https://store.steampowered.com/app/2133890/Mixture/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/2133890/header.jpg" alt="Mixture" loading="lazy">
 						<h3>
 							Mixture
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1644,13 +1687,14 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">1 (Comfortable)</span>
 				</div>
 			</div>
-			<div class="game-item" data-tags="action adventure platformer narrative beginner 1st 3rd">
+			<div class="game-item" data-appid="922490" data-tags="action adventure platformer narrative beginner 1st 3rd">
 				<a href="https://store.steampowered.com/app/922490/Max_Mustard/">
 					<div class="image-container">
 						<img src="https://cdn.akamai.steamstatic.com/steam/apps/922490/header.jpg" alt="Max Mustard" loading="lazy">
 						<h3>
 							Max Mustard
 						</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 				<div class="game-info-hidden" style="display: none;">
@@ -1663,11 +1707,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure puzzle platformer narrative beginner 1st 3rd">
+			<div class="game-item" data-appid="577530" data-tags="action adventure puzzle platformer narrative beginner 1st 3rd">
 				<a href="https://store.steampowered.com/app/577530/Pixel_Ripped_1989/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/577530/header.jpg" alt="Pixel Ripped 1989" loading="lazy">
 						<h3>Pixel Ripped 1989</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1683,11 +1728,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure puzzle platformer narrative beginner 1st 3rd">
+			<div class="game-item" data-appid="1178140" data-tags="action adventure puzzle platformer narrative beginner 1st 3rd">
 				<a href="https://store.steampowered.com/app/1178140/Pixel_Ripped_1995/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1178140/header.jpg" alt="Pixel Ripped 1995" loading="lazy">
 						<h3>Pixel Ripped 1995</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1703,11 +1749,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure puzzle platformer narrative beginner 1st 3rd">
+			<div class="game-item" data-appid="2360690" data-tags="action adventure puzzle platformer narrative beginner 1st 3rd">
 				<a href="https://store.steampowered.com/app/2360690/Pixel_Ripped_1978_An_Atari_Adventure/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2360690/header.jpg" alt="Pixel Ripped 1978: An Atari Adventure" loading="lazy">
 						<h3>Pixel Ripped 1978: An Atari Adventure</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1724,11 +1771,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure shooter co-op pvp 1st great-movement">
+			<div class="game-item" data-appid="690620" data-tags="action adventure shooter co-op pvp 1st great-movement">
 				<a href="https://store.steampowered.com/app/690620/Downward_Spiral_Horus_Station/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/690620/header.jpg" alt="Downward Spiral: Horus Station" loading="lazy">
 						<h3>Downward Spiral: Horus Station</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1744,11 +1792,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental beginner puzzle narrative adventure escaperoom 1st">
+			<div class="game-item" data-appid="587430" data-tags="essental beginner puzzle narrative adventure escaperoom 1st">
 				<a href="https://store.steampowered.com/app/587430/I_Expect_You_To_Die/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/587430/header.jpg" alt="I Expect You To Die" loading="lazy">
 						<h3>I Expect You To Die</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1764,11 +1813,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental beginner puzzle narrative adventure escaperoom 1st">
+			<div class="game-item" data-appid="1499120" data-tags="essental beginner puzzle narrative adventure escaperoom 1st">
 				<a href="https://store.steampowered.com/app/1499120/I_Expect_You_To_Die_2_The_Spy_and_the_Liar/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1499120/header.jpg" alt="I Expect You To Die 2: The Spy and the Liar" loading="lazy">
 						<h3>I Expect You To Die 2: The Spy and the Liar</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1784,11 +1834,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="essental beginner puzzle narrative adventure escaperoom 1st">
+			<div class="game-item" data-appid="2296380" data-tags="essental beginner puzzle narrative adventure escaperoom 1st">
 				<a href="https://store.steampowered.com/app/2296380/I_Expect_You_To_Die_3_Cog_in_the_Machine/">
 					<div class="image-container">
 						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2296380/header.jpg" alt="I Expect You To Die 3: Cog in the Machine" loading="lazy">
 						<h3>I Expect You To Die 3: Cog in the Machine</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1804,11 +1855,12 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
-			<div class="game-item" data-tags="action adventure puzzle narrative 1st">
+			<div class="game-item" data-appid="1599560" data-tags="action adventure puzzle narrative 1st">
 				<a href="https://store.steampowered.com/app/1599560/Wanderer/">
 					<div class="image-container">
 						<img src="https://i.imgur.com/8M4CBTo.jpeg" alt="Wanderer" loading="lazy">
 						<h3>Wanderer</h3>
+						<div class="price-badge"></div>
 					</div>
 				</a>
 
@@ -1831,11 +1883,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="horror stealth narrative adventure 1st">
+		<div class="game-item" data-appid="1133320" data-tags="horror stealth narrative adventure 1st">
 			<a href="https://store.steampowered.com/app/1133320/Westworld_Awakening/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1133320/header.jpg" alt="Westworld Awakening" loading="lazy">
 					<h3>Westworld Awakening</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1851,11 +1904,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="horror 1st puzzle adventure narrative">
+		<div class="game-item" data-appid="2414550" data-tags="horror 1st puzzle adventure narrative">
 			<a href="https://store.steampowered.com/app/2414550/MADiSON_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2414550/header.jpg" alt="MADiSON VR" loading="lazy">
 					<h3>MADiSON VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1871,11 +1925,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="horror survival 1st shooter action puzzle adventure exploration">
+		<div class="game-item" data-appid="605830" data-tags="horror survival 1st shooter action puzzle adventure exploration">
 			<a href="https://store.steampowered.com/app/605830/Organ_Quarter/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/605830/header.jpg" alt="Organ Quarter" loading="lazy">
 					<h3>Organ Quarter</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1891,11 +1946,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle escaperoom adventure 1st narrative horror beginner">
+		<div class="game-item" data-appid="979400" data-tags="puzzle escaperoom adventure 1st narrative horror beginner">
 			<a href="https://store.steampowered.com/app/979400/Last_Labyrinth/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/979400/header.jpg" alt="Last Labyrinth" loading="lazy">
 					<h3>Last Labyrinth</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1911,11 +1967,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="horror survival roguelike exploration stealth 1st adventure ">
+		<div class="game-item" data-appid="589200" data-tags="horror survival roguelike exploration stealth 1st adventure ">
 			<a href="https://store.steampowered.com/app/589200/Dreadhalls/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589200/header.jpg" alt="Dreadhalls" loading="lazy">
 					<h3>Dreadhalls</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1931,11 +1988,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="beginner adventure puzzle narrative storyrich 1st point-and-click">
+		<div class="game-item" data-appid="1288420" data-tags="beginner adventure puzzle narrative storyrich 1st point-and-click">
 			<a href="https://store.steampowered.com/app/1288420/The_Secret_of_Retropolis/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1288420/header.jpg" alt="The Secret of Retropolis" loading="lazy">
 					<h3>The Secret of Retropolis</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1951,11 +2009,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="adventure puzzle narrative storyrich beginner 1st point-and-click">
+		<div class="game-item" data-appid="2293440" data-tags="adventure puzzle narrative storyrich beginner 1st point-and-click">
 			<a href="https://store.steampowered.com/app/2293440/Retropolis_2_Never_Say_Goodbye/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2293440/header.jpg" alt="Retropolis 2: Never Say Goodbye" loading="lazy">
 					<h3>Retropolis 2: Never Say Goodbye</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1971,11 +2030,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="platformer co-op great-movement 1st">
+		<div class="game-item" data-appid="520010" data-tags="platformer co-op great-movement 1st">
 			<a href="https://store.steampowered.com/app/520010/Climbey/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/520010/header.jpg" alt="Climbey" loading="lazy">
 					<h3>Climbey</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -1991,13 +2051,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action adventure exploration 2">
+		<div class="game-item" data-appid="1075080" data-tags="action adventure exploration 2">
 			<a href="https://store.steampowered.com/app/1075080/Falcon_Age/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1075080/header.jpg"
 					alt="Falcon Age" loading="lazy">
 					<h3>Falcon Age</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2014,13 +2075,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure storyrich 1">
+		<div class="game-item" data-appid="1337530" data-tags="puzzle adventure storyrich 1">
 			<a href="https://store.steampowered.com/app/1337530/Maskmaker/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1337530/header.jpg"
 					alt="Maskmaker" loading="lazy">
 					<h3>Maskmaker</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2037,13 +2099,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure narrative 1">
+		<div class="game-item" data-appid="966680" data-tags="puzzle adventure narrative 1">
 			<a href="https://store.steampowered.com/app/966680/Red_Matter/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/966680/header.jpg"
 					alt="Red Matter" loading="lazy">
 					<h3>Red Matter</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2060,13 +2123,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="adventure puzzle action 2">
+		<div class="game-item" data-appid="2081470" data-tags="adventure puzzle action 2">
 			<a href="https://store.steampowered.com/app/2081470/Red_Matter_2/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2081470/header.jpg"
 					alt="Red Matter 2" loading="lazy">
 					<h3>Red Matter 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2083,13 +2147,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action adventure co-op 3">
+		<div class="game-item" data-appid="1103860" data-tags="action adventure co-op 3">
 			<a href="https://store.steampowered.com/app/1103860/The_Wizards__Dark_Times_Brotherhood/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1103860/header.jpg"
 					alt="The Wizards: Dark Times Brotherhood" loading="lazy">
 					<h3>The Wizards: Dark Times Brotherhood</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2106,13 +2171,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="narrative adventure storyrich 2">
+		<div class="game-item" data-appid="2950330" data-tags="narrative adventure storyrich 2">
 			<a href="https://store.steampowered.com/app/2950330/Journey_to_Foundation/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2950330/header.jpg"
 					alt="Journey to Foundation" loading="lazy">
 					<h3>Journey to Foundation</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2129,13 +2195,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="exploration adventure survival 3">
+		<div class="game-item" data-appid="579820" data-tags="exploration adventure survival 3">
 			<a href="https://store.steampowered.com/app/579820/Robinson_The_Journey/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579820/header.jpg"
 					alt="Robinson: The Journey" loading="lazy">
 					<h3>Robinson: The Journey</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2152,13 +2219,14 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="narrative exploration casual 1">
+		<div class="game-item" data-appid="829560" data-tags="narrative exploration casual 1">
 			<a href="https://store.steampowered.com/app/829560/Katie/">
 				<div class="image-container">
 					<img 
 					src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/829560/header.jpg"
 					alt="Katie" loading="lazy">
 					<h3>Katie</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2174,11 +2242,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle adventure narrative 1">
+		<div class="game-item" data-appid="559330" data-tags="puzzle adventure narrative 1">
 			<a href="https://store.steampowered.com/app/559330/A_Fishermans_Tale/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/559330/header.jpg" alt="A Fisherman's Tale" loading="lazy">
 					<h3>A Fisherman's Tale</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2194,11 +2263,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure casual 2">
+		<div class="game-item" data-appid="2096570" data-tags="puzzle adventure casual 2">
 			<a href="https://store.steampowered.com/app/2096570/A_Fishermans_Tale_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2096570/header.jpg" alt="A Fisherman's Tale 2" loading="lazy">
 					<h3>A Fisherman's Tale 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2214,11 +2284,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="narrative adventure exploration 1">
+		<div class="game-item" data-appid="582560" data-tags="narrative adventure exploration 1">
 			<a href="https://store.steampowered.com/app/582560/The_Invisible_Hours/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582560/header.jpg" alt="The Invisible Hours" loading="lazy">
 					<h3>The Invisible Hours</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2233,11 +2304,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle adventure casual 2">
+		<div class="game-item" data-appid="1510390" data-tags="puzzle adventure casual 2">
 			<a href="https://store.steampowered.com/app/1510390/Wind_Wind/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1510390/header.jpg" alt="Wind Wind" loading="lazy">
 					<h3>Wind Wind</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2252,11 +2324,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Comfortable)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation adventure narrative 3">
+		<div class="game-item" data-appid="1802520" data-tags="simulation adventure narrative 3">
 			<a href="https://store.steampowered.com/app/1802520/Snow_Scout/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1802520/header.jpg" alt="Snow Scout" loading="lazy">
 					<h3>Snow Scout</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2271,11 +2344,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (High Motion)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure exploration puzzle 1">
+		<div class="game-item" data-appid="270130" data-tags="adventure exploration puzzle 1">
 			<a href="https://store.steampowered.com/app/270130/The_Gallery__Episode_1_Call_of_the_Starseed/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270130/header.jpg" alt="The Gallery - Episode 1: Call of the Starseed" loading="lazy">
 					<h3>The Gallery - Episode 1: Call of the Starseed</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2290,11 +2364,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure puzzle narrative 1">
+		<div class="game-item" data-appid="526140" data-tags="adventure puzzle narrative 1">
 			<a href="https://store.steampowered.com/app/526140/The_Gallery__Episode_2_Heart_of_the_Emberstone/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/526140/header.jpg" alt="The Gallery - Episode 2: Heart of the Emberstone" loading="lazy">
 					<h3>The Gallery - Episode 2: Heart of the Emberstone</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2309,11 +2384,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle narrative exploration 2">
+		<div class="game-item" data-appid="557520" data-tags="puzzle narrative exploration 2">
 			<a href="https://store.steampowered.com/app/557520/Torn/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/557520/header.jpg" alt="Torn" loading="lazy">
 					<h3>Torn</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2329,11 +2405,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure exploration 2">
+		<div class="game-item" data-appid="299400" data-tags="puzzle adventure exploration 2">
 			<a href="https://store.steampowered.com/app/299400/XING_The_Land_Beyond/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/299400/header.jpg" alt="XING: The Land Beyond" loading="lazy">
 					<h3>XING: The Land Beyond</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2349,11 +2426,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="adventure puzzle narrative 1">
+		<div class="game-item" data-appid="1036260" data-tags="adventure puzzle narrative 1">
 			<a href="https://store.steampowered.com/app/1036260/Journey_For_Elysium/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1036260/header.jpg" alt="Journey For Elysium" loading="lazy">
 					<h3>Journey For Elysium</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2369,11 +2447,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action adventure narrative 1">
+		<div class="game-item" data-appid="677330" data-tags="action adventure narrative 1">
 			<a href="https://store.steampowered.com/app/677330/Theseus/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/677330/header.jpg" alt="Theseus" loading="lazy">
 					<h3>Theseus</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2389,11 +2468,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure casual 1">
+		<div class="game-item" data-appid="1318700" data-tags="puzzle adventure casual 1">
 			<a href="https://store.steampowered.com/app/1318700/A_Knight_in_the_Attic/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1318700/header.jpg" alt="A Knight in the Attic" loading="lazy">
 					<h3>A Knight in the Attic</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2409,11 +2489,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="platformer action adventure 1">
+		<div class="game-item" data-appid="1139310" data-tags="platformer action adventure 1">
 			<a href="https://store.steampowered.com/app/1139310/Ven_VR_Adventure/">
 				<div class="image-container">
-					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139310/header.jpg" alt="Ven VR Adventure" loading="lazy">
+					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1139310/header.jpg?t=1698246993" alt="Ven VR Adventure" loading="lazy">loading="lazy">
 					<h3>Ven VR Adventure</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2429,11 +2510,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="adventure platformer action 1">
+		<div class="game-item" data-appid="1051200" data-tags="adventure platformer action 1">
 			<a href="https://store.steampowered.com/app/1051200/Trover_Saves_the_Universe/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1051200/header.jpg" alt="Trover Saves the Universe" loading="lazy">
 					<h3>Trover Saves the Universe</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2449,11 +2531,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="exploration puzzle great-movement 2">
+		<div class="game-item" data-appid="589940" data-tags="exploration puzzle great-movement 2">
 			<a href="https://store.steampowered.com/app/589940/Eye_of_the_Temple/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589940/header.jpg" alt="Eye of the Temple" loading="lazy">
 					<h3>Eye of the Temple</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2469,11 +2552,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action roguelike simulation 3">
+		<div class="game-item" data-appid="2441700" data-tags="action roguelike simulation 3">
 			<a href="https://store.steampowered.com/app/2441700/UNDERDOGS/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2441700/header.jpg" alt="UNDERDOGS" loading="lazy">
 					<h3>UNDERDOGS</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2489,11 +2573,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="shooter roguelike action 3">
+		<div class="game-item" data-appid="1579880" data-tags="shooter roguelike action 3">
 			<a href="https://store.steampowered.com/app/1579880/The_Light_Brigade/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1579880/header.jpg" alt="The Light Brigade" loading="lazy">
 					<h3>The Light Brigade</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2509,11 +2594,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="roguelike action rpg 3">
+		<div class="game-item" data-appid="1094960" data-tags="roguelike action rpg 3">
 			<a href="https://store.steampowered.com/app/1094960/Soul_Scathe/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1094960/header.jpg" alt="Soul Scathe" loading="lazy">
 					<h3>Soul Scathe</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2528,11 +2614,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter roguelike action 3">
+		<div class="game-item" data-appid="605450" data-tags="shooter roguelike action 3">
 			<a href="https://store.steampowered.com/app/605450/In_Death/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/605450/header.jpg" alt="In Death" loading="lazy">
 					<h3>In Death</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2547,11 +2634,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="sword roguelike action 2">
+		<div class="game-item" data-appid="858260" data-tags="sword roguelike action 2">
 			<a href="https://store.steampowered.com/app/858260/Until_You_Fall/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/858260/header.jpg" alt="Until You Fall" loading="lazy">
 					<h3>Until You Fall</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2566,11 +2654,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action roguelike adventure 3">
+		<div class="game-item" data-appid="2739340" data-tags="action roguelike adventure 3">
 			<a href="https://store.steampowered.com/app/2739340/HexWind/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2739340/header.jpg" alt="HexWind" loading="lazy">
 					<h3>HexWind</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2585,11 +2674,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter roguelike action 3">
+		<div class="game-item" data-appid="2005240" data-tags="shooter roguelike action 3">
 			<a href="https://store.steampowered.com/app/2005240/Space_Shells/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2005240/header.jpg" alt="Space Shells" loading="lazy">
 					<h3>Space Shells</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2604,11 +2694,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="roguelike shooter action 3">
+
+		<div class="game-item" data-appid="638130" data-tags="roguelike shooter action 3">
 			<a href="https://store.steampowered.com/app/638130/Sweet_Surrender_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/638130/header.jpg" alt="Sweet Surrender VR" loading="lazy">
 					<h3>Sweet Surrender VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2623,11 +2715,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action storyrich 3">
+
+		<div class="game-item" data-appid="1971770" data-tags="shooter action storyrich 3">
 			<a href="https://store.steampowered.com/app/1971770/Wandering_in_Space_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1971770/header.jpg" alt="Wandering in Space VR" loading="lazy">
 					<h3>Wandering in Space VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2642,11 +2736,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="sword action adventure 3">
+		<div class="game-item" data-appid="629730" data-tags="sword action adventure 3">
 			<a href="https://store.steampowered.com/app/629730/Blade_and_Sorcery/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/629730/header.jpg" alt="Blade and Sorcery" loading="lazy">
 					<h3>Blade and Sorcery</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2661,11 +2756,14 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="sword action horror 2">
+
+
+		<div class="game-item" data-appid="1039880" data-tags="sword action horror 2">
 			<a href="https://store.steampowered.com/app/1039880/Hellsplit_Arena/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1039880/header.jpg" alt="Hellsplit Arena" loading="lazy">
 					<h3>Hellsplit Arena</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2680,11 +2778,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="sword action simulation 2">
+		<div class="game-item" data-appid="1206480" data-tags="sword action simulation 2">
 			<a href="https://store.steampowered.com/app/1206480/Swordsman_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1206480/header.jpg" alt="Swordsman VR" loading="lazy">
 					<h3>Swordsman VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2700,11 +2799,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="sword action pvp 1">
+		<div class="game-item" data-appid="1947070" data-tags="sword action pvp 1">
 			<a href="https://store.steampowered.com/app/1947070/Broken_Edge/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1947070/header.jpg" alt="Broken Edge" loading="lazy">
 					<h3>Broken Edge</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2719,11 +2819,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action great-movement sword 3">
+		<div class="game-item" data-appid="3391450" data-tags="action great-movement sword 3">
 			<a href="https://store.steampowered.com/app/3391450/GORN_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3391450/header.jpg" alt="GORN 2" loading="lazy">
 					<h3>GORN 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 
@@ -2739,11 +2840,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure exploration 1">
+		<div class="game-item" data-appid="1255560" data-tags="puzzle adventure exploration 1">
 			<a href="https://store.steampowered.com/app/1255560/Myst/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1255560/header.jpg" alt="Myst" loading="lazy">
 					<h3>Myst</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2758,11 +2860,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle adventure exploration 1">
+		<div class="game-item" data-appid="1712350" data-tags="puzzle adventure exploration 1">
 			<a href="https://store.steampowered.com/app/1712350/Riven/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1712350/header.jpg" alt="Riven" loading="lazy">
 					<h3>Riven</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2777,11 +2880,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle narrative adventure 2">
+		<div class="game-item" data-appid="754890" data-tags="puzzle narrative adventure 2">
 			<a href="https://store.steampowered.com/app/754890/Firmament/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754890/header.jpg" alt="Firmament" loading="lazy">
 					<h3>Firmament</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2796,11 +2900,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="adventure puzzle exploration 2">
+		<div class="game-item" data-appid="306760" data-tags="adventure puzzle exploration 2">
 			<a href="https://store.steampowered.com/app/306760/Obduction/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/306760/header.jpg" alt="Obduction" loading="lazy">
 					<h3>Obduction</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2815,11 +2920,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle simulation platformer 1">
+		<div class="game-item" data-appid="1755100" data-tags="puzzle simulation platformer 1">
 			<a href="https://store.steampowered.com/app/1755100/The_Last_Clockwinder/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1755100/header.jpg" alt="The Last Clockwinder" loading="lazy">
 					<h3>The Last Clockwinder</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2834,11 +2940,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle casual exploration 1">
+		<div class="game-item" data-appid="290510" data-tags="puzzle casual exploration 1">
 			<a href="https://store.steampowered.com/app/290510/GNOG/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/290510/header.jpg" alt="GNOG" loading="lazy">
 					<h3>GNOG</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2853,11 +2960,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation action casual 3">
+		<div class="game-item" data-appid="986670" data-tags="simulation action casual 3">
 			<a href="https://store.steampowered.com/app/986670/Steady/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/986670/header.jpg" alt="Steady" loading="lazy">
 					<h3>Steady</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2872,11 +2980,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="escaperoom puzzle casual 1">
+		<div class="game-item" data-appid="1045080" data-tags="escaperoom puzzle casual 1">
 			<a href="https://store.steampowered.com/app/1045080/Curious_Cases/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1045080/header.jpg" alt="Curious Cases" loading="lazy">
 					<h3>Curious Cases</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2891,11 +3000,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle narrative platformer 1">
+		<div class="game-item" data-appid="1831700" data-tags="puzzle narrative platformer 1">
 			<a href="https://store.steampowered.com/app/1831700/Tin_Hearts/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1831700/header.jpg" alt="Tin Hearts" loading="lazy">
 					<h3>Tin Hearts</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2910,11 +3020,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle simulation platformer 1">
+		<div class="game-item" data-appid="2672470" data-tags="puzzle simulation platformer 1">
 			<a href="https://store.steampowered.com/app/2672470/UnLoop/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2672470/header.jpg" alt="UnLoop" loading="lazy">
 					<h3>UnLoop</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2928,11 +3039,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle action platformer 1">
+
+		<div class="game-item" data-appid="1581480" data-tags="puzzle action platformer 1">
 			<a href="https://store.steampowered.com/app/1581480/HUMANITY/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1581480/header.jpg" alt="HUMANITY" loading="lazy">
 					<h3>HUMANITY</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2946,11 +3059,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle escaperoom exploration 2">
+
+		<div class="game-item" data-appid="579720" data-tags="puzzle escaperoom exploration 2">
 			<a href="https://store.steampowered.com/app/579720/Neverout/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/579720/header.jpg" alt="Neverout" loading="lazy">
 					<h3>Neverout</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2964,11 +3079,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure puzzle exploration 1">
+
+		<div class="game-item" data-appid="1534850" data-tags="adventure puzzle exploration 1">
 			<a href="https://store.steampowered.com/app/1534850/Floor_Plan_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1534850/17fbe670e0260bad0113f7d5ab100b87eb8a083b/header.jpg?t=1757354275" alt="Floor Plan 2" loading="lazy">
 					<h3>Floor Plan 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -2982,11 +3099,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action simulation 3">
+
+		<div class="game-item" data-appid="555160" data-tags="shooter action simulation 3">
 			<a href="https://store.steampowered.com/app/555160/Pavlov/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/555160/header.jpg" alt="Pavlov" loading="lazy">
 					<h3>Pavlov</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3000,11 +3119,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action co-op 3">
+
+		<div class="game-item" data-appid="2719740" data-tags="shooter action co-op 3">
 			<a href="https://store.steampowered.com/app/2719740/Zero_Caliber_2_Remastered/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2719740/94fa6c8b89605bd75bba386c399803be7d6c574e/header.jpg?t=1761940304" alt="Zero Caliber 2 Remastered" loading="lazy">
 					<h3>Zero Caliber 2 Remastered</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3018,11 +3139,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="survival extraction shooter 3">
+
+		<div class="game-item" data-appid="1957780" data-tags="survival extraction shooter 3">
 			<a href="https://store.steampowered.com/app/1957780/Ghosts_of_Tabor/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1957780/header.jpg" alt="Ghosts of Tabor" loading="lazy">
 					<h3>Ghosts of Tabor</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3036,11 +3159,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action co-op 3">
+
+		<div class="game-item" data-appid="1636030" data-tags="shooter action co-op 3">
 			<a href="https://store.steampowered.com/app/1636030/Crossfire_Sierra_Squad/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1636030/header.jpg" alt="Crossfire: Sierra Squad" loading="lazy">
 					<h3>Crossfire: Sierra Squad</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3054,11 +3179,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter co-op rpg 3">
+
+		<div class="game-item" data-appid="551700" data-tags="shooter co-op rpg 3">
 			<a href="https://store.steampowered.com/app/551700/Gunheart/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/551700/header.jpg" alt="Gunheart" loading="lazy">
-					<h3>Gunheart</h3>
+					<h3>Gunheart</h3>					
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3072,11 +3199,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action sword adventure 2">
+
+		<div class="game-item" data-appid="616820" data-tags="action sword adventure 2">
 			<a href="https://store.steampowered.com/app/616820/District_Steel/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/616820/header.jpg" alt="District Steel" loading="lazy">
 					<h3>District Steel</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3090,11 +3219,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action simulation shooter 3">
+		<div class="game-item" data-appid="1294760" data-tags="action simulation shooter 3">
 			<a href="https://store.steampowered.com/app/1294760/HARD_BULLET/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1294760/header.jpg" alt="HARD BULLET" loading="lazy">
 					<h3>HARD BULLET</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3109,11 +3239,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle platformer exploration 1">
+		<div class="game-item" data-appid="534230" data-tags="puzzle platformer exploration 1">
 			<a href="https://store.steampowered.com/app/534230/Quell_4D/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534230/header.jpg" alt="Quell 4D" loading="lazy">
 					<h3>Quell 4D</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3127,11 +3258,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action simulation roguelike 3">
+
+		<div class="game-item" data-appid="312650" data-tags="action simulation roguelike 3">
 			<a href="https://store.steampowered.com/app/312650/Battlezone_Gold_Edition/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/312650/header.jpg" alt="Battlezone Gold Edition" loading="lazy">
 					<h3>Battlezone Gold Edition</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3145,11 +3278,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action flight 3">
+
+		<div class="game-item" data-appid="448850" data-tags="shooter action flight 3">
 			<a href="https://store.steampowered.com/app/448850/Overload/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/448850/header.jpg" alt="Overload" loading="lazy">
 					<h3>Overload</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3163,11 +3298,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action co-op 3">
+
+		<div class="game-item" data-appid="218620" data-tags="shooter action co-op 3">
 			<a href="https://store.steampowered.com/app/218620/PAYDAY_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/header.jpg" alt="PAYDAY 2" loading="lazy">
 					<h3>PAYDAY 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3181,11 +3318,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter horror co-op 2">
+
+		<div class="game-item" data-appid="2897700" data-tags="shooter horror co-op 2">
 			<a href="https://store.steampowered.com/app/2897700/Arizona_Sunshine_Remake/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2897700/header.jpg" alt="Arizona Sunshine Remake" loading="lazy">
 					<h3>Arizona Sunshine Remake</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3199,11 +3338,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter horror action 2">
+
+		<div class="game-item" data-appid="1540210" data-tags="shooter horror action 2">
 			<a href="https://store.steampowered.com/app/1540210/Arizona_Sunshine_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1540210/header.jpg" alt="Arizona Sunshine 2" loading="lazy">
 					<h3>Arizona Sunshine 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3217,11 +3358,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="horror shooter survival 3">
+
+		<div class="game-item" data-appid="578210" data-tags="horror shooter survival 3">
 			<a href="https://store.steampowered.com/app/578210/ATech_Cybernetic_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578210/header.jpg" alt="A-Tech Cybernetic VR" loading="lazy">
 					<h3>A-Tech Cybernetic VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3235,11 +3378,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure exploration narrative 2">
+
+		<div class="game-item" data-appid="2667980" data-tags="adventure exploration narrative 2">
 			<a href="https://store.steampowered.com/app/2667980/Genotype/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2667980/header.jpg" alt="Genotype" loading="lazy">
 					<h3>Genotype</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3253,11 +3398,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rpg turnbased narrative 1">
+
+		<div class="game-item" data-appid="1030310" data-tags="rpg turnbased narrative 1">
 			<a href="https://store.steampowered.com/app/1030310/Table_of_Tales_The_Crooked_Crown/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1030310/header.jpg" alt="Table of Tales: The Crooked Crown" loading="lazy">
 					<h3>Table of Tales: The Crooked Crown</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3271,11 +3418,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rpg turnbased co-op 1">
+
+		<div class="game-item" data-appid="1484280" data-tags="rpg turnbased co-op 1">
 			<a href="https://store.steampowered.com/app/1484280/Demeo/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1484280/header.jpg" alt="Demeo" loading="lazy">
 					<h3>Demeo</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3287,13 +3436,15 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-multiplayer">Yes (Co-op)</span>
 				<span class="data-playtime">Not applicable (Procedural/Session-based)</span>
 				<span class="data-comfort">1 (Very Easy)</span>
-			</div>
+			</div>			
 		</div>
-		<div class="game-item" data-tags="survival rpg shooter 3">
+
+		<div class="game-item" data-appid="2153780" data-tags="survival rpg shooter 3">
 			<a href="https://store.steampowered.com/app/2153780/Survival_Nation/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2153780/header.jpg" alt="Survival Nation" loading="lazy">
 					<h3>Survival Nation</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3307,11 +3458,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rpg action sword 3">
+
+		<div class="game-item" data-appid="1465070" data-tags="rpg action sword 3">
 			<a href="https://store.steampowered.com/app/1465070/Legendary_Tales/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465070/header.jpg" alt="Legendary Tales" loading="lazy">
 					<h3>Legendary Tales</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3326,11 +3479,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="rpg action sword 3">
+		<div class="game-item" data-appid="1910860" data-tags="rpg action sword 3">
 			<a href="https://store.steampowered.com/app/1910860/Grimlord/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1910860/header.jpg" alt="Grimlord" loading="lazy">
 					<h3>Grimlord</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3344,11 +3498,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action sword survival 3">
+
+		<div class="game-item" data-appid="819190" data-tags="action sword survival 3">
 			<a href="https://store.steampowered.com/app/819190/Undead_Citadel/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/819190/header.jpg" alt="Undead Citadel" loading="lazy">
 					<h3>Undead Citadel</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3362,11 +3518,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rpg turnbased adventure 1">
+
+		<div class="game-item" data-appid="985950" data-tags="rpg turnbased adventure 1">
 			<a href="https://store.steampowered.com/app/985950/Operencia_The_Stolen_Sun/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/985950/header.jpg" alt="Operencia: The Stolen Sun" loading="lazy">
 					<h3>Operencia: The Stolen Sun</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3380,11 +3538,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation action casual 1">
+
+		<div class="game-item" data-appid="2909910" data-tags="simulation action casual 1">
 			<a href="https://store.steampowered.com/app/2909910/Underworld_Overseer/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2909910/header.jpg" alt="Underworld Overseer" loading="lazy">
 					<h3>Underworld Overseer</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3398,11 +3558,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="realtime simulation action 2">
+
+		<div class="game-item" data-appid="3385960" data-tags="realtime simulation action 2">
 			<a href="https://store.steampowered.com/app/3385960/BattleGroupVR2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3385960/19f2c7f34b49aa0bd555cc2cdf6035b85cfce984/header.jpg?t=1763044162" alt="BattleGroupVR 2" loading="lazy">
 					<h3>BattleGroupVR 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3416,11 +3578,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action simulation 3">
+
+		<div class="game-item" data-appid="1911860" data-tags="shooter action simulation 3">
 			<a href="https://store.steampowered.com/app/1911860/Grit_and_Valor__1949/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1911860/header.jpg" alt="Grit and Valor - 1949" loading="lazy">
 					<h3>Grit and Valor - 1949</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3434,11 +3598,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="realtime strategy simulation 1">
+
+		<div class="game-item" data-appid="436940" data-tags="realtime strategy simulation 1">
 			<a href="https://store.steampowered.com/app/436940/Quar_Battle_for_Gate_18/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436940/header.jpg" alt="Quar: Battle for Gate 18" loading="lazy">
 					<h3>Quar: Battle for Gate 18</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3452,11 +3618,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="stealth adventure action 2">
+
+		<div class="game-item" data-appid="966560" data-tags="stealth adventure action 2">
 			<a href="https://store.steampowered.com/app/966560/ROGAN_The_Thief_in_the_Castle/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/966560/header.jpg" alt="ROGAN: The Thief in the Castle" loading="lazy">
 					<h3>ROGAN: The Thief in the Castle</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3470,11 +3638,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="narrative stealth adventure 1">
+
+		<div class="game-item" data-appid="915200" data-tags="narrative stealth adventure 1">
 			<a href="https://store.steampowered.com/app/915200/Republique_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/915200/header.jpg" alt="Republique VR" loading="lazy">
 					<h3>Republique VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3489,11 +3659,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="stealth adventure puzzle 2">
+		<div class="game-item" data-appid="754850" data-tags="stealth adventure puzzle 2">
 			<a href="https://store.steampowered.com/app/754850/The_Spy_Who_Shrunk_Me/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754850/header.jpg" alt="The Spy Who Shrunk Me" loading="lazy">
 					<h3>The Spy Who Shrunk Me</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3507,11 +3678,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="stealth roguelike action 2">
+
+		<div class="game-item" data-appid="987000" data-tags="stealth roguelike action 2">
 			<a href="https://store.steampowered.com/app/987000/Shadow_Uprising/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/987000/header.jpg" alt="Shadow Uprising" loading="lazy">
 					<h3>Shadow Uprising</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3525,11 +3698,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="survival adventure exploration 2">
+
+		<div class="game-item" data-appid="1787810" data-tags="survival adventure exploration 2">
 			<a href="https://store.steampowered.com/app/1787810/Song_in_the_Smoke/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1787810/header.jpg" alt="Song in the Smoke" loading="lazy">
 					<h3>Song in the Smoke</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3543,11 +3718,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation exploration action 2">
+
+		<div class="game-item" data-appid="619500" data-tags="simulation exploration action 2">
 			<a href="https://store.steampowered.com/app/619500/cyubeVR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/619500/header.jpg" alt="cyubeVR" loading="lazy">
 					<h3>cyubeVR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3561,11 +3738,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation exploration casual 1">
+
+		<div class="game-item" data-appid="314650" data-tags="simulation exploration casual 1">
 			<a href="https://store.steampowered.com/app/314650/SpaceEngine/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/314650/header.jpg" alt="SpaceEngine" loading="lazy">
 					<h3>SpaceEngine</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3579,11 +3758,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter simulation action 2">
+
+		<div class="game-item" data-appid="450540" data-tags="shooter simulation action 2">
 			<a href="https://store.steampowered.com/app/450540/Hot_Dogs_Horseshoes__Hand_Grenades/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/450540/header.jpg" alt="Hot Dogs, Horseshoes & Hand Grenades" loading="lazy">
 					<h3>Hot Dogs, Horseshoes & Hand Grenades</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3597,11 +3778,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation casual exploration 1">
-			<a href="https://store.steampowered.com/app/1024010/Ultimate_Fishing_Simulator_VR/">
+
+		<div class="game-item" data-appid="1137540" data-tags="simulation casual exploration 1">
+			<a href="https://store.steampowered.com/app/1137540/Ultimate_Fishing_Simulator__VR_DLC/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1024010/header.jpg" alt="Ultimate Fishing Simulator VR" loading="lazy">
 					<h3>Ultimate Fishing Simulator VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3615,11 +3798,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation casual realtime 1">
+
+		<div class="game-item" data-appid="468240" data-tags="simulation casual realtime 1">
 			<a href="https://store.steampowered.com/app/468240/VR_Regatta__The_Sailing_Game/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/468240/header.jpg" alt="VR Regatta - The Sailing Game" loading="lazy">
 					<h3>VR Regatta - The Sailing Game</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3633,11 +3818,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action simulation great-movement 3">
+
+		<div class="game-item" data-appid="804490" data-tags="action simulation great-movement 3">
 			<a href="https://store.steampowered.com/app/804490/Creed_Rise_to_Glory/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/804490/header.jpg" alt="Creed: Rise to Glory" loading="lazy">
 					<h3>Creed: Rise to Glory</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3651,11 +3838,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation casual multiplayer 1">
+		<div class="game-item" data-appid="488310" data-tags="simulation casual multiplayer 1">
 			<a href="https://store.steampowered.com/app/488310/Eleven_Table_Tennis_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/488310/header.jpg" alt="Eleven Table Tennis VR" loading="lazy">
 					<h3>Eleven Table Tennis VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3670,11 +3858,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation casual multiplayer 3">
+		<div class="game-item" data-appid="454140" data-tags="simulation casual multiplayer 3">
 			<a href="https://store.steampowered.com/app/454140/First_Person_Tennis__The_Real_Tennis_Simulator/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/454140/header.jpg" alt="First Person Tennis - The Real Tennis Simulator" loading="lazy">
 					<h3>First Person Tennis - The Real Tennis Simulator</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3689,11 +3878,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="exploration simulation casual 1">
+		<div class="game-item" data-appid="1683340" data-tags="exploration simulation casual 1">
 			<a href="https://store.steampowered.com/app/1683340/Kayak_VR_Mirage/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1683340/header.jpg" alt="Kayak VR: Mirage" loading="lazy">
 					<h3>Kayak VR: Mirage</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3708,11 +3898,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation action great-movement 3">
+		<div class="game-item" data-appid="1004510" data-tags="simulation action great-movement 3">
 			<a href="https://store.steampowered.com/app/1004510/DownStream_VR_Whitewater_Kayaking/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1004510/header.jpg" alt="DownStream VR: Whitewater Kayaking" loading="lazy">
 					<h3>DownStream VR: Whitewater Kayaking</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3727,11 +3918,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation action great-movement 3">
+		<div class="game-item" data-appid="1285920" data-tags="simulation action great-movement 3">
 			<a href="https://store.steampowered.com/app/1285920/VR_Skater/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1285920/header.jpg" alt="VR Skater" loading="lazy">
 					<h3>VR Skater</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3746,11 +3938,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation action realtime 1">
+		<div class="game-item" data-appid="1230860" data-tags="simulation action realtime 1">
 			<a href="https://store.steampowered.com/app/1230860/2MD_VR_Football_Evolution/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1230860/header.jpg" alt="2MD VR Football Evolution" loading="lazy">
 					<h3>2MD VR Football Evolution</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3765,11 +3958,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation realtime multiplayer 3">
+		<div class="game-item" data-appid="1066890" data-tags="simulation realtime multiplayer 3">
 			<a href="https://store.steampowered.com/app/1066890/Automobilista_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1066890/header.jpg" alt="Automobilista 2" loading="lazy">
 					<h3>Automobilista 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3784,11 +3978,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation realtime multiplayer 3">
+		<div class="game-item" data-appid="365960" data-tags="simulation realtime multiplayer 3">
 			<a href="https://store.steampowered.com/app/365960/rFactor_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/365960/header.jpg" alt="rFactor 2" loading="lazy">
 					<h3>rFactor 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3803,11 +3998,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation realtime multiplayer 3">
+		<div class="game-item" data-appid="244210" data-tags="simulation realtime multiplayer 3">
 			<a href="https://store.steampowered.com/app/244210/Assetto_Corsa/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/244210/header.jpg" alt="Assetto Corsa" loading="lazy">
 					<h3>Assetto Corsa</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3822,11 +4018,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation realtime multiplayer 3">
+		<div class="game-item" data-appid="2399420" data-tags="simulation realtime multiplayer 3">
 			<a href="https://store.steampowered.com/app/2399420/Le_Mans_Ultimate/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2399420/header.jpg" alt="Le Mans Ultimate" loading="lazy">
 					<h3>Le Mans Ultimate</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3841,11 +4038,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation realtime multiplayer 3">
+		<div class="game-item" data-appid="3059520" data-tags="simulation realtime multiplayer 3">
 			<a href="https://store.steampowered.com/app/3059520/F1_25/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3059520/37f833ca5bd3d5c3eec2b411131f3e00f580bbe7/header.jpg?t=1762963192" alt="F1 25" loading="lazy">
 					<h3>F1 25</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3860,11 +4058,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action simulation casual 3">
+		<div class="game-item" data-appid="2898310" data-tags="action simulation casual 3">
 			<a href="https://store.steampowered.com/app/2898310/EXOcars/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2898310/header.jpg" alt="EXOcars" loading="lazy">
 					<h3>EXOcars</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3879,11 +4078,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action simulation multiplayer 3">
+		<div class="game-item" data-appid="396900" data-tags="action simulation multiplayer 3">
 			<a href="https://store.steampowered.com/app/396900/GRIP_Combat_Racing/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/396900/header.jpg" alt="GRIP: Combat Racing" loading="lazy">
 					<h3>GRIP: Combat Racing</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3898,11 +4098,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation realtime action 3">
+		<div class="game-item" data-appid="406350" data-tags="simulation realtime action 3">
 			<a href="https://store.steampowered.com/app/406350/KartKraft/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/406350/header.jpg" alt="KartKraft" loading="lazy">
 					<h3>KartKraft</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3917,11 +4118,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action casual multiplayer 2">
+		<div class="game-item" data-appid="1159860" data-tags="action casual multiplayer 2">
 			<a href="https://store.steampowered.com/app/1159860/Dash_Dash_World/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1159860/header.jpg" alt="Dash Dash World" loading="lazy">
 					<h3>Dash Dash World</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3936,11 +4138,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="casual action multiplayer 2">
+		<div class="game-item" data-appid="1401970" data-tags="casual action multiplayer 2">
 			<a href="https://store.steampowered.com/app/1401970/Galaxy_Kart_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1401970/header.jpg" alt="Galaxy Kart VR" loading="lazy">
 					<h3>Galaxy Kart VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3955,11 +4158,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action casual multiplayer 1">
+		<div class="game-item" data-appid="1303990" data-tags="action casual multiplayer 1">
 			<a href="https://store.steampowered.com/app/1303990/Mini_Motor_Racing_X/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1303990/header.jpg" alt="Mini Motor Racing X" loading="lazy">
 					<h3>Mini Motor Racing X</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3974,11 +4178,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="great-movement action multiplayer 3">
+		<div class="game-item" data-appid="590690" data-tags="great-movement action multiplayer 3">
 			<a href="https://store.steampowered.com/app/590690/Sprint_Vector/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/590690/header.jpg" alt="Sprint Vector" loading="lazy">
 					<h3>Sprint Vector</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -3993,11 +4198,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="rhythm action platformer 2">
+		<div class="game-item" data-appid="356400" data-tags="rhythm action platformer 2">
 			<a href="https://store.steampowered.com/app/356400/Thumper/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/356400/header.jpg" alt="Thumper" loading="lazy">
 					<h3>Thumper</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4012,11 +4218,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation action multiplayer 3">
+		<div class="game-item" data-appid="473770" data-tags="simulation action multiplayer 3">
 			<a href="https://store.steampowered.com/app/473770/BallisticNG/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/473770/header.jpg" alt="BallisticNG" loading="lazy">
 					<h3>BallisticNG</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4031,11 +4238,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action platformer exploration 3">
+		<div class="game-item" data-appid="233610" data-tags="action platformer exploration 3">
 			<a href="https://store.steampowered.com/app/233610/Distance/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/233610/header.jpg" alt="Distance" loading="lazy">
 					<h3>Distance</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4050,11 +4258,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation action multiplayer 3">
+		<div class="game-item" data-appid="517710" data-tags="simulation action multiplayer 3">
 			<a href="https://store.steampowered.com/app/517710/Redout_Enhanced_Edition/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/517710/header.jpg" alt="Redout: Enhanced Edition" loading="lazy">
 					<h3>Redout: Enhanced Edition</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4069,11 +4278,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action simulation flight 3">
+		<div class="game-item" data-appid="668430" data-tags="action simulation flight 3">
 			<a href="https://store.steampowered.com/app/668430/VRacer_Hoverbike/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/668430/header.jpg" alt="VRacer Hoverbike" loading="lazy">
 					<h3>VRacer Hoverbike</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4088,11 +4298,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action simulation multiplayer 3">
+		<div class="game-item" data-appid="1343750" data-tags="action simulation multiplayer 3">
 			<a href="https://store.steampowered.com/app/1343750/ZRace/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1343750/header.jpg" alt="Z-Race" loading="lazy">
 					<h3>Z-Race</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4107,11 +4318,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation flight exploration 3">
+		<div class="game-item" data-appid="2537590" data-tags="simulation flight exploration 3">
 			<a href="https://store.steampowered.com/app/2537590/Microsoft_Flight_Simulator_2024/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2537590/header.jpg" alt="Microsoft Flight Simulator 2024" loading="lazy">
 					<h3>Microsoft Flight Simulator 2024</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4126,11 +4338,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="simulation flight realtime 3">
+		<div class="game-item" data-appid="223750" data-tags="simulation flight realtime 3">
 			<a href="https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/223750/header.jpg" alt="DCS World Steam Edition" loading="lazy">
 					<h3>DCS World Steam Edition</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4145,11 +4358,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="action flight simulation 3">
+		<div class="game-item" data-appid="895870" data-tags="action flight simulation 3">
 			<a href="https://store.steampowered.com/app/895870/Project_Wingman/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/895870/header.jpg" alt="Project Wingman" loading="lazy">
 					<h3>Project Wingman</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4163,11 +4377,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation flight action 3">
+		<div class="game-item" data-appid="667970" data-tags="simulation flight action 3">
 			<a href="https://store.steampowered.com/app/667970/VTOL_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/667970/header.jpg" alt="VTOL VR" loading="lazy">
 					<h3>VTOL VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4181,11 +4396,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action flight realtime 2">
+
+		<div class="game-item" data-appid="283160" data-tags="action flight realtime 2">
 			<a href="https://store.steampowered.com/app/283160/House_of_the_Dying_Sun/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/283160/header.jpg" alt="House of the Dying Sun" loading="lazy">
 					<h3>House of the Dying Sun</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4199,11 +4416,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action simulation flight 3">
+
+		<div class="game-item" data-appid="3538210" data-tags="action simulation flight 3">
 			<a href="https://store.steampowered.com/app/3538210/Alliance_Peacefighter/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3538210/header.jpg" alt="Alliance: Peacefighter" loading="lazy">
 					<h3>Alliance: Peacefighter</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4217,11 +4436,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation flight exploration 2">
+
+		<div class="game-item" data-appid="1485140" data-tags="simulation flight exploration 2">
 			<a href="https://store.steampowered.com/app/1485140/Ultrawings_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1485140/header.jpg" alt="Ultrawings 2" loading="lazy">
 					<h3>Ultrawings 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4235,11 +4456,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rhythm shooter action 3">
+
+		<div class="game-item" data-appid="2878270" data-tags="rhythm shooter action 3">
 			<a href="https://store.steampowered.com/app/2878270/Metal_Hellsinger_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2878270/header.jpg" alt="Metal: Hellsinger VR" loading="lazy">
 					<h3>Metal: Hellsinger VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4253,11 +4476,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rhythm casual action 1">
+
+		<div class="game-item" data-appid="3151670" data-tags="rhythm casual action 1">
 			<a href="https://store.steampowered.com/app/3151670/Trombone_Champ_Unflattened/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3151670/header.jpg" alt="Trombone Champ: Unflattened" loading="lazy">
 					<h3>Trombone Champ: Unflattened</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4271,11 +4496,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rhythm action shooter 2">
+
+		<div class="game-item" data-appid="1079800" data-tags="rhythm action shooter 2">
 			<a href="https://store.steampowered.com/app/1079800/Pistol_Whip/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1079800/header.jpg" alt="Pistol Whip" loading="lazy">
 					<h3>Pistol Whip</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4289,11 +4516,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rhythm casual action 1">
+
+		<div class="game-item" data-appid="631900" data-tags="rhythm casual action 1">
 			<a href="https://store.steampowered.com/app/631900/Airtone/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/631900/header.jpg" alt="Airtone" loading="lazy">
 					<h3>Airtone</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4307,11 +4536,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rhythm casual multiplayer 1">
+
+		<div class="game-item" data-appid="412740" data-tags="rhythm casual multiplayer 1">
 			<a href="https://store.steampowered.com/app/412740/Audioshield/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412740/header.jpg" alt="Audioshield" loading="lazy">
 					<h3>Audioshield</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4325,11 +4556,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rhythm action casual 1">
+
+		<div class="game-item" data-appid="879140" data-tags="rhythm action casual 1">
 			<a href="https://store.steampowered.com/app/879140/Space_Channel_5_VR_Kinda_Funky_News_Flash/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/879140/header.jpg" alt="Space Channel 5 VR Kinda Funky News Flash!" loading="lazy">
 					<h3>Space Channel 5 VR Kinda Funky News Flash!</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4343,11 +4576,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action platformer great-movement 3">
+
+		<div class="game-item" data-appid="2597880" data-tags="action platformer great-movement 3">
 			<a href="https://store.steampowered.com/app/2597880/STRIDE_Fates/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2597880/header.jpg" alt="STRIDE: Fates" loading="lazy">
 					<h3>STRIDE: Fates</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4362,11 +4597,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="great-movement action platformer 3">
+		<div class="game-item" data-appid="1292040" data-tags="great-movement action platformer 3">
 			<a href="https://store.steampowered.com/app/1292040/STRIDE/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1292040/header.jpg" alt="STRIDE" loading="lazy">
 					<h3>STRIDE</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4380,11 +4616,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="platformer action great-movement 3">
+		<div class="game-item" data-appid="1270460" data-tags="platformer action great-movement 3">
 			<a href="https://store.steampowered.com/app/1270460/TOSS/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270460/header.jpg" alt="TOSS!" loading="lazy">
 					<h3>TOSS!</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4398,11 +4635,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="action platformer great-movement 3">
+
+		<div class="game-item" data-appid="609850" data-tags="action platformer great-movement 3">
 			<a href="https://store.steampowered.com/app/609850/Slinger_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/609850/header.jpg" alt="Slinger VR" loading="lazy">
 					<h3>Slinger VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4416,11 +4655,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="platformer action flight 3">
+
+		<div class="game-item" data-appid="1819950" data-tags="platformer action flight 3">
 			<a href="https://store.steampowered.com/app/1819950/JETBOUNCE/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1819950/header.jpg" alt="JETBOUNCE" loading="lazy">
 					<h3>JETBOUNCE</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4434,11 +4675,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle platformer co-op 2">
+
+		<div class="game-item" data-appid="2777220" data-tags="puzzle platformer co-op 2">
 			<a href="https://store.steampowered.com/app/2777220/Human_Fall_Flat_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2777220/header.jpg" alt="Human Fall Flat VR" loading="lazy">
 					<h3>Human Fall Flat VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4452,11 +4695,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="platformer action casual 2">
+
+		<div class="game-item" data-appid="2553420" data-tags="platformer action casual 2">
 			<a href="https://store.steampowered.com/app/2553420/Outta_Hand/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2553420/header.jpg" alt="Outta Hand" loading="lazy">
 					<h3>Outta Hand</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4470,11 +4715,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="platformer action great-movement 2">
+
+		<div class="game-item" data-appid="1634100" data-tags="platformer action great-movement 2">
 			<a href="https://store.steampowered.com/app/1634100/No_More_Rainbows/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1634100/header.jpg" alt="No More Rainbows" loading="lazy">
 					<h3>No More Rainbows</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4488,29 +4735,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="co-op simulation narrative 1">
-			<a href="https://store.steampowered.com/app/527100/Star_Trek_Bridge_Crew/">
-				<div class="image-container">
-					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527100/header.jpg" alt="Star Trek: Bridge Crew" loading="lazy">
-					<h3>Star Trek: Bridge Crew</h3>
-				</div>
-			</a>
-			<div class="game-info-hidden" style="display: none;">
-				<span class="data-bg">https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/527100/ss_98cd1da1a8e709964d28a7abdaf49372cffe5b04.1920x1080.jpg?t=1680013769</span>
-				<span class="data-desc">
-					Team up with other players to crew a Starfleet ship. Work together in distinct roles (Captain, Helm, Tactical, Engineer) to complete missions and explore the vastness of space.
-				</span>
-				<span class="data-genres">Co-op, Simulation, Narrative</span>
-				<span class="data-multiplayer">Yes (Co-op)</span>
-				<span class="data-playtime">~5 Hours</span>
-				<span class="data-comfort">1 (Very Easy)</span>
-			</div>
-		</div>
-		<div class="game-item" data-tags="casual multiplayer simulation 1">
+		<div class="game-item" data-appid="571740" data-tags="casual multiplayer simulation 1">
 			<a href="https://store.steampowered.com/app/571740/Golf_It/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/571740/header.jpg" alt="Golf It!" loading="lazy">
 					<h3>Golf It!</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4524,11 +4754,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="casual simulation multiplayer 1">
+
+		<div class="game-item" data-appid="1408230" data-tags="casual simulation multiplayer 1">
 			<a href="https://store.steampowered.com/app/1408230/Walkabout_Mini_Golf_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1408230/header.jpg" alt="Walkabout Mini Golf VR" loading="lazy">
 					<h3>Walkabout Mini Golf VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4542,11 +4774,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="casual simulation multiplayer 1">
+
+		<div class="game-item" data-appid="286160" data-tags="casual simulation multiplayer 1">
 			<a href="https://store.steampowered.com/app/286160/Tabletop_Simulator/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/286160/header.jpg" alt="Tabletop Simulator" loading="lazy">
 					<h3>Tabletop Simulator</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4560,11 +4794,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="asymmetrical stealth multiplayer 2">
+
+		<div class="game-item" data-appid="541930" data-tags="asymmetrical stealth multiplayer 2">
 			<a href="https://store.steampowered.com/app/541930/Panoptic/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/541930/header.jpg" alt="Panoptic" loading="lazy">
 					<h3>Panoptic</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4578,11 +4814,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="asymmetrical action casual 2">
+
+		<div class="game-item" data-appid="868150" data-tags="asymmetrical action casual 2">
 			<a href="https://store.steampowered.com/app/868150/Takelings_House_Party/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/868150/header.jpg" alt="Takelings House Party" loading="lazy">
 					<h3>Takelings House Party</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4597,11 +4835,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="puzzle co-op narrative 1">
+		<div class="game-item" data-appid="341800" data-tags="puzzle co-op narrative 1">
 			<a href="https://store.steampowered.com/app/341800/Keep_Talking_and_Nobody_Explodes/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/341800/header.jpg" alt="Keep Talking and Nobody Explodes" loading="lazy">
 					<h3>Keep Talking and Nobody Explodes</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4615,11 +4854,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="narrative adventure exploration 1">
+
+		<div class="game-item" data-appid="3439970" data-tags="narrative adventure exploration 1">
 			<a href="https://store.steampowered.com/app/3439970/Elsewhere_Electric/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3439970/header.jpg" alt="Elsewhere Electric" loading="lazy">
 					<h3>Elsewhere Electric</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4633,11 +4874,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="exploration adventure casual 1">
+
+		<div class="game-item" data-appid="2550040" data-tags="exploration adventure casual 1">
 			<a href="https://store.steampowered.com/app/2550040/Subside/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2550040/header.jpg" alt="Subside" loading="lazy">
 					<h3>Subside</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4651,11 +4894,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation casual exploration 1">
+
+		<div class="game-item" data-appid="754150" data-tags="simulation casual exploration 1">
 			<a href="https://store.steampowered.com/app/754150/Rolling_Line/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/754150/header.jpg" alt="Rolling Line" loading="lazy">
 					<h3>Rolling Line</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4669,11 +4914,12 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure casual exploration 1">
+		<div class="game-item" data-appid="589040" data-tags="adventure casual exploration 1">
 			<a href="https://store.steampowered.com/app/589040/Fujii__A_Magical_Gardening_Adventure/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/589040/header.jpg" alt="Fujii - A Magical Gardening Adventure" loading="lazy">
 					<h3>Fujii - A Magical Gardening Adventure</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4687,11 +4933,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle simulation casual 1">
+
+		<div class="game-item" data-appid="746560" data-tags="puzzle simulation casual 1">
 			<a href="https://store.steampowered.com/app/746560/Gadgeteer/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/746560/header.jpg" alt="Gadgeteer" loading="lazy">
 					<h3>Gadgeteer</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4705,11 +4953,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="casual exploration adventure 1">
+
+		<div class="game-item" data-appid="1086850" data-tags="casual exploration adventure 1">
 			<a href="https://store.steampowered.com/app/1086850/Garden_of_the_Sea_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086850/header.jpg" alt="Garden of the Sea VR" loading="lazy">
 					<h3>Garden of the Sea VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4724,11 +4974,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation exploration flight 2">
+
+		<div class="game-item" data-appid="359320" data-tags="simulation exploration flight 2">
 			<a href="https://store.steampowered.com/app/359320/Elite_Dangerous/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/359320/header.jpg" alt="Elite Dangerous" loading="lazy">
 					<h3>Elite Dangerous</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4742,6 +4994,7 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
+
 		<div class="game-item" data-tags="port survival exploration 3">
 			<a href="http://www.vivecraft.org/">
 				<div class="image-container">
@@ -4760,11 +5013,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="exploration survival adventure 3">
+
+		<div class="game-item" data-appid="275850" data-tags="exploration survival adventure 3">
 			<a href="https://store.steampowered.com/app/275850/No_Mans_Sky/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg" alt="No Man's Sky" loading="lazy">
 					<h3>No Man's Sky</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4778,11 +5033,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="survival horror exploration 3">
+
+		<div class="game-item" data-appid="242760" data-tags="survival horror exploration 3">
 			<a href="https://store.steampowered.com/app/242760/The_Forest/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg" alt="The Forest" loading="lazy">
 					<h3>The Forest</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4796,11 +5053,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="survival simulation adventure 3">
+
+		<div class="game-item" data-appid="1782330" data-tags="survival simulation adventure 3">
 			<a href="https://store.steampowered.com/app/1782330/Green_Hell_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1782330/header.jpg" alt="Green Hell VR" loading="lazy">
 					<h3>Green Hell VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4814,11 +5073,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="survival exploration adventure 2">
+
+		<div class="game-item" data-appid="264710" data-tags="survival exploration adventure 2">
 			<a href="https://store.steampowered.com/app/264710/Subnautica/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/264710/header.jpg" alt="Subnautica" loading="lazy">
 					<h3>Subnautica</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4838,11 +5099,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="shooter action 1st 3">
+		<div class="game-item" data-appid="2320910" data-tags="shooter action 1st 3">
 			<a href="https://store.steampowered.com/app/2320910/AMID_EVIL_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2320910/header.jpg" alt="AMID EVIL VR" loading="lazy">
 					<h3>AMID EVIL VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4856,11 +5118,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action 1st 2">
+
+		<div class="game-item" data-appid="2451320" data-tags="shooter action 1st 2">
 			<a href="https://store.steampowered.com/app/2451320/Bulletstorm_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2451320/header.jpg" alt="Bulletstorm VR" loading="lazy">
 					<h3>Bulletstorm VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4875,11 +5139,12 @@ body.sidebar-is-open .hamburger-menu {
 			</div>
 		</div>
 
-		<div class="game-item" data-tags="shooter rpg action 2">
+		<div class="game-item" data-appid="646200" data-tags="shooter rpg action 2">
 			<a href="https://store.steampowered.com/app/646200/Dead_Effect_2_VR/">
 				<div class="image-container">
 					<img src="https://i.imgur.com/2YWYbr0.png" alt="Dead Effect 2 VR" loading="lazy">
 					<h3>Dead Effect 2 VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4893,11 +5158,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle escaperoom co-op 1">
+
+		<div class="game-item" data-appid="1435790" data-tags="puzzle escaperoom co-op 1">
 			<a href="https://store.steampowered.com/app/1435790/Escape_Simulator/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1435790/header.jpg" alt="Escape Simulator" loading="lazy">
 					<h3>Escape Simulator</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4911,11 +5178,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="puzzle escaperoom adventure 1">
+
+		<div class="game-item" data-appid="2948310" data-tags="puzzle escaperoom adventure 1">
 			<a href="https://store.steampowered.com/app/2948310/The_House_of_Da_Vinci_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2948310/header.jpg" alt="The House of Da Vinci VR" loading="lazy">
 					<h3>The House of Da Vinci VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4929,11 +5198,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation casual exploration 1">
+
+		<div class="game-item" data-appid="227300" data-tags="simulation casual exploration 1">
 			<a href="https://store.steampowered.com/app/227300/Euro_Truck_Simulator_2/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg" alt="Euro Truck Simulator 2" loading="lazy">
 					<h3>Euro Truck Simulator 2</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4947,11 +5218,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="simulation casual exploration 1">
+
+		<div class="game-item" data-appid="270880" data-tags="simulation casual exploration 1">
 			<a href="https://store.steampowered.com/app/270880/American_Truck_Simulator/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/270880/header.jpg" alt="American Truck Simulator" loading="lazy">
 					<h3>American Truck Simulator</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4965,11 +5238,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure narrative action 2">
+
+		<div class="game-item" data-appid="414340" data-tags="adventure narrative action 2">
 			<a href="https://store.steampowered.com/app/747350/Hellblade_Senuas_Sacrifice_VR_Edition/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/747350/header.jpg" alt="Hellblade: Senua's Sacrifice VR Edition" loading="lazy">
 					<h3>Hellblade: Senua's Sacrifice VR Edition</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -4983,11 +5258,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">2 (Moderate)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="rpg adventure exploration 2">
+
+		<div class="game-item" data-appid="611670" data-tags="rpg adventure exploration 2">
 			<a href="https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/611670/header.jpg" alt="The Elder Scrolls V: Skyrim VR" loading="lazy">
 					<h3>The Elder Scrolls V: Skyrim VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -5007,11 +5284,12 @@ body.sidebar-is-open .hamburger-menu {
 
 			</div>
 		</div>
-		<div class="game-item" data-tags="rpg survival shooter 2">
+		<div class="game-item" data-appid="611660" data-tags="rpg survival shooter 2">
 			<a href="https://store.steampowered.com/app/611660/Fallout_4_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/611660/header.jpg" alt="Fallout 4 VR" loading="lazy">
 					<h3>Fallout 4 VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -5028,13 +5306,15 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-secondary-link" 
 				data-url="https://www.reddit.com/r/fo4vr/" 
 				data-text="View Subreddit">						
-			</div>
+			</div>			
 		</div>
-		<div class="game-item" data-tags="puzzle storyrich exploration 1">
+
+		<div class="game-item" data-appid="552440" data-tags="puzzle storyrich exploration 1">
 			<a href="https://store.steampowered.com/app/552440/The_Talos_Principle_VR/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552440/header.jpg" alt="The Talos Principle VR" loading="lazy">
 					<h3>The Talos Principle VR</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -5048,11 +5328,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="adventure exploration narrative 1">
+
+		<div class="game-item" data-appid="674140" data-tags="adventure exploration narrative 1">
 			<a href="https://store.steampowered.com/app/674140/Bugsnax/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/674140/header.jpg" alt="Bugsnax" loading="lazy">
 					<h3>Bugsnax</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -5066,11 +5348,13 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">1 (Very Easy)</span>
 			</div>
 		</div>
-		<div class="game-item" data-tags="shooter action 1st 3">
+
+		<div class="game-item" data-appid="567670" data-tags="shooter action 1st 3">
 			<a href="https://store.steampowered.com/app/567670/Serious_Sam_3_VR_BFE/">
 				<div class="image-container">
 					<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/567670/header.jpg" alt="Serious Sam 3 VR: BFE" loading="lazy">
 					<h3>Serious Sam 3 VR: BFE</h3>
+					<div class="price-badge"></div>
 				</div>
 			</a>
 			<div class="game-info-hidden" style="display: none;">
@@ -5084,12 +5368,8 @@ body.sidebar-is-open .hamburger-menu {
 				<span class="data-comfort">3 (Experienced)</span>
 			</div>
 		</div>
-
-
-
-
-
 	</div>  
+
 
 	<button id="scrollToTopBtn" title="Go to top">&#9650;</button>
 
@@ -5105,59 +5385,67 @@ body.sidebar-is-open .hamburger-menu {
 		const gameCountElement = document.querySelector('#game-count'); 
 
 	// This function will run every time a button is clicked
-		const filterGames = () => {
-		// Collect all filters into separate arrays based on their state
-			const inclusionFilters = [];
-			const exclusionFilters = [];
+const filterGames = () => {
+    const inclusionFilters = [];
+    const exclusionFilters = [];
+    
+    // Get the current slider value
+    const priceSlider = document.querySelector('#price-slider');
+    const maxPrice = parseInt(priceSlider.value);
+    document.querySelector('#price-limit-display').textContent = maxPrice >= 60 ? "$60+" : `$${maxPrice}`;
 
-			filterButtons.forEach(button => {
-				if (button.classList.contains('active')) {
-					inclusionFilters.push(button.dataset.genre);
-				} else if (button.classList.contains('exclude')) {
-					exclusionFilters.push(button.dataset.genre);
-				}
-			});
+    filterButtons.forEach(button => {
+        if (button.classList.contains('active')) {
+            inclusionFilters.push(button.dataset.genre);
+        } else if (button.classList.contains('exclude')) {
+            exclusionFilters.push(button.dataset.genre);
+        }
+    });
 
-			const hasActiveFilters = inclusionFilters.length > 0 || exclusionFilters.length > 0;
+    const hasActiveFilters = inclusionFilters.length > 0 || exclusionFilters.length > 0 || maxPrice < 60;
 
-		// 2. INITIALIZE A COUNTER
-			let visibleCount = 0; 
+    let visibleCount = 0; 
 
-		// Loop through every game item
-			gameItems.forEach(item => {
-				const itemTags = item.dataset.tags ? item.dataset.tags.split(' ') : [];
+    gameItems.forEach(item => {
+        const itemTags = item.dataset.tags ? item.dataset.tags.split(' ') : [];
+        
+        // --- PRICE FILTER LOGIC ---
+        const priceLabel = item.querySelector('.price-label');
+        let gamePrice = 0; // Default to 0 for "Free"
+        
+        if (priceLabel) {
+            const priceText = priceLabel.textContent;
+            if (priceText.toLowerCase().includes('free')) {
+                gamePrice = 0;
+            } else {
+                // Extracts numbers and decimals (e.g., "$19.99" -> 19.99)
+                gamePrice = parseFloat(priceText.replace(/[^0-9.]/g, '')) || 0;
+            }
+        }
 
-			// 1. If no filters are active at all, show all games
-				if (!hasActiveFilters) {
-					item.classList.remove('hide');
-				// 3. INCREMENT COUNTER
-					visibleCount++;
-					return;
-				}
+        // Check if game is within price range (if slider is at 60, show everything)
+        const passesPrice = maxPrice >= 60 || gamePrice <= maxPrice;
+        
+        // --- TAG FILTER LOGIC ---
+        const passesInclusion = inclusionFilters.every(filter => itemTags.includes(filter));
+        const failsExclusion = exclusionFilters.some(filter => itemTags.includes(filter));
 
-			// 2. Check Inclusionary Filters (MUST have ALL of these tags)
-				const passesInclusion = inclusionFilters.every(filter => itemTags.includes(filter));
+        // Final Decision: Must pass Tags AND Price
+        if (passesInclusion && !failsExclusion && passesPrice) {
+            item.classList.remove('hide');
+            visibleCount++;
+        } else {
+            item.classList.add('hide');
+        }
+    });
 
-			// 3. Check Exclusionary Filters (MUST NOT have ANY of these tags)
-				const failsExclusion = exclusionFilters.some(filter => itemTags.includes(filter));
+    if (gameCountElement) {
+        gameCountElement.textContent = `${visibleCount} item${visibleCount !== 1 ? 's' : ''} visible`;
+    }
+};
 
-			// 4. Final Decision
-				if (passesInclusion && !failsExclusion) {
-				item.classList.remove('hide'); // Show it
-				// 3. INCREMENT COUNTER
-				visibleCount++;
-			} else {
-				item.classList.add('hide');   // Hide it
-			}
-		});
-
-		// 4. UPDATE THE DISPLAYED COUNT AFTER ALL ITEMS HAVE BEEN PROCESSED
-			if (gameCountElement) {
-				gameCountElement.textContent = `${visibleCount} item${visibleCount !== 1 ? 's' : ''} visible`;
-			}
-		};
-
-	// ... (rest of your clearFilters function and event listeners) ...
+// Add listener to the slider so it filters in real-time
+document.querySelector('#price-slider').addEventListener('input', filterGames);
 
 	// Clears all active filters and re-runs filterGames
 		const clearFilters = () => {
@@ -5170,7 +5458,7 @@ body.sidebar-is-open .hamburger-menu {
 
 	// --- BUTTON EVENT LISTENERS (THREE-STATE LOGIC) ---
 
-	// Add a click listener to EACH regular filter button (only once!)
+	// Add a click listener to EACH regular filter button 
 		filterButtons.forEach(button => {
 			button.addEventListener('click', () => {
 			// Check current state and transition to the next state
@@ -5201,7 +5489,6 @@ body.sidebar-is-open .hamburger-menu {
 	// 5. RUN FILTERS ON PAGE LOAD to set the initial count!
 		filterGames();
 
-	// --- End of DOMContentLoaded function ---
 	});
 
 		// This JavaScript makes the game card info box expand
@@ -5211,34 +5498,34 @@ body.sidebar-is-open .hamburger-menu {
 
 		expandButtons.forEach(button => {
 			button.addEventListener('click', function(event) {
-					// 1. STOP the click from activating the main <a> tag link
+				// 1. STOP the click from activating the main <a> tag link
 				event.preventDefault(); 
 				event.stopPropagation();
 
-					// 2. Find the main game item container
+				// 2. Find the main game item container
 				const gameItem = button.closest('.game-item');
 
-					// 3. Toggle the expanded class
+				// 3. Toggle the expanded class
 				gameItem.classList.toggle('is-expanded');
 
-					// 4. Update the ARIA state for accessibility
+				// 4. Update the ARIA state for accessibility
 				const isExpanded = gameItem.classList.contains('is-expanded');
 				button.setAttribute('aria-expanded', isExpanded);
 			});
 		});
 	});      
 
-	// This JavaScript handles the sidebar toggle (MODIFIED)
+	// This JavaScript handles the sidebar toggle 
 	document.addEventListener('DOMContentLoaded', function() {
 		const toggleButton = document.getElementById('menu-toggle');
 		const closeButton = document.querySelector('.sidebar .close-btn');
 		const sidebar = document.getElementById('sidebar-menu');
 
 		function toggleMenu() {
-			// MODIFIED: Toggle class on the BODY element
+			// Toggle class on the BODY element
 			const isOpen = document.body.classList.toggle('sidebar-is-open');
 
-			// MODIFIED: Update ARIA on the toggle button
+			// Update ARIA on the toggle button
 			toggleButton.setAttribute('aria-expanded', isOpen);
 		}
 
@@ -5250,9 +5537,6 @@ body.sidebar-is-open .hamburger-menu {
 	});
 
 	document.addEventListener('DOMContentLoaded', () => {
-	// ... all your existing filter code ...
-
-	// --- NEW SCROLL TO TOP FUNCTIONALITY ---
 
 		const scrollBtn = document.getElementById("scrollToTopBtn");
 
@@ -5273,9 +5557,9 @@ body.sidebar-is-open .hamburger-menu {
 				top: 0,
 				behavior: 'smooth'
 			});
-		// Fallback for older browsers
-		document.body.scrollTop = 0; // For Safari
-		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+
+		document.body.scrollTop = 0; 
+		document.documentElement.scrollTop = 0; 
 	};
 
 	// 1. Add event listener for when the user scrolls
@@ -5303,8 +5587,7 @@ body.sidebar-is-open .hamburger-menu {
 			if (mainContentEl) {
 				mainContentEl.innerHTML = htmlContent;
 
-					// --- 3. Initialize Content-Dependent Scripts ---
-					// These functions MUST run *after* the content is loaded
+				// --- 3. Initialize Content-Dependent Scripts ---
 				initFilterButtons();
 				initExpandButtons();
 			}
@@ -5402,7 +5685,7 @@ body.sidebar-is-open .hamburger-menu {
 
 			const panel = createPanel(data);
 
-			    // (Existing Grid Injection Logic remains unchanged)
+			// (Grid Injection Logic)
 			const visibleItems = Array.from(gameGrid.querySelectorAll('.game-item:not(.hide)'));
 			const index = visibleItems.indexOf(item);
 			const gridComputedStyle = window.getComputedStyle(gameGrid);
@@ -5425,6 +5708,57 @@ body.sidebar-is-open .hamburger-menu {
 		const filterButtons = document.querySelectorAll('.filter-btn');
 		filterButtons.forEach(btn => btn.addEventListener('click', closeCurrentPanel));
 	});
+
+
+async function updateSteamPrices() {
+    const items = document.querySelectorAll('.game-item[data-appid]');
+    const appIds = Array.from(items).map(item => item.dataset.appid);
+
+    if (appIds.length === 0) return;
+
+    // We add &filters=price_overview. This tells Steam to ONLY send price data,
+    // which allows us to request multiple games at once without it breaking.
+    const steamUrl = `https://store.steampowered.com/api/appdetails?appids=${appIds.join(',')}&filters=price_overview`;
+    const proxyUrl = 'https://corsproxy.io/?' + encodeURIComponent(steamUrl);
+
+    try {
+        const response = await fetch(proxyUrl);
+        const result = await response.json();
+
+        items.forEach(item => {
+            const appId = item.dataset.appid;
+            const gameResult = result[appId];
+
+            if (gameResult && gameResult.success && gameResult.data) {
+                const priceBadge = item.querySelector('.price-badge');
+                const priceData = gameResult.data.price_overview;
+
+                if (priceData) {
+                    const finalPrice = priceData.final_formatted;
+                    const discount = priceData.discount_percent;
+
+                    let html = '';
+                    if (discount > 0) {
+                        html += `<span class="discount-label">-${discount}%</span>`;
+                    }
+                    html += `<span class="price-label">${finalPrice}</span>`;
+                    
+                    priceBadge.innerHTML = html;
+                } else {
+                    // If price_overview is missing, the game is usually "Free" 
+                    // or doesn't have a price set yet.
+                    priceBadge.innerHTML = `<span class="price-label">Free</span>`;
+                }
+            }
+        });
+    } catch (error) {
+        console.error("Steam Price Fetch Error:", error);
+    }
+}
+
+// Run when page is ready
+document.addEventListener('DOMContentLoaded', updateSteamPrices);
+
 </script>
 
 </body>
