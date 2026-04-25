@@ -612,6 +612,29 @@ body.sidebar-is-open .hamburger-menu {
 	transition-delay: 0s 0.2s;
 }
 
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Make the Randomize button turn blue when hovered */
+/*.filter-btn:hover {
+    background-color: #276CF5 !important;
+    color: #ffffff !important;
+    border-color: #276CF5 !important;
+}*/
+
+/* Optional: a slight "push" effect when clicked */
+.filter-btn:active {
+    transform: scale(0.95);
+}
+
+#randomize-btn {
+	font-size: 13px;
+
+}
+
+
 </style>
 </head>
 <body>
@@ -721,7 +744,11 @@ body.sidebar-is-open .hamburger-menu {
 			            <span>$60+</span>
 			        </div>
 			    </div>
+    			<button id="randomize-btn" class="filter-btn">
+        			Random Order
+    			</button>
 			</div>
+
 
 		</div>
 
@@ -1138,6 +1165,27 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-comfort">3 (High-Movement)</span>
 				</div>
 			</div>
+
+			<div class="game-item" data-appid="436230" data-tags="action adventure great-movement space 1st ">
+				<a href="https://store.steampowered.com/app/436230/Detached/">
+					<div class="image-container">
+						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436230/header.jpg?t=1755764272g" alt="Detached " loading="lazy">
+						<h3>
+							Detached
+						</h3>
+						<div class="price-badge"></div>
+					</div>
+				</a>
+				<div class="game-info-hidden" style="display: none;">
+					<span class="data-bg">https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/436230/ss_cce731960c7813bb11bad734ec88f3d92028333b.1920x1080.jpg?t=1755764272</span>
+					<span class="data-desc">A 6 DOF Action adventure game your ship is wrecked in deep space you must float around and repair your parts and get to safety</span>
+					<span class="data-genres">Action Adventure</span>
+					<span class="data-multiplayer">Yes (PvP)</span>
+					<span class="data-playtime">3 hours</span>
+					<span class="data-comfort">3 (High-Movement)</span>
+				</div>
+			</div>
+
 
 			<div class="game-item" data-appid="1352020" data-tags="adventure puzzle narrative great-movement 1st platformer choice underrated">
 				<a href="https://store.steampowered.com/app/1352020/Yupitergrad/">
@@ -1973,7 +2021,7 @@ body.sidebar-is-open .hamburger-menu {
 					<span class="data-desc">
 						The third installment in the seated VR puzzle series. Uncover new locales and technology to defeat the most cunning villain yet, Dr. Zoraxis.
 					</span>
-					<span class="data-genres">PPuzzle, Escape Room, Adventure, Narrative</span>
+					<span class="data-genres">Puzzle, Escape Room, Adventure, Narrative</span>
 					<span class="data-multiplayer">No (Singleplayer)</span>
 					<span class="data-playtime">4-6 Hours</span>
 					<span class="data-comfort">1 (Very Comfortable)</span>
@@ -5524,6 +5572,31 @@ body.sidebar-is-open .hamburger-menu {
 	<button id="scrollToTopBtn" title="Go to top">&#9650;</button>
 
 </div> <script>
+
+// --- RANDOMIZER LOGIC ---
+function shuffleGames() {
+    const gameGrid = document.getElementById('game-grid');
+    // Select only the game-items (exclude any detail panels that might be open)
+    const items = Array.from(gameGrid.querySelectorAll('.game-item'));
+
+    // Fisher-Yates Shuffle
+    for (let i = items.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [items[i], items[j]] = [items[j], items[i]];
+    }
+
+    // Re-append to the grid to update the order in the DOM
+    items.forEach(item => gameGrid.appendChild(item));
+}
+
+// Attach the event listener when the page loads
+document.addEventListener('DOMContentLoaded', () => {
+    const randomizeBtn = document.getElementById('randomize-btn');
+    if (randomizeBtn) {
+        randomizeBtn.addEventListener('click', shuffleGames);
+    }
+});
+
 // This JavaScript makes the filters work with three states: include, exclude, or off
 	document.addEventListener('DOMContentLoaded', () => {
 	// Selector is correct based on your final HTML structure
@@ -5593,6 +5666,8 @@ const filterGames = () => {
         gameCountElement.textContent = `${visibleCount} item${visibleCount !== 1 ? 's' : ''} visible`;
     }
 };
+
+
 
 // Add listener to the slider so it filters in real-time
 document.querySelector('#price-slider').addEventListener('input', filterGames);
@@ -5933,6 +6008,7 @@ async function updateSteamPrices() {
 
 // Run when page is ready
 document.addEventListener('DOMContentLoaded', updateSteamPrices);
+
 
 </script>
 
