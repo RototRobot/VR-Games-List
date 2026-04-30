@@ -443,58 +443,73 @@
 }
 
 
-/* Style for the sidebar itself */
+/* Sidebar Container */
 .sidebar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 300px; 
-	background-color: #2c3e50; 
-	color: white;
-	box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
-	z-index: 999;
-	padding: 20px;
-	box-sizing: border-box;
-
-	/* Initially hide the menu off-screen to the left */
-	transform: translateX(-100%);
-	transition: transform 0.3s ease-in-out;
+    /* Layout & Positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 1000;
+    
+    /* Box Model */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #121d2e;
+    color: #fff;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    
+    /* Scrolling & Animation */
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
 }
 
-/* Class is now on the BODY, not the sidebar */
+/* State Management */
 body.sidebar-is-open .sidebar {
-	transform: translateX(0);
+    transform: translateX(0);
 }
 
-/* Style for the Close Button */
+/* Internal Elements */
 .close-btn {
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	background: none;
-	border: none;
-	color: white;
-	font-size: 30px;
-	cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 30px;
+    cursor: pointer;
 }
 
-/* Sidebar Content Styling */
 .sidebar h2 {
-	margin-top: 60px;
-	font-size: 1.3em;
-	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-	padding-bottom: 10px;
-	margin-bottom: 20px;
+    margin: 60px 0 20px;
+    font-size: 1.3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 10px;
 }
+
 .sidebar .faq-section h4 {
-	margin-top: 15px;
-	margin-bottom: 5px;
+    margin: 15px 0 5px;
 }
+
 .sidebar .faq-section p {
-	font-size: 0.9em;
-	line-height: 1.4;
-	color: #ccc;
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: #ccc;
+}
+
+/* Custom Scrollbar Styling */
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
 
 /* ------------------------------------------- */
@@ -513,12 +528,34 @@ body.sidebar-is-open #main-content {
 	margin-left: 300px;
 }
 
-/* When the sidebar is open, push the hamburger menu */
+/* When the sidebar is open, hide the hamburger menu */
 body.sidebar-is-open .hamburger-menu {
-	/* Use transform for smoother animation */
-	transform: translateX(300px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; /* Prevents clicking the invisible button */
+    transition: opacity 0.3s ease, visibility 0.3s;
 }
 
+/* Mobile Styles (Screens smaller than 768px) */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;          /* Full width of the screen */
+        left: 0;
+        /* Optional: increase font size for better mobile readability */
+        font-size: 1.1rem;
+    }
+
+    /* Ensure the main content doesn't shift if you're using a 'push' effect */
+    body.sidebar-is-open #main-content {
+        display: none;        /* Hide background content to save resources on mobile */
+    }
+
+    .close-btn {
+        font-size: 40px;      /* Make it a bigger touch target for fingers */
+        top: 20px;
+        right: 20px;
+    }
+}
 
 /* ------------------------------------------- */
 /* Scroll to Top */
@@ -607,7 +644,6 @@ body.sidebar-is-open .hamburger-menu {
 	transition-delay: .8s;
 }
 
-/* Optional: Add a delay to hide it gracefully when the mouse moves out */
 .has-tooltip:not(:hover) .tooltip-text {
 	transition-delay: 0s 0.2s;
 }
@@ -616,13 +652,6 @@ body.sidebar-is-open .hamburger-menu {
     text-align: center;
     margin: 20px 0;
 }
-
-/* Make the Randomize button turn blue when hovered */
-/*.filter-btn:hover {
-    background-color: #276CF5 !important;
-    color: #ffffff !important;
-    border-color: #276CF5 !important;
-}*/
 
 /* Optional: a slight "push" effect when clicked */
 .filter-btn:active {
@@ -634,6 +663,18 @@ body.sidebar-is-open .hamburger-menu {
 
 }
 
+a {
+    color: #00d4ff; /* A bright, readable cyan */
+    text-decoration: none; /* Optional: removes the underline */
+    transition: color 0.2s ease;
+}
+a:visited {
+    color: #a29bfe; /* A lighter, desaturated lavender instead of dark purple */
+}
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 </style>
 </head>
@@ -945,6 +986,30 @@ body.sidebar-is-open .hamburger-menu {
 				</div>
 			</div>
 
+			<div class="game-item" data-appid="2482940" data-tags="1st horror puzzle adventure">
+				<a href="https://store.steampowered.com/app/2482940/Little_Nightmares_VR_Altered_Echoes/">
+					<div class="image-container">
+						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482940/d452a2c46f521825dead1bd5fda5a2b6a31d6379/header.jpg?t=1777369070" alt="Little Nightmares VR: Altered Echoes" loading="lazy">
+						<h3>
+							Little Nightmares VR: Altered Echoes
+						</h3>
+						<div class="price-badge"></div>
+					</div>
+				</a>
+				<div class="game-info-hidden" style="display: none;">
+					<span class="data-bg">https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2482940/745d38760e36767ebba6829d37521ddb2e50486e/ss_745d38760e36767ebba6829d37521ddb2e50486e.1920x1080.jpg?t=1777369070</span>
+					<span class="data-desc">A Horror Adventure game in the world of Little Nightmares, A shadow girl looking to reunite with her body.<br>
+					Notice: The game does not support Smooth turning or removing of the FOV limiting Hood, linked is a mod to fix this.</span>
+					<span class="data-genres">Horror, Puzzle, Adventure</span>
+					<span class="data-multiplayer">No (Singleplayer)</span>
+					<span class="data-playtime">3-4 Hours</span>
+					<span class="data-comfort">2 (Moderate)</span>
+
+					<span class="data-secondary-link" 
+					data-url="https://github.com/elliotttate/LNVR_Tweaks/releases/tag/v1.1.3" 
+					data-text="View Mod Page">					
+				</div>
+			</div>
 
 			<div class="game-item" data-appid="587220" data-tags="1st essental exploration action co-op shooter choice">
 				<a href="https://store.steampowered.com/app/587220/Jet_Island/">
@@ -1350,7 +1415,7 @@ body.sidebar-is-open .hamburger-menu {
 			<div class="game-item" data-appid="2307350" data-tags="action adventure shooter stealth 1st co-op survival rpg">
 				<a href="https://store.steampowered.com/app/2307350/Into_the_Radius_2/">
 					<div class="image-container">
-						<img src="https://cdn.akamai.steamstatic.com/steam/apps/2307350/header.jpg" alt="Into the Radius 2" loading="lazy">
+						<img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2307350/c392da3c356501b682aca2645f990f14d39bfea4/header.jpg?t=1776962579" alt="Into the Radius 2" loading="lazy">
 						<h3>
 							Into the Radius 2
 						</h3>
