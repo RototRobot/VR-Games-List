@@ -1,0 +1,601 @@
+/* --- CSS Variables for Light & Dark Themes --- */
+:root {
+    /* --- Light Theme (Default / Browser Light Mode) --- */
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+    --card-shadow: rgba(0, 0, 0, 0.08);
+    --notice-bg: #e9ecef;
+    --notice-text: #495057;
+    --notice-border: #276CF5;
+    --primary-color: #276CF5;
+    --primary-hover: #1b53c1;
+    --accent-color: #FF007B;
+    --link-color: #0066cc;
+    --link-visited: #551a8b;
+    --link-hover: #004080;
+    --sidebar-bg: #ffffff;
+    --sidebar-text: #212529;
+    --sidebar-border: rgba(0, 0, 0, 0.1);
+    --faq-text: #6c757d;
+    --overlay-bg: rgba(255, 255, 255, 0.95);
+    --h3-bg: rgba(255, 255, 255, 0.85);
+    --h3-text: #212529;
+    --border-color: #ced4da;
+    --stats-bg: rgba(255, 255, 255, 0.8);
+    --hover-bg: rgba(0, 0, 0, 0.05);
+    --tooltip-bg: #333333;
+    --tooltip-text: #ffffff;
+    --scrollbar-thumb: #cccccc;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* --- Dark Theme (Your Original Dark Blue Theme) --- */
+        --bg-color: #0f1826;
+        --text-color: #ffffff;
+        --card-bg: #1a2638;
+        --card-shadow: rgba(0, 0, 0, 0.5);
+        --notice-bg: #1a2638;
+        --notice-text: #e0e0e0;
+        --notice-border: #276CF5;
+        --primary-color: #276CF5;
+        --primary-hover: #1b53c1;
+        --accent-color: #FF007B;
+        --link-color: #00d4ff;
+        --link-visited: #a29bfe;
+        --link-hover: #ffffff;
+        --sidebar-bg: #121d2e;
+        --sidebar-text: #ffffff;
+        --sidebar-border: rgba(255, 255, 255, 0.2);
+        --faq-text: #ccc;
+        --overlay-bg: rgba(0, 0, 0, 0.9);
+        --h3-bg: rgba(0, 0, 0, 0.7);
+        --h3-text: #ffffff;
+        --border-color: rgba(255, 255, 255, 0.2);
+        --stats-bg: rgba(0, 0, 0, 0.6);
+        --hover-bg: rgba(255, 255, 255, 0.1);
+        --tooltip-bg: #333333;
+        --tooltip-text: #fff;
+        --scrollbar-thumb: #888888;
+    }
+}
+
+/* --- Basic Setup --- */
+body {
+    font-family: sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* --- 1. Outer Container: Sets the stage for positioning --- */
+#filter-controls-row {
+    display: flex;         
+    align-items: flex-start; 
+    flex-wrap: wrap;       
+    margin-bottom: 24px;
+    padding: 0 15px; 
+    justify-content: space-between; 
+    position: static; 
+}
+
+/* --- 2. Main Filter Group: Centered Block Wrapper --- */
+#filter-buttons-group {		
+    width: calc(100% - 165px); 
+    margin-right: 15px; 
+    text-align: center;
+    margin-top: 0;
+}
+
+/* --- 3. Positioning the Clear Button and Count --- */
+#filter-status {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px;
+    width: 150px; 
+    flex-shrink: 0; 
+}
+
+/* --- 4. Styling the Game Count Element --- */
+#game-count {
+    margin-top: 5px; 
+    color: var(--text-color); 
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 4px 10px;
+    font-size: 0.9em;
+    white-space: nowrap; 
+}
+
+/* --- 5. Clear Button --- */
+#clear-all-btn {
+    align-self: center; 
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 4px;
+    flex-shrink: 0; 
+    background-color: #f8d7da; 
+    border-color: #f5c6cb;
+    color: #721c24; 
+    position: static; 
+}
+
+#clear-all-btn.active {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+/* --- Button Styles --- */
+.filter-btn {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 18px;
+    padding: 10px 20px;
+    margin: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filter-btn.active {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-color: var(--primary-color);
+}
+
+.filter-btn.exclude {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    border-color: var(--accent-color);
+}
+
+.filter-btn:hover:not(.active):not(.exclude) {
+    background-color: var(--hover-bg);
+}
+
+.filter-btn:active {
+    transform: scale(0.95);
+}
+
+#randomize-btn {
+    font-size: 13px;
+}
+
+/* --- Expanded Hero Panel Styles --- */
+.details-panel {
+    grid-column: 1 / -1;
+    position: relative; 
+    background-color: var(--card-bg); 
+    border: 1px solid var(--primary-color);
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 20px;
+    color: var(--text-color);
+    min-height: 300px; 
+    overflow: hidden; 
+    display: flex;
+    align-items: center; 
+    box-shadow: 0 10px 30px var(--card-shadow);
+    animation: slideDown 0.3s ease-out forwards;
+}
+
+.details-hero-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70%; 
+    background-size: cover;
+    background-position: center center;
+    z-index: 0; 
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 60%);
+    mask-image: linear-gradient(to right, transparent 0%, black 60%);
+    opacity: 0.8; 
+    transition: opacity 0.3s ease;
+}
+
+.details-panel-content {
+    position: relative;
+    z-index: 1; 
+    width: 50%; 
+    text-shadow: 0 2px 4px rgba(0,0,0,0.8); 
+}
+
+.details-panel h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(39, 108, 245, 0.6); 
+}
+
+.details-panel .game-desc {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--notice-text);
+    margin-bottom: 25px;
+}
+
+.details-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    background: var(--stats-bg); 
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    backdrop-filter: blur(5px); 
+}
+
+.stat-item strong {
+    display: block;
+    color: var(--primary-color);
+    font-size: 0.85em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; height: 0; margin-bottom: 0; }
+    to { opacity: 1; height: auto; margin-bottom: 20px; }
+}
+
+@media (max-width: 768px) {
+    .details-panel-content { width: 100%; }
+    .details-hero-bg { 
+        width: 100%; 
+        -webkit-mask-image: linear-gradient(to bottom, transparent, black);
+        mask-image: linear-gradient(to bottom, transparent, black);
+        opacity: 0.3; 
+    }
+}
+
+/* --- 2. Game Grid --- */
+#game-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.game-item {
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px var(--card-shadow);
+    overflow: hidden;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.game-item .image-container {
+    position: relative;
+    line-height: 0; 
+}
+
+.game-item.hide {
+    transform: scale(0.9);
+    opacity: 0;
+    display: none; 
+}
+
+.game-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.game-item h3 {
+    position: absolute; 
+    bottom: 0;         
+    left: 0;           
+    width: 100%;       
+    min-height: 15px;
+    background-color: var(--h3-bg); 
+    color: var(--h3-text);
+    padding: 10px;
+    margin: 0; 
+    font-size: 1.1em;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease-in-out; 
+    z-index: 20; 
+}
+
+.expand-btn {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 1;
+    text-align: center;
+    margin: 0px 15px;
+    background-color: rgba(0, 0, 0, 0); 
+}        
+
+/* --- Expanded State Styles --- */
+.expanded-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 10; 
+    line-height: 1.5;
+    color: var(--text-color);
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.game-item.is-expanded .expanded-content {
+    background-color: var(--overlay-bg); 
+    opacity: 1;
+    visibility: visible;
+    padding-top: 40px;
+    z-index: 30;
+}
+
+.game-item.is-expanded h3 {
+    background-color: transparent;
+    bottom: calc(100% - 44px); 
+    padding: 10px 15px;
+    z-index: 40;
+}
+
+/* --- Responsive Design --- */
+@media (max-width: 900px) {
+    #game-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    #game-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- Sidebar and Hamburger Styles --- */
+.hamburger-menu {
+    position: fixed; 
+    top: 20px;
+    left: 20px;
+    z-index: 1000; 
+    font-size: 24px;
+    background: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container {
+    position: relative;
+}
+
+.price-badge {
+    position: absolute;
+    top: 15px; 
+    right: 5px;
+    align-items: center;
+    gap: 0;
+    font-family: sans-serif;
+    z-index: 10;
+}
+
+.discount-label {
+    background-color: #4c6b22; 
+    color: #beee11;
+    padding: 2px 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.price-label {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 2px 8px;
+    font-size: 14px;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 1000;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-text);
+    box-shadow: 2px 0 5px var(--card-shadow);
+    overflow-y: auto;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+body.sidebar-is-open .sidebar {
+    transform: translateX(0);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.sidebar h2 {
+    margin: 60px 0 20px;
+    font-size: 1.3em;
+    border-bottom: 1px solid var(--sidebar-border);
+    padding-bottom: 10px;
+}
+
+.sidebar .faq-section h4 {
+    margin: 15px 0 5px;
+}
+
+.sidebar .faq-section p {
+    font-size: 0.9em;
+    line-height: 1.4;
+    color: var(--faq-text);
+}
+
+.sidebar::-webkit-scrollbar {
+    width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border-radius: 10px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-hover);
+}
+
+#main-content {
+    padding: 24px;
+    transition: margin-left 0.3s ease-in-out;
+    margin-left: 0; 
+}
+
+body.sidebar-is-open #main-content {
+    margin-left: 300px;
+}
+
+body.sidebar-is-open .hamburger-menu {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none; 
+    transition: opacity 0.3s ease, visibility 0.3s;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        width: 100%;          
+        left: 0;
+        font-size: 1.1rem;
+    }
+    body.sidebar-is-open #main-content {
+        display: none;        
+    }
+    .close-btn {
+        font-size: 40px;      
+        top: 20px;
+        right: 20px;
+    }
+}
+
+/* --- Scroll to Top --- */
+#scrollToTopBtn {
+    position: fixed; 
+    bottom: 20px; 
+    left: 50%;
+    transform: translateX(-50%); 
+    display: none; 
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border: none;
+    border-radius: 50%; 
+    padding: 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.3s, background-color 0.3s;
+    z-index: 1000; 
+}
+
+#scrollToTopBtn:hover {
+    opacity: 1;
+    background-color: var(--primary-hover);
+}
+
+/* --- Tooltips --- */
+.has-tooltip {
+    position: relative;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 150px; 
+    background-color: var(--tooltip-bg);
+    color: var(--tooltip-text);
+    text-align: center;
+    padding: 8px 10px;
+    border-radius: 6px;
+    z-index: 1000; 
+    position: absolute;
+    top: 125%; 
+    left: 50%;
+    margin-left: -75px; 
+    transition: opacity 0.3s, visibility 0.3s; 
+    transition-delay: .5s; 
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent var(--tooltip-bg) transparent;
+}
+
+.has-tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: .8s;
+}
+
+.has-tooltip:not(:hover) .tooltip-text {
+    transition-delay: 0s 0.2s;
+}
+
+.controls {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* --- Links --- */
+a {
+    color: var(--link-color); 
+    text-decoration: none; 
+    transition: color 0.2s ease;
+}
+
+a:visited {
+    color: var(--link-visited); 
+}
+
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
